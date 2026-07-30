@@ -85,6 +85,7 @@ export const chapter: Chapter = {
       question:
         "[Maths] Sur ta carte, 1 cm représente 500 km. Deux ports sont séparés de 6 cm sur la carte. Quelle est la distance réelle entre eux, en kilomètres ?",
       answer: "3000",
+      accept: ["3 000"],
       explanation:
         "Chaque centimètre de la carte vaut 500 km dans la réalité. Pour 6 cm : 6 × 500 = 3 000. Les deux ports sont distants de 3 000 km.",
       hint: "Carte → réalité : on multiplie par 500.",

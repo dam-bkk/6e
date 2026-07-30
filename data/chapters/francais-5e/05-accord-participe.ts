@@ -193,7 +193,6 @@ export const chapter: Chapter = {
       type: "input",
       question: "Complète : « Ces lettres, je les ai relu... hier soir. » Écris la forme complète du participe de relire.",
       answer: "relues",
-      accept: ["relue"],
       explanation:
         "Le COD « les » (= ces lettres, féminin pluriel) est placé avant le verbe : avec avoir, le participe s'accorde alors avec ce COD → relues. Si l'on disait « j'ai relu ces lettres », le COD serait après et le participe resterait invariable.",
       hint: "« J'ai relu QUOI ? » → « les », c'est-à-dire ces lettres. Où est placé ce COD ?",

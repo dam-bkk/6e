@@ -151,6 +151,7 @@ export const chapter: Chapter = {
       question:
         "Dans un repère, A' est le symétrique du point A(3 ; 2) par rapport à l'origine du repère. Quelle est l'abscisse de A' ?",
       answer: "-3",
+      accept: ["−3"],
       explanation:
         "Par la symétrie de centre l'origine, les deux coordonnées changent de signe : A(3 ; 2) devient A'(−3 ; −2). L'abscisse de A' est donc −3. Piège classique : ne changer qu'un seul signe, ce qui donnerait une symétrie axiale.",
       hint: "Par rapport à l'origine, les DEUX coordonnées changent de signe.",

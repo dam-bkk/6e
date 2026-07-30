@@ -53,7 +53,7 @@ function WelcomeCard() {
                 placeholder="Ton prénom…"
                 className="btn-pop flex-1 bg-card px-4 py-2.5 font-bold outline-none placeholder:text-muted"
               />
-              <button type="submit" className="btn-pop bg-ink px-5 py-2.5 font-extrabold text-white">
+              <button type="submit" className="btn-pop whitespace-nowrap bg-ink px-5 py-2.5 font-extrabold text-white">
                 C&apos;est moi !
               </button>
             </form>
