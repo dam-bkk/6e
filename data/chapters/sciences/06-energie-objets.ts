@@ -247,4 +247,7 @@ export const chapter: Chapter = {
       hint: "Peut-on encore téléphoner avec un smartphone ?",
     },
   ],
+  videos: [
+    { title: "CONVERSIONS D'ÉNERGIE | Physique - Chimie | 6e | Sciences", youtubeId: "ZoJiDjAPPJc", channel: "Paul Olivier" },
+  ],
 };

@@ -221,4 +221,7 @@ export const chapter: Chapter = {
       hint: "L'énoncé donne le diamètre : commence par trouver le rayon.",
     },
   ],
+  videos: [
+    { title: "Calculer le volume d'un prisme", youtubeId: "lsAWODx566E", channel: "Yvan Monka" },
+  ],
 };

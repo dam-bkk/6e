@@ -221,4 +221,7 @@ export const chapter: Chapter = {
       hint: "Total des glaces vendues, divisé par le nombre de jours.",
     },
   ],
+  videos: [
+    { title: "Calculer des fréquences - Cinquième", youtubeId: "MwNV5eCBFrI", channel: "Yvan Monka" },
+  ],
 };

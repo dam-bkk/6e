@@ -232,4 +232,7 @@ export const chapter: Chapter = {
       hint: "Deux angles consécutifs d'un parallélogramme : quelle est leur somme ?",
     },
   ],
+  videos: [
+    { title: "DÉMONTRER qu'un quadrilatère est un PARALLÉLOGRAMME - Cinquième", youtubeId: "sHMTwpf-__w", channel: "Yvan Monka" },
+  ],
 };

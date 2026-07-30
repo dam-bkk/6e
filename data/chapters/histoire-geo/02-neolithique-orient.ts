@@ -238,4 +238,7 @@ export const chapter: Chapter = {
       hint: "L'une de ces inventions appartient à la période précédente, celle des chasseurs-cueilleurs.",
     },
   ],
+  videos: [
+    { title: "La révolution néolithique - Histoire-Géographie - Sixième - Les Bons Profs", youtubeId: "SubxXaWF1bw", channel: "Les Bons Profs" },
+  ],
 };

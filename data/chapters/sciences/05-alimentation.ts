@@ -251,4 +251,7 @@ export const chapter: Chapter = {
       hint: "Qui dépense le plus d'énergie dans la journée ?",
     },
   ],
+  videos: [
+    { title: "Comment avoir une alimentation saine ! - C'est pas sorcier", youtubeId: "GMr1WAT7OZ8", channel: "C'est pas sorcier" },
+  ],
 };

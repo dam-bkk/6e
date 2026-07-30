@@ -238,4 +238,7 @@ export const chapter: Chapter = {
       hint: "Calcule 365,25 × 4, puis compare à 365 × 4.",
     },
   ],
+  videos: [
+    { title: "Comment marche le système solaire ? - C'est Pas Sorcier", youtubeId: "0i4decADw1E", channel: "C'est pas sorcier" },
+  ],
 };

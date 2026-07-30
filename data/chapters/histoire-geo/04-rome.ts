@@ -236,4 +236,7 @@ export const chapter: Chapter = {
       hint: "Compare ce que raconte la légende et ce que montrent les fouilles.",
     },
   ],
+  videos: [
+    { title: "Rome : du mythe à l'histoire - Histoire-Géographie - Sixième - Les Bons Profs", youtubeId: "06bqP89-rAg", channel: "Les Bons Profs" },
+  ],
 };

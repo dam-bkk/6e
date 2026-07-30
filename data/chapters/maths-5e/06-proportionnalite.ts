@@ -218,4 +218,7 @@ export const chapter: Chapter = {
       hint: "Calcule d'abord le montant de la remise, puis soustrais-le du prix.",
     },
   ],
+  videos: [
+    { title: "Appliquer la proportionnalité (4 méthodes) - Cinquième", youtubeId: "O91-Dq06k0U", channel: "Yvan Monka" },
+  ],
 };

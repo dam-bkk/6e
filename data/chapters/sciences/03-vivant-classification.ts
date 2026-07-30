@@ -245,4 +245,7 @@ export const chapter: Chapter = {
       hint: "Que devient une proie quand son prédateur disparaît ?",
     },
   ],
+  videos: [
+    { title: "La classification du vivant - SVT - collège - sixième - Les Bons Profs", youtubeId: "nODfb5QNtV4", channel: "Les Bons Profs" },
+  ],
 };

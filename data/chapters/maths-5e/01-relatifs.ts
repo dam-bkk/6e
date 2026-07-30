@@ -217,4 +217,7 @@ export const chapter: Chapter = {
       hint: "Remonter = additionner, redescendre = soustraire. Procède étape par étape.",
     },
   ],
+  videos: [
+    { title: "LE COURS : Nombres relatifs - Cinquième", youtubeId: "YivvFtSuzno", channel: "Yvan Monka" },
+  ],
 };

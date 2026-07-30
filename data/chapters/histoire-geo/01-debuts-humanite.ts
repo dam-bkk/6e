@@ -228,4 +228,7 @@ export const chapter: Chapter = {
       hint: "C'est la seule espèce humaine encore vivante aujourd'hui.",
     },
   ],
+  videos: [
+    { title: "La longue histoire de l'humanité - Histoire-Géographie - Sixième - Les Bons Profs", youtubeId: "pS4wegLgHSk", channel: "Les Bons Profs" },
+  ],
 };

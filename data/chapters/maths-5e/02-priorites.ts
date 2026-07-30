@@ -215,4 +215,7 @@ export const chapter: Chapter = {
       hint: "Qui est prioritaire : la soustraction ou la division ?",
     },
   ],
+  videos: [
+    { title: "Effectuer des calculs avec des priorités (2) - Cinquième", youtubeId: "kNOR38ZuBRc", channel: "Yvan Monka" },
+  ],
 };

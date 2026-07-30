@@ -227,4 +227,7 @@ export const chapter: Chapter = {
       hint: "Transporte d'abord le 68° sur le second rail, puis cherche son supplémentaire.",
     },
   ],
+  videos: [
+    { title: "LE COURS : Angles alternes-internes et correspondants - Cinquième", youtubeId: "OHGq5bqx11A", channel: "Yvan Monka" },
+  ],
 };

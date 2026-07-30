@@ -216,4 +216,7 @@ export const chapter: Chapter = {
       hint: "Applique la formule du triangle avec les longueurs en mètres.",
     },
   ],
+  videos: [
+    { title: "Calculer l'aire d'une figure avec disque - Cinquième", youtubeId: "BfOFFFCm5n4", channel: "Yvan Monka" },
+  ],
 };

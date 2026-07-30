@@ -199,4 +199,7 @@ export const chapter: Chapter = {
       hint: "Deux étapes : d'abord le nombre de filles, ensuite la moitié de ce nombre.",
     },
   ],
+  videos: [
+    { title: "Effectuer des multiplications de fractions (1) - Quatrième", youtubeId: "j27kXXrw3Xk", channel: "Yvan Monka" },
+  ],
 };

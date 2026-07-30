@@ -250,4 +250,7 @@ export const chapter: Chapter = {
       hint: "Partager un contenu humiliant, même pour le dénoncer, c'est encore le diffuser.",
     },
   ],
+  videos: [
+    { title: "C'est quoi le harcèlement à l'école ? - 1 jour, 1 question", youtubeId: "zeAjp6B_DNs", channel: "1 jour, 1 question" },
+  ],
 };

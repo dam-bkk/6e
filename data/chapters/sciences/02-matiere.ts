@@ -235,4 +235,7 @@ export const chapter: Chapter = {
       hint: "Le sel s'évapore-t-il avec l'eau ?",
     },
   ],
+  videos: [
+    { title: "Les états de la matière et le cycle de l'eau - collège (5eme) - physique chimie", youtubeId: "pFMHgHHxvDk", channel: "Les génies des sciences" },
+  ],
 };

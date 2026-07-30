@@ -238,4 +238,7 @@ export const chapter: Chapter = {
       hint: "L'unité grecque était culturelle et religieuse, pas politique.",
     },
   ],
+  videos: [
+    { title: "Le monde des cités grecques (Histoire 6e)", youtubeId: "IBQ8-IvdM_8", channel: "Éditions Lelivrescolaire.fr" },
+  ],
 };

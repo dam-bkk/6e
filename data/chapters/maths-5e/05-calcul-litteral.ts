@@ -210,4 +210,7 @@ export const chapter: Chapter = {
       hint: "Remplace x par 7 dans 2x + 6.",
     },
   ],
+  videos: [
+    { title: "Simplifier une expression (1) - Cinquième", youtubeId: "eBPOd0bTBro", channel: "Yvan Monka" },
+  ],
 };

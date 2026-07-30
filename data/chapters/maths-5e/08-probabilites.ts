@@ -218,4 +218,7 @@ export const chapter: Chapter = {
       hint: "Calcule 8/200, puis transforme la fraction en nombre décimal.",
     },
   ],
+  videos: [
+    { title: "Effectuer des calculs de probabilités très simples - Sixième - Cinquième", youtubeId: "a9Mb5v7Z4Mw", channel: "Yvan Monka" },
+  ],
 };

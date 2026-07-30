@@ -246,4 +246,7 @@ export const chapter: Chapter = {
       hint: "Comme un feu de cheminée, c'est un « foyer » autour duquel on se rassemble.",
     },
   ],
+  videos: [
+    { title: "Les métropoles et leurs habitants - Histoire-Géographie - Sixième - Les Bons Profs", youtubeId: "zWj5zNihaBA", channel: "Les Bons Profs" },
+  ],
 };

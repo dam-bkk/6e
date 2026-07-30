@@ -235,4 +235,7 @@ export const chapter: Chapter = {
       hint: "Y a-t-il eu du pollen et une graine dans cette histoire ?",
     },
   ],
+  videos: [
+    { title: "Le développement des êtres vivants", youtubeId: "be3VaYPPPHY", channel: "Sciences, Terre et Vie" },
+  ],
 };

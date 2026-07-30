@@ -243,4 +243,7 @@ export const chapter: Chapter = {
       hint: "C'est la très grande majorité : 8 marchandises sur 10.",
     },
   ],
+  videos: [
+    { title: "Habiter les littoraux - Histoire-Géographie - Sixième - Les Bons Profs", youtubeId: "I2q4RIb8uto", channel: "Les Bons Profs" },
+  ],
 };

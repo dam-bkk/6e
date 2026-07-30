@@ -231,4 +231,7 @@ export const chapter: Chapter = {
       hint: "C'est un mot hébreu traduit en grec : « messie ».",
     },
   ],
+  videos: [
+    { title: "La naissance du monothéisme juif (Histoire 6e)", youtubeId: "W4aVJlrqLQs", channel: "Éditions Lelivrescolaire.fr" },
+  ],
 };

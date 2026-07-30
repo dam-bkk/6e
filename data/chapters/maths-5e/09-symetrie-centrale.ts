@@ -228,4 +228,7 @@ export const chapter: Chapter = {
       hint: "Place O au milieu : combien de carreaux de chaque côté ?",
     },
   ],
+  videos: [
+    { title: "LE COURS : Symétrie centrale - Cinquième", youtubeId: "-ZWAUCXmXB4", channel: "Yvan Monka" },
+  ],
 };

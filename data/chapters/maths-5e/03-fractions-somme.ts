@@ -199,4 +199,7 @@ export const chapter: Chapter = {
       hint: "Une somme peut-elle être plus petite que l'un de ses termes ?",
     },
   ],
+  videos: [
+    { title: "Effectuer des additions et soustractions de fractions (1) - Sixième - Cinquième", youtubeId: "lGShZVQlXMQ", channel: "Yvan Monka" },
+  ],
 };

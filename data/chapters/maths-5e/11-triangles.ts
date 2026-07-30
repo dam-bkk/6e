@@ -240,4 +240,7 @@ export const chapter: Chapter = {
       hint: "Retire l'angle au sommet de 180°, puis partage équitablement.",
     },
   ],
+  videos: [
+    { title: "Appliquer l'inégalité triangulaire", youtubeId: "hwCjjX6R2XM", channel: "Yvan Monka" },
+  ],
 };
