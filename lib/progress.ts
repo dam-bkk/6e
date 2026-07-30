@@ -14,11 +14,25 @@ export interface DailyRecord {
   total: number;
 }
 
+/** Journal d'activité d'une journée (pour le calendrier parental) */
+export interface DayActivity {
+  /** exercices tentés */
+  ex: number;
+  /** exercices réussis */
+  ok: number;
+  /** défi du jour joué */
+  daily: boolean;
+  /** XP gagnée ce jour-là */
+  xp: number;
+}
+
 export interface Progress {
   xp: number;
   exercises: Record<string, ExerciseRecord>;
   /** clé = YYYY-MM-DD */
   dailies: Record<string, DailyRecord>;
+  /** clé = YYYY-MM-DD — journal par jour */
+  activity: Record<string, DayActivity>;
   streak: { current: number; best: number; lastDate: string | null };
   badges: string[];
 }
@@ -29,6 +43,7 @@ const EMPTY: Progress = {
   xp: 0,
   exercises: {},
   dailies: {},
+  activity: {},
   streak: { current: 0, best: 0, lastDate: null },
   badges: [],
 };
@@ -46,7 +61,12 @@ function load(): Progress {
     const raw = window.localStorage.getItem(KEY);
     if (!raw) return EMPTY;
     const p = JSON.parse(raw) as Progress;
-    return { ...EMPTY, ...p, streak: { ...EMPTY.streak, ...p.streak } };
+    return {
+      ...EMPTY,
+      ...p,
+      activity: p.activity ?? {},
+      streak: { ...EMPTY.streak, ...p.streak },
+    };
   } catch {
     return EMPTY;
   }
@@ -73,10 +93,31 @@ function touchStreak(p: Progress): Progress {
   };
 }
 
+function bumpActivity(
+  p: Progress,
+  delta: Partial<DayActivity>
+): Progress {
+  const today = todayKey();
+  const cur = p.activity[today] ?? { ex: 0, ok: 0, daily: false, xp: 0 };
+  return {
+    ...p,
+    activity: {
+      ...p.activity,
+      [today]: {
+        ex: cur.ex + (delta.ex ?? 0),
+        ok: cur.ok + (delta.ok ?? 0),
+        daily: cur.daily || (delta.daily ?? false),
+        xp: cur.xp + (delta.xp ?? 0),
+      },
+    },
+  };
+}
+
 export function recordExercise(exId: string, correct: boolean, xpGain: number): Progress {
   let p = load();
   const prev = p.exercises[exId];
   const alreadyCorrect = prev?.correct === true;
+  const gained = correct && !alreadyCorrect ? xpGain : 0;
   p = {
     ...p,
     exercises: {
@@ -88,8 +129,9 @@ export function recordExercise(exId: string, correct: boolean, xpGain: number): 
       },
     },
     // pas de re-farm : un exercice déjà réussi ne redonne pas d'XP
-    xp: p.xp + (correct && !alreadyCorrect ? xpGain : 0),
+    xp: p.xp + gained,
   };
+  p = bumpActivity(p, { ex: 1, ok: correct ? 1 : 0, xp: gained });
   p = touchStreak(p);
   save(p);
   return p;
@@ -106,6 +148,7 @@ export function recordDaily(score: number, total: number): Progress {
     dailies: { ...p.dailies, [today]: { score: best, total } },
     xp: p.xp + (firstTime ? score * 5 : 0),
   };
+  p = bumpActivity(p, { daily: true, xp: firstTime ? score * 5 : 0 });
   p = touchStreak(p);
   save(p);
   return p;

@@ -118,7 +118,6 @@ export const chapter: Chapter = {
       type: "input",
       question: "Écris la forme contractée de « I am » (avec l'apostrophe).",
       answer: "i'm",
-      accept: ["i am"],
       explanation:
         "I am se contracte en I'm : l'apostrophe remplace le a de am. Exemple : I'm eleven, I'm French. C'est la forme qu'on utilise presque tout le temps à l'oral.",
     },

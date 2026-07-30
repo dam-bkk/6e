@@ -61,7 +61,7 @@ export const chapter: Chapter = {
       ],
       example: [
         "« Elle est tombée dans l'escalier. » → tomber se conjugue avec être.",
-        "« Elle a raté une marche. » → rater se conjugue avoir.",
+        "« Elle a raté une marche. » → rater se conjugue avec avoir.",
       ],
       tip: "Beaucoup de verbes en être vont par paires contraires : arriver/partir, entrer/sortir, monter/descendre, naître/mourir. Les mémoriser en couple aide beaucoup !",
     },

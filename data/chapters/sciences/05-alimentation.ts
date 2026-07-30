@@ -46,7 +46,7 @@ export const chapter: Chapter = {
     {
       title: "D'où viennent les aliments",
       paragraphs: [
-        "Un aliment est d'origine animale s'il provient d'un animal : viande, poisson, œuf, lait, fromage, miel. Il est d'origine végétale s'il provient d'une plante : fruits, légumes, céréales, légumes secs, huile de tournesol, chocolat.",
+        "Un aliment est d'origine animale s'il provient d'un animal : viande, poisson, œuf, lait, fromage, miel. Il est d'origine végétale s'il provient d'une plante : fruits, légumes, céréales, légumes secs, huile de tournesol, cacao.",
         "Beaucoup d'aliments ne sont pas consommés tels qu'ils sortent de la ferme : ils sont transformés. Le blé est moulu en farine, puis la farine, l'eau, le sel et la levure donnent la pâte à pain, qui gonfle et est cuite au four.",
         "Certaines transformations font appel à des micro-organismes, des êtres vivants microscopiques. La levure fait gonfler le pain, des bactéries transforment le lait en yaourt et en fromage. Les micro-organismes ne sont donc pas tous nuisibles : beaucoup sont utiles, et même indispensables.",
       ],

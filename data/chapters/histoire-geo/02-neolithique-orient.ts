@@ -65,7 +65,7 @@ export const chapter: Chapter = {
         "Les pyramides sont les tombeaux des pharaons. Les Égyptiens croient en une vie après la mort : le corps du pharaon, momifié pour être conservé, y est déposé avec des trésors et des objets pour l'au-delà.",
       ],
       example: [
-        "La grande pyramide de Khéops, construite vers 2600 av. J.-C. à Guizeh, mesurait environ 147 mètres de haut : elle est restée le plus haut monument du monde pendant plus de 4 000 ans.",
+        "La grande pyramide de Khéops, construite vers 2600 av. J.-C. à Guizeh, mesurait environ 147 mètres de haut : elle est restée le plus haut monument du monde pendant près de 4 000 ans.",
         "Elle est la seule des Sept Merveilles du monde antique encore debout.",
       ],
       tip: "Pharaon = roi + dieu vivant. Pyramide = tombeau (et non un palais ou un temple : le pharaon n'y a jamais habité de son vivant).",

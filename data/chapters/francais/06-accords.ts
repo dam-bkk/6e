@@ -43,7 +43,7 @@ export const chapter: Chapter = {
     {
       title: "Les accords dans le groupe nominal",
       paragraphs: [
-        "Dans le groupe nominal, le déterminant et l'adjectif s'accordent en genre et en nombre avec le nom : « une grande maison blanche », « des grands jardins fleuris ».",
+        "Dans le groupe nominal, le déterminant et l'adjectif s'accordent en genre et en nombre avec le nom : « une grande maison blanche », « de grands jardins fleuris ».",
         "Le pluriel se marque en général par un s, mais certains noms font autrement : les noms en -al font -aux (un cheval → des chevaux, un journal → des journaux) ; les noms en -eau et -eu prennent un x (des gâteaux, des jeux) ; et sept noms en -ou prennent un x : bijoux, cailloux, choux, genoux, hiboux, joujoux, poux.",
       ],
       example: [

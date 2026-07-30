@@ -189,7 +189,6 @@ export const chapter: Chapter = {
       type: "input",
       question: "Complète avec « ou » ou « où » : « Le village ... je suis né est minuscule. »",
       answer: "où",
-      accept: ["ou"],
       explanation:
         "« Où » désigne ici le lieu (le village dans lequel je suis né) : accent obligatoire. Le test le confirme : « le village ou bien je suis né » n'a aucun sens. Sans accent, « ou » ne sert qu'à exprimer un choix entre deux possibilités.",
       hint: "Ce mot désigne-t-il un lieu ou un choix ?",

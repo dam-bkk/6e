@@ -8,6 +8,7 @@ import { useProgress } from "@/lib/progress";
 import { usePrefs } from "@/lib/prefs";
 import { SUBJECTS } from "@/lib/subjects";
 import { ChapterIcon } from "@/components/chapter-icon";
+import { ActivityCalendar } from "@/components/activity-calendar";
 import type { Domain } from "@/lib/types";
 
 const BAR_COLOR: Record<Domain, string> = {
@@ -55,6 +56,11 @@ export default function ProgresPage() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Calendrier d'activité (suivi parental) */}
+      <div className="mt-6">
+        <ActivityCalendar progress={progress} />
       </div>
 
       {/* Par matière puis par chapitre */}

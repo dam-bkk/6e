@@ -60,7 +60,7 @@ export const chapter: Chapter = {
       title: "Athènes invente la démocratie",
       paragraphs: [
         "Au Ve siècle av. J.-C., Athènes est la cité la plus puissante et la plus rayonnante du monde grec. Elle invente un régime politique nouveau : la démocratie, c'est-à-dire « le pouvoir du peuple » (dêmos = peuple, kratos = pouvoir). Pour la première fois, ce ne sont ni un roi ni quelques nobles qui décident, mais l'ensemble des citoyens.",
-        "Les citoyens se réunissent sur la colline de la Pnyx en assemblée, l'Ecclésia : ils y votent les lois, la guerre et la paix, à main levée. Chacun a le droit de prendre la parole. Les magistrats, comme les dix stratèges qui dirigent la cité et l'armée, sont élus ou tirés au sort pour un an.",
+        "Les citoyens se réunissent sur la colline de la Pnyx en assemblée, l'Ecclésia : ils y votent les lois, la guerre et la paix, à main levée. Chacun a le droit de prendre la parole. Les dix stratèges, qui dirigent la cité et l'armée, sont élus pour un an ; beaucoup d'autres magistrats sont tirés au sort.",
         "Le plus célèbre des stratèges est Périclès, réélu pendant environ trente ans : sous sa direction, Athènes fait construire le Parthénon, le grand temple d'Athéna sur l'Acropole. On parle du « siècle de Périclès ».",
       ],
       example: [

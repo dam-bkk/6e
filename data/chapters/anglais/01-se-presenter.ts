@@ -127,6 +127,7 @@ export const chapter: Chapter = {
       type: "input",
       question: "Complète la réponse : « How are you? – I'm ..., thank you. » (l'adjectif qui veut dire « bien »)",
       answer: "fine",
+      accept: ["good", "well", "ok", "okay"],
       explanation:
         "La réponse classique à How are you? est I'm fine, thank you (ou I'm fine, thanks). Fine signifie « bien », « en forme ». Tu peux aussi entendre I'm OK ou I'm very well.",
       hint: "I'm f..., thank you.",

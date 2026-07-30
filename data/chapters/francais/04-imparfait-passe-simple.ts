@@ -129,7 +129,7 @@ export const chapter: Chapter = {
       choices: ["finissait", "finit", "fina", "finira"],
       answer: 1,
       explanation:
-        "« Finir » est un verbe du 2e groupe : au passé simple, il fait « il finit », ils firent « ils finirent ». Attention : « il finit » s'écrit pareil au présent ! C'est le contexte du récit au passé qui indique le temps. « Fina » n'existe pas : seul le 1er groupe se termine en -a.",
+        "« Finir » est un verbe du 2e groupe : au passé simple, il fait « il finit » et « ils finirent ». Attention : « il finit » s'écrit pareil au présent ! C'est le contexte du récit au passé qui indique le temps. « Fina » n'existe pas : seul le 1er groupe se termine en -a.",
       hint: "Les verbes du 2e groupe ne se terminent pas en -a au passé simple.",
     },
     {

@@ -39,7 +39,7 @@ export const chapter: Chapter = {
       ],
       example: [
         "L'agglomération de Tokyo, au Japon, est la plus peuplée du monde : environ 37 millions d'habitants.",
-        "C'est plus que la population entière du Canada, concentrée sur une seule aire urbaine !",
+        "C'est plus de la moitié de la population de la France, concentrée sur une seule aire urbaine !",
       ],
       tip: "Métropole = grande ville + fonctions de commandement (économie, politique, culture). La taille ne suffit pas : c'est le pouvoir qui fait la métropole.",
     },
@@ -129,7 +129,7 @@ export const chapter: Chapter = {
       answer: "tokyo",
       accept: ["tokio", "tôkyô"],
       explanation:
-        "L'agglomération de Tokyo, capitale du Japon, est la plus peuplée du monde avec environ 37 millions d'habitants : plus que la population entière du Canada. C'est aussi une métropole mondiale, qui concentre d'énormes pouvoirs économiques.",
+        "L'agglomération de Tokyo, capitale du Japon, est la plus peuplée du monde avec environ 37 millions d'habitants : plus de la moitié de la population de la France, sur une seule aire urbaine. C'est aussi une métropole mondiale, qui concentre d'énormes pouvoirs économiques.",
       hint: "C'est la capitale du Japon.",
     },
     {

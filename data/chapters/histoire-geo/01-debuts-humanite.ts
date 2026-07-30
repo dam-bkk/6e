@@ -47,7 +47,7 @@ export const chapter: Chapter = {
     {
       title: "La vie au Paléolithique : des nomades chasseurs-cueilleurs",
       paragraphs: [
-        "Le Paléolithique, ou « âge de la pierre ancienne », est la plus longue période de l'histoire humaine : elle commence avec les premiers outils, il y a environ 3 millions d'années. Les humains y vivent en petits groupes et sont nomades : ils se déplacent sans cesse pour suivre les troupeaux et trouver de la nourriture.",
+        "Le Paléolithique, ou « âge de la pierre ancienne », est la plus longue période de l'histoire humaine : elle commence avec les premiers outils taillés, il y a environ 2,5 millions d'années. Les humains y vivent en petits groupes et sont nomades : ils se déplacent sans cesse pour suivre les troupeaux et trouver de la nourriture.",
         "Ils ne produisent pas leur nourriture : ils la prélèvent dans la nature. On dit qu'ils sont chasseurs-cueilleurs : ils chassent le gibier (rennes, chevaux, bisons...), pêchent et ramassent fruits, graines et racines.",
         "La maîtrise du feu, acquise il y a environ 400 000 ans, change leur vie : le feu réchauffe, éclaire, éloigne les animaux sauvages et permet de cuire les aliments. Le soir, autour du foyer, les groupes se rassemblent : c'est aussi un lieu de vie sociale.",
       ],

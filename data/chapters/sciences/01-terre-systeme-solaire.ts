@@ -68,7 +68,7 @@ export const chapter: Chapter = {
         "Pleine lune : la Terre est entre le Soleil et la Lune, et on voit toute la face éclairée.",
         "Nouvelle lune : la Lune est entre le Soleil et la Terre, sa face éclairée est tournée de l'autre côté, on ne la voit donc pas.",
       ],
-      tip: "Un croissant de Lune en forme de « p » comme premier quartier, en forme de « d » comme dernier quartier : le petit dessin donne la phase.",
+      tip: "La Lune est menteuse : quand elle dessine un D, c'est le premier quartier (elle grossit) ; quand elle dessine un C, c'est le dernier quartier (elle diminue). La lettre dit toujours le contraire de ce qu'on croit.",
     },
     {
       title: "Ce qui rend la vie possible sur Terre",

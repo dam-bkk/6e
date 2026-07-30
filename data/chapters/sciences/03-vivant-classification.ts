@@ -114,7 +114,7 @@ export const chapter: Chapter = {
       question: "Le dauphin est un poisson, parce qu'il vit dans la mer et qu'il nage.",
       answer: false,
       explanation:
-        "Faux. On ne classe pas les êtres vivants d'après leur milieu de vie ni d'après leur façon de se déplacer, mais d'après les attributs qu'ils possèdent. Le dauphin a des poils, il allaite ses petits et il respire l'air avec des poumons : c'est un mammifère. Les poissons, eux, ont des nageoires à rayons et des branchies.",
+        "Faux. On ne classe pas les êtres vivants d'après leur milieu de vie ni d'après leur façon de se déplacer, mais d'après les attributs qu'ils possèdent. Le dauphin a des poils, il allaite ses petits et il respire l'air avec des poumons : c'est un mammifère. Les poissons, eux, ont des nageoires et respirent par des branchies.",
     },
     {
       id: "sviv-4",
@@ -201,7 +201,7 @@ export const chapter: Chapter = {
       ],
       answer: 2,
       explanation:
-        "Le requin et la truite ont des nageoires à rayons et respirent par des branchies. Le dauphin, lui, a des poils, des mamelles et des poumons : c'est un mammifère. Le milieu de vie commun (l'eau) ne sert jamais à classer, et « être dangereux » ou « vivre en eau douce » ne sont pas des attributs.",
+        "Le requin et la truite ont des nageoires et respirent par des branchies. Le dauphin, lui, a des poils, des mamelles et des poumons : c'est un mammifère. Le milieu de vie commun (l'eau) ne sert jamais à classer, et « être dangereux » ou « vivre en eau douce » ne sont pas des attributs.",
       hint: "Ce qui compte, ce sont les attributs possédés, pas le milieu de vie.",
     },
     {
