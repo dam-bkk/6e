@@ -21,6 +21,7 @@ import { Figure } from "@/components/figures";
 import { Player, ReplayButton, type PlayerItem } from "@/components/player";
 import { chaptersFor } from "@/lib/chapters";
 import { getSubjectMeta } from "@/lib/subjects";
+import { LessonView } from "@/components/lesson-view";
 
 const DOMAIN_STYLE: Record<Domain, { tint: string; strong: string }> = {
   nombres: { tint: "bg-nombres-tint", strong: "text-nombres-strong" },
@@ -135,97 +136,14 @@ export function ChapterView({ chapter }: { chapter: Chapter }) {
       </div>
 
       {tab === "lecon" && (
-        <div className="mt-5 space-y-5">
-          {/* Objectifs */}
-          <div className={`card-pop p-5 md:p-6 ${style.tint}`}>
-            <p className={`flex items-center gap-2 font-display text-lg font-extrabold ${style.strong}`}>
-              <Target size={20} strokeWidth={2.5} />
-              À la fin de ce chapitre…
-            </p>
-            <ul className="mt-2 space-y-1.5">
-              {chapter.objectives.map((o) => (
-                <li key={o} className="flex items-start gap-2 font-bold">
-                  <Check size={18} strokeWidth={3} className={`mt-0.5 shrink-0 ${style.strong}`} />
-                  {o}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {chapter.lesson.map((section, i) => (
-            <section key={i} className="card-pop p-5 md:p-7">
-              <h2 className="font-display text-2xl font-bold">
-                <span className={`mr-2 ${style.strong}`}>{i + 1}.</span>
-                {section.title}
-              </h2>
-              <div className="mt-3 space-y-3">
-                {section.paragraphs.map((p, j) => (
-                  <p key={j} className="font-semibold leading-relaxed">{p}</p>
-                ))}
-              </div>
-              {section.figure && <Figure id={section.figure} />}
-              {section.example && (
-                <div className="mt-4 rounded-2xl border-2 border-line bg-cream px-4 py-3">
-                  <p className="text-xs font-extrabold uppercase tracking-wide text-muted">Exemple</p>
-                  <div className="mt-1 space-y-1">
-                    {section.example.map((line, j) => (
-                      <p key={j} className="font-semibold leading-relaxed">{line}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
-              {section.tip && (
-                <p className="mt-4 flex items-start gap-2 rounded-2xl bg-sun-tint px-4 py-3 font-bold text-sun-strong">
-                  <Lightbulb size={20} className="mt-0.5 shrink-0" />
-                  {section.tip}
-                </p>
-              )}
-            </section>
-          ))}
-
-          {chapter.videos && chapter.videos.length > 0 && (
-            <section className="card-pop p-5 md:p-7">
-              <h2 className="flex items-center gap-2 font-display text-2xl font-bold">
-                <Clapperboard size={24} className={style.strong} />
-                Vidéos pour réviser
-              </h2>
-              <div className={`mt-4 grid gap-4 ${chapter.videos.length > 1 ? "md:grid-cols-2" : ""}`}>
-                {chapter.videos.map((v) => (
-                  <figure key={v.youtubeId}>
-                    <div className="overflow-hidden rounded-2xl border-2 border-line">
-                      <iframe
-                        className="aspect-video w-full"
-                        src={`https://www.youtube-nocookie.com/embed/${v.youtubeId}`}
-                        title={v.title}
-                        allow="accelerometer; encrypted-media; picture-in-picture"
-                        allowFullScreen
-                        loading="lazy"
-                      />
-                    </div>
-                    <figcaption className="mt-1.5 text-sm font-bold text-muted">
-                      {v.title}
-                      {v.channel ? ` — ${v.channel}` : ""}
-                    </figcaption>
-                  </figure>
-                ))}
-              </div>
-            </section>
-          )}
-
-          <div className="flex justify-center pt-2">
-            <button
-              onClick={() => {
-                setTab("exos");
-                setLevel(null);
-                window.scrollTo({ top: 0, behavior: "smooth" });
-              }}
-              className="btn-pop flex items-center gap-2 bg-ink px-7 py-3.5 font-display text-lg font-bold text-white"
-            >
-              <Dumbbell size={20} />
-              Je passe aux exercices !
-            </button>
-          </div>
-        </div>
+        <LessonView
+          chapter={chapter}
+          onFinish={() => {
+            setTab("exos");
+            setLevel(null);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        />
       )}
 
       {tab === "exos" && level === null && (
