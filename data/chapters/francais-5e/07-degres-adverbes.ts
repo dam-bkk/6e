@@ -218,4 +218,11 @@ export const chapter: Chapter = {
       hint: "Traduis chaque comparatif : qui est à égalité ? qui est devant ?",
     },
   ],
+  videos: [
+    {
+      title: "Les degrés de l'adjectif - 5ème, 4ème, 3ème - Cours, Exercices, Evaluations",
+      youtubeId: "PzT382jcD-M",
+      channel: "Pass Education FR",
+    },
+  ],
 };

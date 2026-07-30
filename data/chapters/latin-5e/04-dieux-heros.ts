@@ -229,4 +229,11 @@ export const chapter: Chapter = {
       hint: "Qui fait pousser le blé ? Qui travaille dans le feu ?",
     },
   ],
+  videos: [
+    {
+      title: "[NOTA BENE x Idéfix et les Irréductibles] - Les dieux antiques",
+      youtubeId: "GBCZGCaa42c",
+      channel: "Idéfix et les Irréductibles",
+    },
+  ],
 };

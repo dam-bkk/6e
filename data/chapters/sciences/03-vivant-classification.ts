@@ -58,6 +58,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Classer d'après les attributs",
+      figure: "sci-groupes-emboites",
       paragraphs: [
         "Pour classer les êtres vivants, les scientifiques regardent uniquement ce que les êtres POSSÈDENT : un squelette interne avec des vertèbres, quatre membres, des poils, des mamelles, des plumes, une coquille… Ces caractéristiques s'appellent des attributs.",
         "On regroupe alors ceux qui partagent les mêmes attributs dans des groupes emboîtés, comme des boîtes rangées les unes dans les autres. Tous les êtres qui ont des poils et des mamelles sont dans la boîte « mammifères », et cette boîte est rangée à l'intérieur de la plus grande boîte « vertébrés », car tous les mammifères ont aussi un squelette interne avec des vertèbres.",

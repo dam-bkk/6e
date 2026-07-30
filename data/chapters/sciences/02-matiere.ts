@@ -32,6 +32,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les changements d'état de l'eau",
+      figure: "sci-etats-eau",
       paragraphs: [
         "Quand on chauffe de la glace, elle devient liquide à 0 °C : c'est la fusion. À l'inverse, l'eau liquide refroidie devient glace à 0 °C : c'est la solidification. Ces deux changements se font à la même température.",
         "Si on continue de chauffer l'eau liquide, elle se met à bouillir à 100 °C : c'est l'ébullition, elle se transforme en vapeur d'eau (état gazeux). L'eau peut aussi passer à l'état gazeux sans bouillir, lentement et à sa surface, à n'importe quelle température : c'est l'évaporation, celle qui fait sécher le linge.",
@@ -45,6 +46,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Le cycle de l'eau",
+      figure: "sci-cycle-eau",
       paragraphs: [
         "Chauffée par le Soleil, l'eau des océans, des lacs et des rivières s'évapore : elle monte dans l'atmosphère sous forme de vapeur d'eau invisible.",
         "En altitude, l'air est plus froid : la vapeur se condense en minuscules gouttelettes ou en cristaux de glace qui forment les nuages. Quand ces gouttelettes grossissent, elles tombent : ce sont les précipitations, pluie, neige ou grêle.",

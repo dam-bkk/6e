@@ -224,4 +224,11 @@ export const chapter: Chapter = {
       hint: "« Hier soir » = last night. Pense à l'inversion verbe-sujet.",
     },
   ],
+  videos: [
+    {
+      title: "Le verbe être en anglais : comment utiliser les formes was, were et been ?",
+      youtubeId: "etg0yaO0qUk",
+      channel: "ISpeakSpokeSpoken",
+    },
+  ],
 };

@@ -32,6 +32,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Développement direct ou métamorphose",
+      figure: "sci-cycle-vie",
       paragraphs: [
         "On parle de développement direct quand le jeune ressemble déjà à l'adulte, en plus petit : il lui suffit de grandir. C'est le cas du chaton, du poussin, du bébé humain ou d'un jeune escargot.",
         "On parle de développement indirect quand le jeune ne ressemble pas du tout à l'adulte : il doit se transformer profondément. Ces transformations s'appellent des métamorphoses.",
@@ -58,6 +59,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La reproduction des plantes à fleurs",
+      figure: "sci-fleur-graine",
       paragraphs: [
         "Une fleur contient les organes reproducteurs de la plante : les étamines produisent le pollen (partie mâle) et le pistil contient les ovules (partie femelle).",
         "La pollinisation est le transport du pollen d'une fleur vers le pistil d'une autre fleur. Ce transport est le plus souvent assuré par les insectes, attirés par les couleurs, les odeurs et le nectar, parfois par le vent, comme chez les graminées.",

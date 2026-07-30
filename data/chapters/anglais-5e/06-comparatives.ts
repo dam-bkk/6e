@@ -217,4 +217,11 @@ export const chapter: Chapter = {
       hint: "Difficult est un adjectif long : more ou -er ?",
     },
   ],
+  videos: [
+    {
+      title: "Le comparatif - Anglais - 3e - Les Bons Profs",
+      youtubeId: "XgB8mgYHKlo",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

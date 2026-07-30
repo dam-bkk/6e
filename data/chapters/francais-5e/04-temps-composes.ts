@@ -228,4 +228,11 @@ export const chapter: Chapter = {
       hint: "Le participe d'ouvrir ressemble à celui d'offrir.",
     },
   ],
+  videos: [
+    {
+      title: "Les temps composés de l'indicatif - Français - Collège - Les Bons Profs",
+      youtubeId: "XGfin5iJMzA",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

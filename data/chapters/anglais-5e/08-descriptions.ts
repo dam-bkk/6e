@@ -227,4 +227,11 @@ export const chapter: Chapter = {
       hint: "Fier DE = proud of, et « ses » pour une fille = her.",
     },
   ],
+  videos: [
+    {
+      title: "Comment décrire quelqu'un en anglais ? Voici quelques exemples clés",
+      youtubeId: "T0Y-k82S_fc",
+      channel: "AnglaisCours Club",
+    },
+  ],
 };

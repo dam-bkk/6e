@@ -237,4 +237,11 @@ export const chapter: Chapter = {
         "Vrai ! Le = « à lui » ou « à elle » : c'est le même mot pour les deux. Seul le contexte (ou l'ajout de a él / a ella) permet de savoir de qui on parle. Et leer signifie « lire ».",
     },
   ],
+  videos: [
+    {
+      title: "Dire 😍J'AIME en ESPAGNOL 🇪🇦🇪🇸 avec le verbe GUSTAR",
+      youtubeId: "YlhSYQD1ns8",
+      channel: "Holamigo - apprendre l'espagnol",
+    },
+  ],
 };

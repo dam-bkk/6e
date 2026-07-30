@@ -233,4 +233,11 @@ export const chapter: Chapter = {
       hint: "Sujet en -a, COD en -am, verbe en dernier.",
     },
   ],
+  videos: [
+    {
+      title: "GRAMMAIRE LATINE - les déclinaisons, les bases [TOUT COMPRENDRE !]",
+      youtubeId: "bCnFuD9xv-0",
+      channel: "Maison du Latin",
+    },
+  ],
 };

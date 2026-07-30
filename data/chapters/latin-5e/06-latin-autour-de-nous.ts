@@ -241,4 +241,11 @@ export const chapter: Chapter = {
       hint: "Combien de fois au maximum peut-on répéter une même lettre ?",
     },
   ],
+  videos: [
+    {
+      title: "10 expressions latines très utilisées en français",
+      youtubeId: "LpAOJMYEOsM",
+      channel: "podcast francais facile",
+    },
+  ],
 };

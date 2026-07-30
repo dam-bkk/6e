@@ -217,4 +217,11 @@ export const chapter: Chapter = {
       hint: "Garde l'image, enlève seulement le mot-outil.",
     },
   ],
+  videos: [
+    {
+      title: "Les figures de style - Français - Collège - Les Bons Profs",
+      youtubeId: "13nS9zxW4oA",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

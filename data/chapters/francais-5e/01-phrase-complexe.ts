@@ -221,4 +221,11 @@ export const chapter: Chapter = {
       hint: "Un participe présent en -ant n'est pas un verbe conjugué.",
     },
   ],
+  videos: [
+    {
+      title: "Les propositions - Français - Collège - Les Bons Profs",
+      youtubeId: "bnHoA9jDF30",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

@@ -221,4 +221,11 @@ export const chapter: Chapter = {
       hint: "En anglais, on dit play tennis, sans article.",
     },
   ],
+  videos: [
+    {
+      title: "Le preterit simple - Anglais - Sixième - Les Bons Profs",
+      youtubeId: "NwDkEWFhILk",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

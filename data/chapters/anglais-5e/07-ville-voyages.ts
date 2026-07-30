@@ -228,4 +228,11 @@ export const chapter: Chapter = {
       hint: "Tout droit = straight on ; la première rue à droite = the first street on the right.",
     },
   ],
+  videos: [
+    {
+      title: "Comment Demander Son Chemin en Anglais",
+      youtubeId: "iHyJuLkaI2Y",
+      channel: "ISpeakSpokeSpoken",
+    },
+  ],
 };

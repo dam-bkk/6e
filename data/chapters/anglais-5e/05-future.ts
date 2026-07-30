@@ -229,4 +229,11 @@ export const chapter: Chapter = {
       hint: "Projet décidé à l'avance : be + going to + base verbale.",
     },
   ],
+  videos: [
+    {
+      title: "L'expression du futur - Anglais 3e - Les Bons Profs",
+      youtubeId: "MWhqC77CAiQ",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

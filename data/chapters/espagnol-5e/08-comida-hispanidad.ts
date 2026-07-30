@@ -224,4 +224,11 @@ export const chapter: Chapter = {
       hint: "Pescado vient du verbe pescar (pêcher)…",
     },
   ],
+  videos: [
+    {
+      title: "Les Aliments en Espagnol - La nourriture (Vocabulaire de base)  Leçon d'Espagnol",
+      youtubeId: "azK_Oc3O3OQ",
+      channel: "APRENDEMOS ESPAÑOL",
+    },
+  ],
 };

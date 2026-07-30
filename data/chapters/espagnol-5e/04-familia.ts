@@ -215,4 +215,11 @@ export const chapter: Chapter = {
       hint: "En espagnol, « les cheveux » se dit au singulier : el pelo.",
     },
   ],
+  videos: [
+    {
+      title: "CONVERSATION en ESPAGNOL : La famille 👩‍👩‍👦 Vocabulaire + Quiz",
+      youtubeId: "CdbAca8Ewvs",
+      channel: "Espagnol Passion !",
+    },
+  ],
 };

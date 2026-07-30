@@ -225,4 +225,11 @@ export const chapter: Chapter = {
       hint: "Traite chaque verbe séparément : quel auxiliaire pour chacun ?",
     },
   ],
+  videos: [
+    {
+      title: "L'accord du participe passé : être et avoir - Français 3e - Les Bons Profs",
+      youtubeId: "PYLSUSeEND0",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

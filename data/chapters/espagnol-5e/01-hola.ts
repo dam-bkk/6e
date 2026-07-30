@@ -216,4 +216,11 @@ export const chapter: Chapter = {
       hint: "Verbe ser à la 1re personne + « de » + le nom espagnol du pays.",
     },
   ],
+  videos: [
+    {
+      title: "Comment SE PRÉSENTER en ESPAGNOL ? 🇪🇸 (nom, âge, origine, profession) 👋",
+      youtubeId: "2tQHY3fzl0w",
+      channel: "Holamigo - apprendre l'espagnol",
+    },
+  ],
 };

@@ -220,4 +220,11 @@ export const chapter: Chapter = {
       hint: "Al lado de : côté ou face ?",
     },
   ],
+  videos: [
+    {
+      title: "VOCABULAIRE des pièces de la MAISON 🏠 en ESPAGNOL 🇪🇸 [VOCAMIGO]",
+      youtubeId: "KOYuqCy0HB0",
+      channel: "Holamigo - apprendre l'espagnol",
+    },
+  ],
 };

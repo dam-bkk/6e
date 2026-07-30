@@ -216,4 +216,11 @@ export const chapter: Chapter = {
       hint: "La question dit « vives » (tu) ; toi, tu réponds avec la forme de « je ».",
     },
   ],
+  videos: [
+    {
+      title: "Apprendre l'espagnol : Conjugaison Verbes RÉGULIERS | Présent de l'indicatif",
+      youtubeId: "N_f44Dx1zBg",
+      channel: "Hablemos Espagnol - Apprendre l'espagnol",
+    },
+  ],
 };

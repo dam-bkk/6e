@@ -245,4 +245,11 @@ export const chapter: Chapter = {
       hint: "Panem ressemble à « pain »… et circenses à « cirque ».",
     },
   ],
+  videos: [
+    {
+      title: "Les Romains I Quelle Histoire - TV5 Monde",
+      youtubeId: "i143lqjMr6Y",
+      channel: "Quelle Histoire",
+    },
+  ],
 };

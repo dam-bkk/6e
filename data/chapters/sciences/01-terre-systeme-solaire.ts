@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Le système solaire",
+      figure: "sci-systeme-solaire",
       paragraphs: [
         "Au centre du système solaire se trouve le Soleil. Ce n'est pas une planète : c'est une étoile, c'est-à-dire une énorme boule de gaz très chaude qui produit elle-même sa lumière et sa chaleur. Toutes les autres lumières du système solaire ne sont que de la lumière du Soleil renvoyée.",
         "Huit planètes tournent autour du Soleil, toujours dans le même ordre en partant de lui : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune. Elles ne produisent aucune lumière : on les voit parce qu'elles réfléchissent celle du Soleil.",
@@ -46,6 +47,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Pourquoi il y a des saisons",
+      figure: "sci-saisons",
       paragraphs: [
         "L'axe de rotation de la Terre est incliné d'environ 23° : il n'est pas droit par rapport à son chemin autour du Soleil. Cette inclinaison ne change pas pendant l'année. Résultat : selon le moment de l'année, c'est l'hémisphère nord ou l'hémisphère sud qui est penché vers le Soleil.",
         "L'hémisphère penché vers le Soleil reçoit des rayons plus directs, sur une surface plus petite : il chauffe beaucoup, et les journées y sont longues. C'est l'été. Dans l'autre hémisphère, les rayons arrivent très inclinés, ils s'étalent et chauffent peu, et les journées sont courtes : c'est l'hiver.",
@@ -59,6 +61,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La Lune, satellite de la Terre",
+      figure: "sci-phases-lune",
       paragraphs: [
         "La Lune est un satellite naturel : elle tourne autour de la Terre, à environ 384 000 km de nous. Elle fait le tour de la Terre en un peu plus de 27 jours. Elle n'a pas d'atmosphère respirable et sa surface est couverte de cratères.",
         "La Lune ne produit aucune lumière : elle est éclairée par le Soleil et nous renvoie une partie de cette lumière. C'est exactement comme un ballon blanc éclairé par une lampe dans une pièce sombre.",

@@ -236,4 +236,11 @@ export const chapter: Chapter = {
       hint: "Tout commence par une guerre célèbre… et un cheval de bois.",
     },
   ],
+  videos: [
+    {
+      title: "Non, les Romains n'ont pas tout copié sur les Grecs ! - La fondation de Rome",
+      youtubeId: "67mH952iR6Q",
+      channel: "Nota Bene",
+    },
+  ],
 };

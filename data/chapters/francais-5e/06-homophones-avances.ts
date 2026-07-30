@@ -219,4 +219,11 @@ export const chapter: Chapter = {
       hint: "Essaie de remplacer « d'en » par « dans » : la phrase garde-t-elle son sens ?",
     },
   ],
+  videos: [
+    {
+      title: "QUEL-QUELS-QUELLE-QUELLES-QU'ELLE-QU'ELLES - Homophones grammaticaux",
+      youtubeId: "BpRmFo2Xx_4",
+      channel: "Maitre Jack",
+    },
+  ],
 };

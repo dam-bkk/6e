@@ -220,4 +220,11 @@ export const chapter: Chapter = {
         "Ces ressemblances ne doivent rien au hasard : le français, l'espagnol et l'italien sont des langues romanes, c'est-à-dire des évolutions du latin parlé dans différentes régions de l'Empire romain. Le même mot latin mare a évolué un peu différemment dans chaque région.",
     },
   ],
+  videos: [
+    {
+      title: "à quoi sert le latin ?",
+      youtubeId: "2nRkKVaB7as",
+      channel: "mythoman",
+    },
+  ],
 };

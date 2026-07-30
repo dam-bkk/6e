@@ -223,4 +223,11 @@ export const chapter: Chapter = {
         "Vrai ! Los martes (pluriel) = tous les mardis, une habitude. Tengo inglés = j'ai anglais. A las nueve = à neuf heures. La phrase décrit bien un emploi du temps qui se répète chaque semaine.",
     },
   ],
+  videos: [
+    {
+      title: "Les JOURS de la semaine, les MOIS et les SAISONS de l'année en espagnol (+Exercices)",
+      youtubeId: "p1WQewwVX6c",
+      channel: "¡Aprende español con Saby!",
+    },
+  ],
 };

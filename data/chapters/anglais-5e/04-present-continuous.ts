@@ -221,4 +221,11 @@ export const chapter: Chapter = {
       hint: "On les entend maintenant : quel présent choisir ?",
     },
   ],
+  videos: [
+    {
+      title: "Present simple VS present be+ing : utilisation - Anglais - 3e - Les Bons Profs",
+      youtubeId: "cjH9mZp7Ij4",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

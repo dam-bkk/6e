@@ -210,4 +210,11 @@ export const chapter: Chapter = {
       hint: "Participe passé « pu » → série en -u.",
     },
   ],
+  videos: [
+    {
+      title: "Le passé simple de l'indicatif - Français - Collège - Les Bons Profs",
+      youtubeId: "tYsSXSx-AOE",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

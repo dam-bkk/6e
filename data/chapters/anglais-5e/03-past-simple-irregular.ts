@@ -215,4 +215,11 @@ export const chapter: Chapter = {
       hint: "Didn't + base verbale, jamais didn't + saw.",
     },
   ],
+  videos: [
+    {
+      title: "Les verbes irréguliers - Anglais - 3e - Les Bons Profs",
+      youtubeId: "eigTezxsjPY",
+      channel: "Les Bons Profs",
+    },
+  ],
 };

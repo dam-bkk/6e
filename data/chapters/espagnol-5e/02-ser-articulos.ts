@@ -217,4 +217,11 @@ export const chapter: Chapter = {
       hint: "Le mot finit par une consonne : le pluriel n'est pas juste -s.",
     },
   ],
+  videos: [
+    {
+      title: "Ser et estar en ESPAGNOL : comprendre la différence en moins de 5 minutes ! ✅",
+      youtubeId: "EolcoufixY8",
+      channel: "Café Mexicain - Parle espagnol avec fluidité !",
+    },
+  ],
 };

@@ -225,4 +225,11 @@ export const chapter: Chapter = {
       hint: "L'antécédent « l'été » désigne-t-il un lieu, un objet ou un moment ?",
     },
   ],
+  videos: [
+    {
+      title: "Le groupe nominal et ses expansions - Français - Collège - Les Bons Profs",
+      youtubeId: "e_2Q53AjDoE",
+      channel: "Les Bons Profs",
+    },
+  ],
 };
