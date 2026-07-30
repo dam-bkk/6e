@@ -33,6 +33,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les indispensables à connaître",
+      figure: "en5-irregular-podium",
       paragraphs: [
         "Les verbes de mouvement et d'action : go → went (aller), come → came (venir), get → got (obtenir, devenir), take → took (prendre), give → gave (donner), put → put (mettre), run → ran (courir), leave → left (partir).",
         "Les verbes de la vie quotidienne : have → had (avoir), eat → ate (manger), drink → drank (boire), make → made (faire, fabriquer), do → did (faire), buy → bought (acheter), wear → wore (porter un vêtement), sleep → slept (dormir).",

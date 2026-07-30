@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Saluer : hola, buenos días…",
+      figure: "es-saludos",
       paragraphs: [
         "Pour dire bonjour, le mot passe-partout est « hola ». Il marche à toute heure, avec tout le monde. Attention : le h ne se prononce jamais en espagnol, on dit « ola ».",
         "Selon le moment de la journée, on précise : « buenos días » (le matin), « buenas tardes » (l'après-midi) et « buenas noches » (le soir, ou pour dire bonne nuit).",

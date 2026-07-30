@@ -52,6 +52,7 @@ export const chapter: Chapter = {
         "« Ils sont arrivés en retard. » → sont (être au présent) + arrivés.",
       ],
       tip: "Au passé composé, le verbe est TOUJOURS en deux mots. Si tu n'en vois qu'un, ce n'est pas un passé composé !",
+      figure: "fr-passe-compose",
     },
     {
       title: "Être ou avoir ? Le choix de l'auxiliaire",

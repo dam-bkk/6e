@@ -44,6 +44,7 @@ export const chapter: Chapter = {
         "He has breakfast at 7. → Il prend son petit-déjeuner à 7 h.",
       ],
       tip: "Avant d'écrire une phrase au présent simple, pose-toi LA question : « Le sujet, c'est he, she ou it ? » Si oui → -s au verbe. Fais-en un réflexe !",
+      figure: "en-third-s",
     },
     {
       title: "Questions avec do et does",

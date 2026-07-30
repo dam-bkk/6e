@@ -32,6 +32,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Coefficient et passage à l'unité",
+      figure: "mx-tableau-coefficient",
       paragraphs: [
         "Le coefficient de proportionnalité est le nombre par lequel on multiplie pour passer de la première grandeur à la seconde. Si 4 kg coûtent 10 €, le coefficient est 10 ÷ 4 = 2,5 : c'est le prix d'un kilogramme.",
         "Le passage à l'unité est la méthode reine en 5e : on calcule d'abord la valeur pour 1 (1 kg, 1 objet, 1 heure), puis on multiplie par la quantité voulue.",

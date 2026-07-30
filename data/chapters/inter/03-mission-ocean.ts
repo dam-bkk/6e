@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "Pour parcourir 60 km à 20 km/h, il faut 60 ÷ 20 = 3 h.",
       ],
       tip: "Vérifie toujours les unités : des km/h avec des heures donnent des kilomètres.",
+      figure: "int-ocean",
     },
     {
       title: "Ports, littoraux et conteneurs",

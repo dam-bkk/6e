@@ -49,6 +49,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Action en cours ou habitude ?",
+      figure: "en5-now-vs-everyday",
       paragraphs: [
         "Le présent en -ing décrit une action en train de se dérouler au moment où l'on parle : I'm eating = je suis en train de manger (là, maintenant).",
         "Le présent simple décrit une habitude, une généralité, quelque chose de vrai en permanence : I eat cereal for breakfast = je mange des céréales au petit-déjeuner (en général).",

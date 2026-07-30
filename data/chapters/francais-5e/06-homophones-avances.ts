@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Quel(s), quelle(s) ou qu'elle(s) ?",
+      figure: "fr5-homophones-quel",
       paragraphs: [
         "« Quel » (et ses formes quels, quelle, quelles) est un déterminant : il accompagne un nom et s'accorde avec lui. « Qu'elle(s) » est la contraction de « que + elle(s) » : il y a un pronom sujet caché.",
         "La substitution : remplace par « qu'il ». Si la phrase reste correcte, écris « qu'elle » (en deux morceaux). Sinon, c'est « quel/quelle ».",

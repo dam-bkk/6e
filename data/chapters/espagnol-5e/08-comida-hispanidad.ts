@@ -61,6 +61,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'espagnol dans le monde",
+      figure: "es-mundo-hispano",
       paragraphs: [
         "L'espagnol n'est pas parlé qu'en Espagne ! C'est la langue officielle d'une vingtaine de pays (21 avec la Guinée équatoriale), avec près de 500 millions de locuteurs natifs.",
         "La plupart se trouvent en Amérique latine : le Mexique (le pays hispanophone le plus peuplé), l'Argentine, la Colombie, le Pérou, le Chili, Cuba… et beaucoup d'autres.",

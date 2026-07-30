@@ -5,7 +5,11 @@ export type Subject =
   | "anglais"
   | "sciences"
   | "espagnol"
+  | "allemand"
+  | "italien"
   | "latin"
+  | "grec"
+  | "assr"
   | "inter";
 
 /**
@@ -58,7 +62,7 @@ export interface Exercise {
   hint?: string;
 }
 
-export type Grade = "6e" | "5e";
+export type Grade = "6e" | "5e" | "4e" | "3e" | "2nde" | "1re" | "term";
 
 /** Vidéo YouTube associée à un chapitre (id vérifié via oEmbed avant ajout) */
 export interface ChapterVideo {

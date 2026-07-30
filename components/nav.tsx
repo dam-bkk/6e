@@ -3,9 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { Home, Swords, Trophy, Flame, Star } from "lucide-react";
-import { ZesteLogo } from "@/components/logo";
+import { Home, Swords, Trophy, Flame, Star, Volume2, VolumeX } from "lucide-react";
+import { ZesteLogo, type Accessory } from "@/components/logo";
 import { useProgress } from "@/lib/progress";
+import { usePrefs } from "@/lib/prefs";
+import { setSoundEnabled, soundEnabled } from "@/lib/fx";
 
 const LINKS = [
   { href: "/", label: "Accueil", icon: Home },
@@ -16,6 +18,14 @@ const LINKS = [
 export function Nav() {
   const pathname = usePathname();
   const progress = useProgress();
+  const { avatar, grade } = usePrefs();
+  const [sound, setSound] = useState(true);
+  useEffect(() => {
+    setSound(soundEnabled());
+    const refresh = () => setSound(soundEnabled());
+    window.addEventListener("zeste-sound", refresh);
+    return () => window.removeEventListener("zeste-sound", refresh);
+  }, []);
 
   // Pop du compteur XP à chaque gain
   const [xpPop, setXpPop] = useState(false);
@@ -39,12 +49,12 @@ export function Nav() {
       <header className="sticky top-0 z-40 bg-cream/95 shadow-[0_2px_12px_rgba(45,45,63,0.08)] backdrop-blur">
         <div className="mx-auto flex h-16 w-full max-w-[1250px] items-center justify-between px-4 md:px-8">
           <Link href="/" className="flex items-center gap-2.5">
-            <ZesteLogo size={36} />
+            <ZesteLogo size={36} accessory={avatar as Accessory} />
             <span className="font-display text-2xl font-bold tracking-tight">
               Zeste
             </span>
             <span className="mt-1 rounded-full bg-donnees-tint px-2 py-0.5 text-xs font-bold text-donnees-strong">
-              6e
+              {grade}
             </span>
           </Link>
 
@@ -69,6 +79,14 @@ export function Nav() {
               <Star size={16} strokeWidth={2.5} />
               {progress.xp} XP
             </span>
+            <button
+              onClick={() => setSoundEnabled(!sound)}
+              className="rounded-full p-2 text-muted hover:bg-zest-soft hover:text-ink"
+              aria-label={sound ? "Couper le son" : "Activer le son"}
+              title={sound ? "Couper le son" : "Activer le son"}
+            >
+              {sound ? <Volume2 size={18} strokeWidth={2.5} /> : <VolumeX size={18} strokeWidth={2.5} />}
+            </button>
 
             {/* Liens desktop */}
             <nav className="ml-4 hidden items-center gap-1 md:flex">

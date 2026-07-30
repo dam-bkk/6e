@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "Le séisme du Japon en 2011 avait une magnitude d'environ 9 : l'un des plus puissants jamais enregistrés.",
       ],
       tip: "Pour ne plus confondre : le foyer est enfoui (comme le foyer d'une cheminée, au cœur de la maison), l'épicentre est en surface, « épi » comme épiderme, la surface de la peau.",
+      figure: "sx-seisme",
     },
     {
       title: "Les volcans : effusif ou explosif",

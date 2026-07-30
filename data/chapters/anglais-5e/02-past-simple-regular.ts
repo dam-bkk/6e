@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La formation : base verbale + -ed",
+      figure: "en5-ed-machine",
       paragraphs: [
         "Le prétérit (past simple) est LE temps du passé en anglais : il sert à raconter des actions terminées. Pour les verbes réguliers, la recette est simple : base verbale + -ed, et c'est la même forme pour toutes les personnes !",
         "Play → played, watch → watched, work → worked. Pas de -s à la 3e personne, pas d'exception selon le sujet : I played, she played, they played.",

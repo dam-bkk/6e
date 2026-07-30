@@ -30,6 +30,7 @@ export const chapter: Chapter = {
         "L'empire de Charlemagne parle latin et couvre une grande partie de l'Europe de l'Ouest : la France, l'Allemagne et l'Italie du Nord actuelles.",
       ],
       tip: "Pour ne pas les confondre : Byzance = l'Orient, le grec, Constantinople ; Charlemagne = l'Occident, le latin, Aix-la-Chapelle.",
+      figure: "hg5-empires-heritiers",
     },
     {
       title: "L'Empire byzantin de Justinien",

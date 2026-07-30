@@ -87,6 +87,7 @@ export const chapter: Chapter = {
         "He plays the guitar. → Il joue de la guitare.",
       ],
       tip: "PLAY = balle ou jeu, DO = arts martiaux et gym, GO = activités en -ing (go swimming, go skiing). Et pour les instruments : play THE guitar, avec the !",
+      figure: "en-play-do-go",
     },
   ],
   exercises: [

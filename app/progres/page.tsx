@@ -5,14 +5,16 @@ import { Flame, Star, CheckCircle2, Swords, Lock } from "lucide-react";
 import { chaptersFor } from "@/lib/chapters";
 import { BADGES } from "@/lib/badges";
 import { useProgress } from "@/lib/progress";
-import { usePrefs } from "@/lib/prefs";
+import { usePrefs, setAvatar } from "@/lib/prefs";
 import { SUBJECTS } from "@/lib/subjects";
 import { ChapterIcon } from "@/components/chapter-icon";
 import { ActivityCalendar } from "@/components/activity-calendar";
+import { ZesteLogo, type Accessory } from "@/components/logo";
+import { ACCESSORIES } from "@/lib/avatar";
 
 export default function ProgresPage() {
   const progress = useProgress();
-  const { grade, name } = usePrefs();
+  const { grade, name, avatar } = usePrefs();
 
   const visibleSubjects = SUBJECTS.filter((s) => !s.grades || s.grades.includes(grade)).map(
     (s) => ({ meta: s, chapters: chaptersFor(s.id, grade) })
@@ -92,6 +94,37 @@ export default function ProgresPage() {
                   </Link>
                 );
               })}
+            </div>
+          </div>
+
+          {/* Avatar personnalisable */}
+          <div className="card-pop flex items-center gap-4 p-4">
+            <ZesteLogo size={64} accessory={avatar as Accessory} />
+            <div className="flex-1">
+              <p className="font-display text-lg font-extrabold">Mon avatar</p>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {ACCESSORIES.map((a) => {
+                  const unlocked = progress.xp >= a.minXp;
+                  const active = avatar === a.id;
+                  return (
+                    <button
+                      key={a.id}
+                      onClick={() => unlocked && setAvatar(a.id)}
+                      disabled={!unlocked}
+                      title={unlocked ? a.label : `${a.label} — débloqué à ${a.minXp} XP`}
+                      className={`rounded-full px-3 py-1.5 text-xs font-extrabold transition-colors ${
+                        active
+                          ? "bg-ink text-white"
+                          : unlocked
+                            ? "bg-cream text-ink hover:bg-zest-soft"
+                            : "bg-line text-muted opacity-60"
+                      }`}
+                    >
+                      {unlocked ? a.label : `${a.label} · ${a.minXp} XP`}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           </div>
 

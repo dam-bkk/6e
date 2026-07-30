@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Domus ou insula : dis-moi où tu habites…",
+      figure: "lat-domus",
       paragraphs: [
         "À Rome, ton adresse dit tout de ta fortune. Les familles riches vivent dans une domus : une grande maison individuelle organisée autour de l'atrium, une cour intérieure dont le toit ouvert laisse la pluie tomber dans un bassin, l'impluvium. Au fond, un jardin à colonnades ; sur les murs, des fresques ; au sol, des mosaïques.",
         "La grande majorité des Romains, elle, s'entasse dans des insulae : des immeubles de rapport de plusieurs étages, souvent mal construits. Pas d'eau courante dans les étages, pas de cuisine digne de ce nom : on mange chaud dans les thermopolia, les « fast-foods » de la rue ! Les incendies et les effondrements y sont fréquents.",

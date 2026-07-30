@@ -32,6 +32,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Le champ lexical",
+      figure: "fr5-champ-lexical",
       paragraphs: [
         "Un champ lexical est l'ensemble des mots qui se rapportent à un même thème : noms, verbes, adjectifs, expressions.",
         "Repérer le champ lexical dominant d'un texte aide à comprendre son atmosphère : un texte truffé de mots de la peur crée une ambiance inquiétante, même sans le dire ouvertement.",

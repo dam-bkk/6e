@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "« Le film est long et ennuyeux. » → « était long », « et puis ennuyeux ».",
       ],
       tip: "a → avait ; est → était. Si le remplacement marche, pas d'accent et c'est un verbe. Sinon, c'est à ou et.",
+      figure: "fr-homophones-cles",
     },
     {
       title: "son / sont et on / ont",

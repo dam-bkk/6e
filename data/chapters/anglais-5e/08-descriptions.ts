@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Décrire le physique",
+      figure: "en5-describe-person",
       paragraphs: [
         "La taille et l'allure se décrivent avec be : He is tall (grand), short (petit), slim (mince). Pour l'âge apparent : young (jeune), old (âgé).",
         "Pour les cheveux et les yeux, l'anglais britannique préfère have got : She's got long curly hair (elle a les cheveux longs et bouclés), He's got blue eyes (il a les yeux bleus). Cheveux : long, short, straight (raides), curly (bouclés), wavy (ondulés), fair/blond (blonds), dark (bruns), red (roux).",

@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Le groupe nominal et son noyau",
+      figure: "fr5-expansions-nom",
       paragraphs: [
         "Un groupe nominal (GN) est construit autour d'un nom principal, appelé le nom noyau. Autour de lui gravitent le déterminant et, parfois, des expansions.",
         "Les expansions du nom apportent des précisions sur le noyau : couleur, matière, appartenance, action… On peut toujours les supprimer sans rendre la phrase incorrecte.",

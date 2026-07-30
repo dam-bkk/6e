@@ -30,6 +30,7 @@ export const chapter: Chapter = {
         "How many brothers have you got? → Combien de frères as-tu ?",
       ],
       tip: "Ne confonds pas where (où — pense à « here », ici, caché dedans) et who (qui). Et when = quand : les trois se ressemblent mais changent tout !",
+      figure: "en-question-words",
     },
     {
       title: "Questions avec be : l'inversion",

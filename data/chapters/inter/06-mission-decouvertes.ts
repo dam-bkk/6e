@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "1519-1522 : expédition de Magellan, achevée par Elcano — premier tour du monde.",
       ],
       tip: "Retiens le trio : 5 navires au départ, 1 seul à l'arrivée, 18 survivants.",
+      figure: "int-decouvertes",
     },
     {
       title: "Lire les cartes marines",

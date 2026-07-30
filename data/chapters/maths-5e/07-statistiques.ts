@@ -59,6 +59,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La moyenne",
+      figure: "mx-batons-moyenne",
       paragraphs: [
         "La moyenne d'une série se calcule en additionnant toutes les données, puis en divisant par l'effectif total. Elle résume la série en un seul nombre : la valeur qu'aurait chaque donnée si tout était réparti équitablement.",
         "En découverte : la moyenne pondérée. Quand des notes ont des coefficients, chaque note compte autant de fois que son coefficient. On multiplie chaque note par son coefficient, on additionne, puis on divise par la somme des coefficients.",

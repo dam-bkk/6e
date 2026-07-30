@@ -44,6 +44,7 @@ export const chapter: Chapter = {
         "Vélo électrique : énergie chimique de la batterie → énergie électrique → énergie cinétique de la roue.",
       ],
       tip: "Pour écrire une chaîne d'énergie, pars toujours de la source et termine par l'action utile, avec des flèches. Et pense à noter les pertes en chaleur : elles existent presque toujours.",
+      figure: "sx-chaine-energie",
     },
     {
       title: "Puissance et énergie consommée : W et kWh",

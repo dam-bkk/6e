@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Le comparatif : comparer deux éléments",
+      figure: "fr5-degres",
       paragraphs: [
         "Le comparatif compare deux éléments à l'aide d'un adjectif. Il a trois degrés : la supériorité (plus… que), l'égalité (aussi… que) et l'infériorité (moins… que).",
         "L'adjectif s'accorde normalement avec le nom qu'il qualifie : « Ces montagnes sont plus hautes que les collines. »",

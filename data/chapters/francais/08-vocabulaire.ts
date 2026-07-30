@@ -27,6 +27,7 @@ export const chapter: Chapter = {
         "Intrus : terrible (aucun rapport de sens avec la terre).",
       ],
       tip: "Pour vérifier qu'un mot appartient à une famille, cherche le lien de SENS avec le radical : « atterrir », c'est revenir sur terre ; « terrible », rien à voir.",
+      figure: "fr-famille-mots",
     },
     {
       title: "Préfixes et suffixes",

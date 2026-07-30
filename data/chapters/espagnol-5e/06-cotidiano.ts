@@ -47,6 +47,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Quelle heure est-il ?",
+      figure: "es-hora",
       paragraphs: [
         "Pour demander l'heure : ¿Qué hora es? Pour répondre, il y a une règle d'accord : es la una (il est une heure) mais son las dos, son las tres… (il est deux heures, trois heures…).",
         "Pourquoi ? Parce que una hora est singulier (es la…) et que dos horas, tres horas… sont pluriels (son las…).",

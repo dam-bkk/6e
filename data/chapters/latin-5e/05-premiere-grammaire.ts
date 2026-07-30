@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Une langue à cas : le mot change selon son rôle",
+      figure: "lat-declinaison",
       paragraphs: [
         "En français, c'est la place du mot qui indique son rôle : « Le chat voit le chien » et « Le chien voit le chat » ne racontent pas la même histoire ! En latin, c'est différent : c'est la terminaison du mot qui indique son rôle dans la phrase. Ces différentes formes s'appellent les cas.",
         "Cette année, tu découvres les deux cas essentiels : le nominatif, le cas du sujet (celui qui fait l'action), et l'accusatif, le cas du COD (ce qui subit l'action).",

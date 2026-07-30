@@ -54,6 +54,7 @@ export const chapter: Chapter = {
         "Pendant longtemps, les premiers Capétiens font sacrer leur fils aîné de leur vivant : une astuce efficace pour que la couronne reste dans la famille et devienne héréditaire.",
       ],
       tip: "Repère fondamental : 987, Hugues Capet devient roi et fonde la dynastie capétienne.",
+      figure: "hg5-pyramide-feodale",
     },
     {
       title: "Philippe Auguste et Saint Louis : le pouvoir royal s'affirme",

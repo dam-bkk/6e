@@ -81,6 +81,7 @@ export const chapter: Chapter = {
         "Court-circuiter une lampe avec un fil : la lampe s'éteint (le courant préfère le raccourci), et dans un circuit en série ses voisines brillent davantage.",
       ],
       tip: "Série = une seule boucle, tout le monde dans la même file. Dérivation = plusieurs boucles, chacun sa file. La maison est TOUJOURS en dérivation.",
+      figure: "sx-serie-derivation",
     },
   ],
   exercises: [

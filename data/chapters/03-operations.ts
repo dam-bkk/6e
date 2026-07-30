@@ -29,6 +29,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Poser une addition ou une soustraction de décimaux",
+      figure: "mx-addition-posee",
       paragraphs: [
         "Règle d'or : on aligne les virgules ! Ainsi, les unités sont sous les unités, les dixièmes sous les dixièmes, les centièmes sous les centièmes. Ensuite, on calcule comme avec des entiers, et la virgule du résultat se place dans l'alignement.",
         "Si les nombres n'ont pas autant de chiffres après la virgule, on peut compléter avec des zéros : pour calculer 15 − 6,35, on écrit 15,00 − 6,35.",

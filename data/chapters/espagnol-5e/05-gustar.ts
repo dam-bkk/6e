@@ -34,6 +34,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Me gusta ou me gustan ? LE piège",
+      figure: "es-gustar",
       paragraphs: [
         "C'est LE piège du chapitre : gustar s'accorde avec la chose aimée, pas avec la personne qui aime !",
         "Si la chose aimée est au singulier (ou si c'est un verbe), on dit me gusta. Si la chose aimée est au pluriel, on dit me gustan.",

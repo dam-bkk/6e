@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "L'égalité en droit a donc progressé par étapes, au fil des combats et des lois.",
       ],
       tip: "Distingue bien : égalité EN DROIT (la loi est la même pour tous, c'est un principe) et égalité DANS LES FAITS (les situations réelles, où des écarts existent encore). L'EMC s'intéresse aux deux.",
+      figure: "hg5-balance-egalite",
     },
     {
       title: "Les discriminations : les reconnaître, y réagir",

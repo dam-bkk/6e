@@ -42,6 +42,7 @@ export const chapter: Chapter = {
         "Repas déséquilibré : frites, soda, barre chocolatée. Beaucoup d'énergie, presque aucun légume, aucun produit laitier, et une boisson sucrée à la place de l'eau.",
       ],
       tip: "Un repas équilibré tient dans une phrase : un légume, un féculent, une source de protéines, un produit laitier, un fruit, et de l'eau.",
+      figure: "sx-familles-aliments",
     },
     {
       title: "D'où viennent les aliments",

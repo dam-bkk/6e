@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "En quelques décennies, des ports se sont retrouvés en plein désert, à des dizaines de kilomètres de l'eau.",
       ],
       tip: "Retiens l'entonnoir de l'eau : 97 % salée, environ 3 % douce, et seulement une petite fraction de cette eau douce est facilement accessible. « Planète bleue » ne veut pas dire « eau à volonté » !",
+      figure: "hg5-eau-repartition",
     },
     {
       title: "L'eau, source de tensions",

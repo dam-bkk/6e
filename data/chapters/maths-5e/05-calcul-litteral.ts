@@ -69,6 +69,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Distribuer et tester une égalité",
+      figure: "mx-balance-egalite",
       paragraphs: [
         "La distributivité permet de supprimer une parenthèse précédée d'un facteur : k(a + b) = ka + kb, et k(a − b) = ka − kb. Le facteur k « distribue » sa multiplication à chaque terme de la parenthèse.",
         "Exemple : 3(x + 5) = 3x + 15. Attention, le facteur multiplie bien LES DEUX termes : écrire 3x + 5 est l'erreur classique.",

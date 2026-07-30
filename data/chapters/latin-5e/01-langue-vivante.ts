@@ -60,6 +60,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Le français, fils du latin",
+      figure: "lat-langues-romanes",
       paragraphs: [
         "Quand les Romains ont conquis la Gaule (victoire de Jules César en 52 av. J.-C.), les Gaulois se sont mis peu à peu à parler latin. Ce latin parlé, déformé au fil des siècles, est devenu… le français. Environ 80 % des mots du français viennent du latin !",
         "Le latin ne s'est pas transformé qu'en français : il a donné naissance à toute une famille de langues, les langues romanes : le français, l'espagnol, l'italien, le portugais, le roumain, et d'autres encore comme le catalan ou l'occitan. Ce sont des langues sœurs.",

@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "Air expiré : environ 16 % de dioxygène, 4 % de dioxyde de carbone. Ton corps a prélevé de l'O2 et rejeté du CO2.",
       ],
       tip: "Retiens le sens des flèches : O2 entre, CO2 sort. Et l'air n'est pas du dioxygène pur : il en contient environ un cinquième.",
+      figure: "sx-echanges-gazeux",
     },
     {
       title: "Respirer dans l'eau, respirer dans l'air",

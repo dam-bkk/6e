@@ -30,6 +30,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Le tableau de proportionnalité et son coefficient",
+      figure: "mx-tableau-proportion",
       paragraphs: [
         "On range souvent une situation de proportionnalité dans un tableau à deux lignes. S'il y a proportionnalité, on passe de la première ligne à la seconde en multipliant toujours par le MÊME nombre : le coefficient de proportionnalité.",
         "Ce coefficient a souvent un sens concret : si on passe du nombre de kilos au prix en multipliant par 3, c'est que le kilo coûte 3 €.",

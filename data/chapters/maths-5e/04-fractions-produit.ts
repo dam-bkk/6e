@@ -31,6 +31,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Multiplier deux fractions",
+      figure: "mx-fractions-aire",
       paragraphs: [
         "La règle est d'une simplicité désarmante : on multiplie les numérateurs entre eux, et les dénominateurs entre eux.",
         "Ainsi 2/5 × 3/7 = (2 × 3)/(5 × 7) = 6/35. Pas besoin de mettre au même dénominateur : cette contrainte ne concerne que l'addition et la soustraction !",

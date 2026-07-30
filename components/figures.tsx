@@ -8,12 +8,24 @@ import { FIGURES_EXTRA as SCIENCES } from "@/components/figures-sciences";
 import { FIGURES_EXTRA as HISTOIRE_GEO } from "@/components/figures-histoire-geo";
 import { FIGURES_EXTRA as MATHS5E } from "@/components/figures-maths5e";
 import { FIGURES_EXTRA as LANGUES } from "@/components/figures-langues";
+import { FIGURES_EXTRA as MATHS_EXTRA } from "@/components/figures-maths-extra";
+import { FIGURES_EXTRA as LANGUES_5E } from "@/components/figures-langues-5e";
+import { FIGURES_EXTRA as ESPAGNOL_LATIN } from "@/components/figures-espagnol-latin";
+import { FIGURES_EXTRA as HG5E } from "@/components/figures-hg5e";
+import { FIGURES_EXTRA as SCIENCES_EXTRA } from "@/components/figures-sciences-extra";
+import { FIGURES_EXTRA as INTER } from "@/components/figures-inter";
 
 const EXTRA_CATALOGS: Record<string, { title: string; svg: React.ReactNode }> = {
   ...SCIENCES,
   ...HISTOIRE_GEO,
   ...MATHS5E,
   ...LANGUES,
+  ...MATHS_EXTRA,
+  ...LANGUES_5E,
+  ...ESPAGNOL_LATIN,
+  ...HG5E,
+  ...SCIENCES_EXTRA,
+  ...INTER,
 };
 
 const INK = "#2a2440";

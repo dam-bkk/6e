@@ -70,6 +70,7 @@ export const chapter: Chapter = {
         "Rapproche ta main de la lampe : son ombre sur le mur grandit. Éloigne-la de la lampe : l'ombre rétrécit.",
       ],
       tip: "L'ombre n'est pas une chose noire qui se déplace : c'est simplement un endroit où la lumière n'arrive pas. Et l'ombre portée est toujours du côté opposé à la source.",
+      figure: "sx-ombre",
     },
     {
       title: "Éclipses, et la vitesse de la lumière",

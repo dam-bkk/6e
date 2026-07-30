@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Phrase simple, phrase complexe",
+      figure: "fr5-phrase-complexe",
       paragraphs: [
         "Une phrase simple contient un seul verbe conjugué. Une phrase complexe en contient au moins deux. Pour le savoir, il suffit donc de compter les verbes conjugués !",
         "Chaque verbe conjugué est le cœur d'une proposition : une phrase complexe contient autant de propositions que de verbes conjugués.",

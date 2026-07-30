@@ -27,6 +27,7 @@ export const chapter: Chapter = {
         "• partir (nous partons, pas « partissons ») → 3e groupe • aller → 3e groupe.",
       ],
       tip: "Pour distinguer 2e et 3e groupe, teste avec « nous » : nous finissons (2e groupe), mais nous partons (3e groupe). Le « -issons » est la signature du 2e groupe.",
+      figure: "fr-trois-groupes",
     },
     {
       title: "Les terminaisons du présent",

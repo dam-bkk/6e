@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Adjectifs courts : -er... than",
+      figure: "en5-comparative-stairs",
       paragraphs: [
         "Pour comparer deux choses avec un adjectif court (1 syllabe, ou 2 syllabes terminées en -y), on ajoute -er à l'adjectif, suivi de than (que) : tall → taller than, old → older than.",
         "Règles d'orthographe familières : le -e final reste seul (large → larger), consonne-voyelle-consonne double la consonne (big → bigger, hot → hotter), et le -y devient -ier (happy → happier, easy → easier).",

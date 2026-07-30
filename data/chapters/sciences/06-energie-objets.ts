@@ -71,6 +71,7 @@ export const chapter: Chapter = {
         "Si deux lampes sont branchées l'une après l'autre dans la même boucle et qu'on en dévisse une, l'autre s'éteint aussi : la boucle est interrompue.",
       ],
       tip: "Une seule règle explique presque tous les exercices : pas de boucle complète, pas de courant.",
+      figure: "sx-circuit-simple",
     },
     {
       title: "L'objet technique et son évolution",

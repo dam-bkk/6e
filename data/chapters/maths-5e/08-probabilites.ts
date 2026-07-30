@@ -44,6 +44,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'équiprobabilité",
+      figure: "mx-roue-secteurs",
       paragraphs: [
         "Il y a équiprobabilité quand toutes les issues ont exactement les mêmes chances de se produire : dé équilibré, pièce équilibrée, boules indiscernables au toucher…",
         "Dans ce cas, la probabilité d'un événement se calcule ainsi : nombre d'issues favorables ÷ nombre d'issues possibles.",

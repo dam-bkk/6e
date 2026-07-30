@@ -2,6 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import { Check, X, Lightbulb, ArrowRight, RotateCcw } from "lucide-react";
+import { playSuccess, playError } from "@/lib/fx";
 
 export interface PlayerItem {
   id: string;
@@ -64,6 +65,7 @@ export function Player({
   onItemResult,
   onFinish,
   renderEnd,
+  exam = false,
 }: {
   items: PlayerItem[];
   /** Appelé à CHAQUE validation (une seule par question) */
@@ -72,6 +74,11 @@ export function Player({
   onFinish?: (score: number, total: number) => void;
   /** Écran de fin, reçoit le score */
   renderEnd: (score: number, total: number, replay: () => void) => React.ReactNode;
+  /**
+   * Mode contrôle : pas d'indice, pas de corrigé ni de son entre les questions,
+   * enchaînement automatique — les corrections se découvrent à la fin.
+   */
+  exam?: boolean;
 }) {
   const [idx, setIdx] = useState(0);
   const [status, setStatus] = useState<Status>("idle");
@@ -86,9 +93,24 @@ export function Player({
   const progress = useMemo(() => (done ? 1 : idx / items.length), [idx, items.length, done]);
 
   function validate(correct: boolean) {
-    setStatus(correct ? "correct" : "wrong");
-    if (correct) setScore((s) => s + 1);
     onItemResult?.(item, correct);
+    if (correct) setScore((s) => s + 1);
+    if (exam) {
+      // enchaîne sans feedback : l'élève est en conditions de contrôle
+      const newScore = score + (correct ? 1 : 0);
+      if (idx + 1 >= items.length) {
+        onFinish?.(newScore, items.length);
+        setDone(true);
+      } else {
+        setIdx(idx + 1);
+        setPicked(null);
+        setTyped("");
+      }
+      return;
+    }
+    setStatus(correct ? "correct" : "wrong");
+    if (correct) playSuccess();
+    else playError();
   }
 
   function next() {
@@ -228,7 +250,7 @@ export function Player({
         )}
 
         {/* Indice */}
-        {!answered && item.hint && (
+        {!answered && !exam && item.hint && (
           <div className="mt-4">
             {showHint ? (
               <p className="flex items-start gap-2 rounded-2xl bg-sun-tint px-4 py-3 text-sm font-bold text-sun-strong rise">

@@ -33,6 +33,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Demander et indiquer le chemin",
+      figure: "en5-directions-map",
       paragraphs: [
         "Pour demander poliment son chemin : Excuse me, where is the station, please? ou Excuse me, how do I get to the museum? (comment vais-je à... ?).",
         "Pour répondre : go straight on (allez tout droit), turn left (tournez à gauche), turn right (tournez à droite), take the first street on the left (prenez la première rue à gauche), cross the road (traversez la rue), go past the church (passez devant l'église).",

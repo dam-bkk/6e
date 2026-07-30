@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "Ils sont organisés en l'honneur de Zeus, tous les 4 ans.",
       ],
       tip: "Une cité grecque, ce n'est pas qu'une ville : c'est un petit État avec sa ville, ses campagnes et ses propres lois.",
+      figure: "int-olympie",
     },
     {
       title: "Des Jeux antiques aux Jeux modernes",

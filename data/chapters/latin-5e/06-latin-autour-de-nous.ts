@@ -63,6 +63,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les chiffres romains : règles et pièges",
+      figure: "lat-chiffres-romains",
       paragraphs: [
         "Sept lettres suffisent aux Romains pour écrire tous les nombres : I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000.",
         "Règle de base : on additionne les valeurs de gauche à droite (VI = 5 + 1 = 6 ; XV = 15 ; MMXXVI = 2026). Mais attention au piège : quand un chiffre plus petit est placé AVANT un plus grand, on le soustrait ! IV = 5 − 1 = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900.",

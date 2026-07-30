@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "Hiéroglyphes déchiffrés par Champollion en 1822.",
       ],
       tip: "Avec les dates « av. J.-C. », on compte à rebours : plus le nombre est grand, plus l'événement est ancien.",
+      figure: "int-pyramides",
     },
     {
       title: "Les nombres du chantier",

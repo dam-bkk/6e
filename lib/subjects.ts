@@ -88,6 +88,30 @@ export const SUBJECTS: SubjectMeta[] = [
     optional: true,
   },
   {
+    id: "allemand",
+    label: "Allemand",
+    tagline: "Hallo! LV2 dès la 5e",
+    icon: "Castle",
+    from: "#4F46E5",
+    to: "#4338CA",
+    deep: "#3730A3",
+    tint: "#E9E7FD",
+    grades: ["5e", "4e", "3e"],
+    optional: true,
+  },
+  {
+    id: "italien",
+    label: "Italien",
+    tagline: "Ciao! LV2 dès la 5e",
+    icon: "Pizza",
+    from: "#0F766E",
+    to: "#115E59",
+    deep: "#134E4A",
+    tint: "#DCF2EF",
+    grades: ["5e", "4e", "3e"],
+    optional: true,
+  },
+  {
     id: "latin",
     label: "Latin",
     tagline: "Culture antique et langue latine",
@@ -96,8 +120,31 @@ export const SUBJECTS: SubjectMeta[] = [
     to: "#6F5430",
     deep: "#54401F",
     tint: "#F5EDDE",
-    grades: ["5e"],
+    grades: ["5e", "4e", "3e"],
     optional: true,
+  },
+  {
+    id: "grec",
+    label: "Grec ancien",
+    tagline: "L'autre langue de l'Antiquité",
+    icon: "Landmark",
+    from: "#0369A1",
+    to: "#075985",
+    deep: "#0C4A6E",
+    tint: "#DFF1FB",
+    grades: ["3e"],
+    optional: true,
+  },
+  {
+    id: "assr",
+    label: "ASSR",
+    tagline: "Sécurité routière : l'attestation obligatoire",
+    icon: "TrafficCone",
+    from: "#B91C1C",
+    to: "#991B1B",
+    deep: "#7F1D1D",
+    tint: "#FDE5E5",
+    grades: ["5e", "3e"],
   },
   {
     id: "inter",
@@ -115,4 +162,17 @@ export function getSubjectMeta(id: Subject): SubjectMeta {
   return SUBJECTS.find((s) => s.id === id) ?? SUBJECTS[0];
 }
 
-export const GRADES: Grade[] = ["6e", "5e"];
+export const GRADES: Grade[] = ["6e", "5e", "4e", "3e", "2nde", "1re", "term"];
+
+export const GRADE_LABELS: Record<Grade, string> = {
+  "6e": "6e",
+  "5e": "5e",
+  "4e": "4e",
+  "3e": "3e",
+  "2nde": "2nde",
+  "1re": "1re",
+  term: "Term",
+};
+
+/** Niveaux dont le contenu est déjà publié */
+export const GRADES_READY: Grade[] = ["6e", "5e"];

@@ -48,6 +48,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Sept rois, sept collines",
+      figure: "lat-sept-collines",
       paragraphs: [
         "Selon la tradition, Rome est d'abord gouvernée par des rois : sept rois se succèdent de 753 à 509 av. J.-C. Le premier est Romulus ; parmi les suivants, on retient Numa Pompilius, roi sage qui organise la religion romaine, et le dernier, Tarquin le Superbe, un tyran détesté.",
         "La ville, elle, s'étend sur sept collines au bord du Tibre. Les plus célèbres : le Palatin (la colline de la fondation, où les riches Romains bâtiront leurs palais), le Capitole (la colline des grands temples, dont celui de Jupiter) et l'Aventin. Les quatre autres sont le Quirinal, le Viminal, l'Esquilin et le Caelius.",

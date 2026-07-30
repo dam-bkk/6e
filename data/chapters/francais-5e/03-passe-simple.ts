@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Un temps du récit écrit",
+      figure: "fr5-passe-simple-series",
       paragraphs: [
         "Le passé simple est le temps des actions principales dans un récit écrit au passé : les événements qui font avancer l'histoire, souvent brefs et achevés.",
         "On le rencontre surtout à l'écrit, dans les romans et les contes. À l'oral, il est presque toujours remplacé par le passé composé.",

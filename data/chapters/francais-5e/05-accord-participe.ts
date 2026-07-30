@@ -70,6 +70,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La méthode en trois questions",
+      figure: "fr5-accord-participe",
       paragraphs: [
         "Question 1 : est-ce un infinitif ? (test « prendre ») → -er, terminé. Question 2 : quel auxiliaire ? Être → accord avec le sujet. Question 3 : avoir → pas d'accord avec le sujet ; vérifie seulement si un COD est placé avant.",
         "Avec cette méthode, tu traites 100 % des cas du programme de 5e sans hésiter.",

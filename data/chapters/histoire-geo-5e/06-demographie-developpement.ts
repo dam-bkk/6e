@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "À l'inverse, le Japon perd des habitants chaque année : sa population vieillit et les naissances y sont peu nombreuses.",
       ],
       tip: "Trois chiffres à retenir : 1 milliard vers 1800, 8 milliards en 2022, environ 10 milliards attendus à la fin du siècle. La croissance continue, mais elle ralentit.",
+      figure: "hg5-croissance-demo",
     },
     {
       title: "La transition démographique",

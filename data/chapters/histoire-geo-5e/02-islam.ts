@@ -65,6 +65,7 @@ export const chapter: Chapter = {
         "Vers 750, l'empire musulman est bien plus vaste que l'ancien Empire romain : il s'étend sur trois continents, de l'Espagne à l'Asie centrale.",
       ],
       tip: "Deux dynasties, deux capitales : Omeyyades = Damas ; Abbassides = Bagdad.",
+      figure: "hg5-frise-islam",
     },
     {
       title: "Une brillante civilisation",

@@ -30,6 +30,7 @@ export const chapter: Chapter = {
         "Dans une seigneurie, un paysan peut devoir : plusieurs jours de corvée pour labourer la réserve, une partie de sa récolte comme redevance, et une taxe chaque fois qu'il fait moudre son grain au moulin du seigneur.",
       ],
       tip: "Réserve = la part du seigneur ; tenures = les terres confiées aux paysans contre redevances et corvées.",
+      figure: "hg5-seigneurie",
     },
     {
       title: "La vie des paysans",

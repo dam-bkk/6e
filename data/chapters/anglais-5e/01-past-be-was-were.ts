@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Was ou were ? Le passé du verbe be",
+      figure: "en5-was-were",
       paragraphs: [
         "Au présent, le verbe be a trois formes : am, is, are. Au passé, il n'en garde que deux : was et were. C'est le seul verbe anglais qui change selon la personne au passé, donc autant bien le connaître !",
         "On utilise was avec I, he, she, it (les personnes du singulier, sauf you). On utilise were avec you, we, they. Retiens : you prend toujours were, même quand on parle à une seule personne.",

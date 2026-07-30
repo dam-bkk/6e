@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "Ne confonds pas avec l'adoubement, la cérémonie qui fait d'un jeune homme un chevalier.",
       ],
       tip: "Fidélité contre fief : l'échange de l'hommage tient en trois mots.",
+      figure: "int-chateau",
     },
     {
       title: "Les plans du château",

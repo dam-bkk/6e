@@ -34,6 +34,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Le grand tableau des dieux",
+      figure: "lat-olympe",
       paragraphs: [
         "Voici les correspondances essentielles à connaître. Jupiter, roi des dieux et maître de la foudre, correspond au Zeus des Grecs. Sa femme Junon (Héra chez les Grecs) protège le mariage. Neptune (Poséidon) règne sur la mer, et Pluton (Hadès) sur le monde des morts.",
         "Vénus (Aphrodite) est la déesse de l'amour et de la beauté ; Mars (Arès), le dieu de la guerre, particulièrement honoré à Rome puisqu'il est le père de Romulus. Minerve (Athéna) veille sur la sagesse et les artisans, Mercure (Hermès) sur les voyageurs, les commerçants… et les voleurs !",

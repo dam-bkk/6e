@@ -32,6 +32,7 @@ export const chapter: Chapter = {
         "Le 12 octobre 1492, une île des Caraïbes est enfin en vue : c'est la « découverte » de l'Amérique.",
       ],
       tip: "Retiens le trio de dates : 1492 Colomb traverse l'Atlantique, 1498 Vasco de Gama atteint l'Inde, 1519-1522 le tour du monde de Magellan.",
+      figure: "hg5-grandes-decouvertes",
     },
     {
       title: "Les premiers empires coloniaux et leurs violences",

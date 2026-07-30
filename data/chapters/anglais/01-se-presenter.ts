@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "Goodbye! See you tomorrow! → Au revoir ! À demain !",
       ],
       tip: "Good night = bonne nuit (au coucher seulement). Le soir, pour saluer quelqu'un, dis good evening.",
+      figure: "en-presentation",
     },
     {
       title: "Dire son nom et son âge",

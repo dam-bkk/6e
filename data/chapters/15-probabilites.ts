@@ -16,6 +16,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Mesurer la chance",
+      figure: "mx-echelle-proba",
       paragraphs: [
         "Quand on lance une pièce, on ne sait pas si elle tombera sur pile ou sur face : c'est le hasard. Mais on peut mesurer la chance que quelque chose arrive : c'est la probabilité.",
         "Une probabilité est un nombre entre 0 et 1. Une probabilité de 0, c'est impossible (obtenir 7 avec un dé classique). Une probabilité de 1, c'est certain (obtenir un nombre entre 1 et 6). Entre les deux, plus la probabilité est proche de 1, plus c'est probable.",

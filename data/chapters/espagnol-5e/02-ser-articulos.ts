@@ -49,6 +49,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Ser ou estar ? La règle simple",
+      figure: "es-ser-estar",
       paragraphs: [
         "Version simple pour débuter : SER = ce qu'on est vraiment, ce qui ne change pas (identité, nationalité, caractère). ESTAR = où l'on est et comment on va en ce moment (lieu, état passager).",
         "Compare : « Soy alegre » (je suis quelqu'un de joyeux, c'est mon caractère) et « Estoy triste » (je suis triste aujourd'hui, ça passera).",

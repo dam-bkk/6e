@@ -61,6 +61,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Will ou be going to ? Le match",
+      figure: "en5-will-goingto",
       paragraphs: [
         "Résumons le duel. Will : prédiction générale (I think it will rain), décision spontanée (I'll help you!), promesse (I will always be there).",
         "Be going to : projet déjà décidé (I'm going to buy a new bike), intention (I'm going to work harder), événement imminent avec indices (It's going to rain, look at the clouds).",

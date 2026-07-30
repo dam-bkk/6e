@@ -26,6 +26,14 @@ export interface DayActivity {
   xp: number;
 }
 
+/** Répétition espacée : un exercice raté revient à J+1, puis J+3, puis J+7 */
+export interface ReviewItem {
+  /** date (YYYY-MM-DD) à partir de laquelle l'exercice est « à revoir » */
+  due: string;
+  /** 0 → J+1, 1 → J+3, 2 → J+7 ; réussi au palier 2 → sorti de la file */
+  step: number;
+}
+
 export interface Progress {
   xp: number;
   exercises: Record<string, ExerciseRecord>;
@@ -33,6 +41,8 @@ export interface Progress {
   dailies: Record<string, DailyRecord>;
   /** clé = YYYY-MM-DD — journal par jour */
   activity: Record<string, DayActivity>;
+  /** file de révision espacée, clé = id d'exercice */
+  review: Record<string, ReviewItem>;
   streak: { current: number; best: number; lastDate: string | null };
   badges: string[];
 }
@@ -44,6 +54,7 @@ const EMPTY: Progress = {
   exercises: {},
   dailies: {},
   activity: {},
+  review: {},
   streak: { current: 0, best: 0, lastDate: null },
   badges: [],
 };
@@ -65,6 +76,7 @@ function load(): Progress {
       ...EMPTY,
       ...p,
       activity: p.activity ?? {},
+      review: p.review ?? {},
       streak: { ...EMPTY.streak, ...p.streak },
     };
   } catch {
@@ -113,6 +125,42 @@ function bumpActivity(
   };
 }
 
+/** Intervalles de la répétition espacée, en jours */
+const REVIEW_STEPS = [1, 3, 7];
+
+function addDays(base: string, days: number): string {
+  const d = new Date(base + "T12:00:00");
+  d.setDate(d.getDate() + days);
+  return todayKey(d);
+}
+
+/** Met à jour la file de révision selon le résultat du jour. */
+function updateReview(p: Progress, exId: string, correct: boolean): Progress {
+  const today = todayKey();
+  const item = p.review[exId];
+  const review = { ...p.review };
+  if (!correct) {
+    // raté (nouveau ou en révision) : retour au premier palier, à revoir demain
+    review[exId] = { due: addDays(today, REVIEW_STEPS[0]), step: 0 };
+  } else if (item) {
+    if (item.due > today) return p; // réussi en avance : on ne change rien
+    const nextStep = item.step + 1;
+    if (nextStep >= REVIEW_STEPS.length) delete review[exId];
+    else review[exId] = { due: addDays(today, REVIEW_STEPS[nextStep]), step: nextStep };
+  } else {
+    return p; // réussi du premier coup : pas de révision nécessaire
+  }
+  return { ...p, review };
+}
+
+/** Ids des exercices « à revoir » aujourd'hui */
+export function dueReviews(p: Progress): string[] {
+  const today = todayKey();
+  return Object.entries(p.review)
+    .filter(([, r]) => r.due <= today)
+    .map(([id]) => id);
+}
+
 export function recordExercise(exId: string, correct: boolean, xpGain: number): Progress {
   let p = load();
   const prev = p.exercises[exId];
@@ -131,6 +179,7 @@ export function recordExercise(exId: string, correct: boolean, xpGain: number): 
     // pas de re-farm : un exercice déjà réussi ne redonne pas d'XP
     xp: p.xp + gained,
   };
+  p = updateReview(p, exId, correct);
   p = bumpActivity(p, { ex: 1, ok: correct ? 1 : 0, xp: gained });
   p = touchStreak(p);
   save(p);

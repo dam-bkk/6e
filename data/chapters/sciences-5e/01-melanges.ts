@@ -42,6 +42,7 @@ export const chapter: Chapter = {
         "À 20 °C, on peut dissoudre au maximum environ 36 g de sel dans 100 g d'eau : au-delà, la solution est saturée.",
       ],
       tip: "Ne dis jamais que le sucre « fond » dans l'eau : il se dissout. Fondre, c'est passer de solide à liquide sous l'effet de la chaleur (comme un glaçon), sans avoir besoin d'un autre liquide.",
+      figure: "sx-dissolution",
     },
     {
       title: "La masse se conserve",

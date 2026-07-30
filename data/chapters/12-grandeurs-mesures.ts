@@ -16,6 +16,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Les unités de longueur",
+      figure: "mx-conversion-longueurs",
       paragraphs: [
         "L'unité principale de longueur est le mètre (m). Pour mesurer de grandes distances, on utilise le kilomètre (km) ; pour de petites longueurs, le centimètre (cm) ou le millimètre (mm).",
         "Les unités se suivent dans cet ordre : km, hm, dam, m, dm, cm, mm. D'une unité à sa voisine de droite, on multiplie par 10. Pour convertir, on peut utiliser un tableau : on place un chiffre par colonne, et on complète avec des zéros jusqu'à l'unité demandée.",

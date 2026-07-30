@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Trois groupes : -ar, -er, -ir",
+      figure: "es-terminaisons",
       paragraphs: [
         "En espagnol, tous les verbes à l'infinitif se terminent par -ar, -er ou -ir. C'est la terminaison qui indique le groupe : hablar (parler), comer (manger), vivir (vivre).",
         "Pour conjuguer un verbe régulier, on enlève la terminaison de l'infinitif (le radical reste : habl-, com-, viv-) et on ajoute les terminaisons du groupe.",

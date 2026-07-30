@@ -31,6 +31,7 @@ export const chapter: Chapter = {
         "British people love fish and chips. → Les Britanniques adorent le fish and chips.",
       ],
       tip: "On dit have breakfast, have lunch, have dinner — sans article : pas de « have THE breakfast ». Et chips = frites en anglais britannique (les chips de paquet, ce sont les crisps !).",
+      figure: "en-meals",
     },
     {
       title: "J'aime, je n'aime pas : parler de ses goûts",

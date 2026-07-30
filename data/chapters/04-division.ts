@@ -17,6 +17,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La division euclidienne",
+      figure: "mx-division-posee",
       paragraphs: [
         "Faire la division euclidienne de 47 par 6, c'est chercher combien de fois 6 « rentre » dans 47, sans dépasser. On trouve 7 fois (6 × 7 = 42) et il reste 5.",
         "On résume tout par une égalité : dividende = diviseur × quotient + reste. Ici : 47 = 6 × 7 + 5. Règle essentielle : le reste doit toujours être strictement plus petit que le diviseur, sinon le quotient peut encore grandir !",

@@ -28,6 +28,7 @@ export const chapter: Chapter = {
         "Climat : « À Lyon, la température moyenne de janvier est d'environ 4 °C. »",
       ],
       tip: "Météo = un instantané. Climat = une moyenne sur au moins 30 ans.",
+      figure: "int-climat",
     },
     {
       title: "Lire les relevés",

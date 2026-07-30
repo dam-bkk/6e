@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La familia : le vocabulaire",
+      figure: "es-familia",
       paragraphs: [
         "La famille proche : el padre (le père), la madre (la mère), los padres (les parents — attention, pas « les pères » !), el hermano (le frère), la hermana (la sœur), los hermanos (les frères et sœurs).",
         "Les grands-parents : el abuelo, la abuela, los abuelos. Les autres : el tío / la tía (l'oncle / la tante), el primo / la prima (le cousin / la cousine), el hijo / la hija (le fils / la fille).",

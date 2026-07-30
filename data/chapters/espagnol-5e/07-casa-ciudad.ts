@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Les pièces de la maison",
+      figure: "es-casa",
       paragraphs: [
         "La casa (la maison) ou el piso (l'appartement) se composent de plusieurs pièces : la cocina (la cuisine), el salón (le salon), el dormitorio ou la habitación (la chambre), el cuarto de baño (la salle de bains), el jardín (le jardin).",
         "Quelques meubles utiles : la cama (le lit), la mesa (la table), la silla (la chaise), el armario (l'armoire), la lámpara (la lampe).",

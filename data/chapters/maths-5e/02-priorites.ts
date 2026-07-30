@@ -43,6 +43,7 @@ export const chapter: Chapter = {
     },
     {
       title: "× et ÷ avant + et −",
+      figure: "mx-pyramide-priorites",
       paragraphs: [
         "Règle numéro 2 : sans parenthèses, les multiplications et les divisions sont prioritaires sur les additions et les soustractions.",
         "Entre opérations de même priorité (par exemple une suite de + et de −, ou une suite de × et de ÷), on calcule de gauche à droite.",

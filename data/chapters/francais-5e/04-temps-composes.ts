@@ -58,6 +58,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'antériorité : le rôle des temps composés",
+      figure: "fr5-anteriorite",
       paragraphs: [
         "Un temps composé exprime une action antérieure, c'est-à-dire terminée AVANT une autre action. Chaque temps composé est le partenaire d'un temps simple.",
         "Le plus-que-parfait marque une action passée avant une autre action passée : « Il avait fini ses devoirs quand je suis arrivé. » Le futur antérieur marque une action qui sera terminée avant une autre action future : « Quand tu auras fini, tu sortiras. »",
