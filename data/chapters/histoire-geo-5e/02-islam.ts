@@ -234,4 +234,7 @@ export const chapter: Chapter = {
         "Il y a bien eu des affrontements (croisades, reconquête de l'Espagne), mais aussi des échanges permanents : commerce en Méditerranée, traductions de textes savants, circulation de techniques et de produits (papier, sucre, chiffres dits « arabes »). Les mondes chrétien et musulman se sont combattus ET beaucoup influencés. Repère à retenir : contacts = guerres, commerce et savoirs à la fois.",
     },
   ],
+  videos: [
+    { title: "Le monde de l'Islam - Histoire-Géographie - Cinquième - Les Bons Profs", youtubeId: "BaW1TnRliMc", channel: "Les Bons Profs" },
+  ],
 };

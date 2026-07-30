@@ -247,4 +247,7 @@ export const chapter: Chapter = {
       hint: "Que signifie « placer l'être humain au centre de la réflexion » ?",
     },
   ],
+  videos: [
+    { title: "Les 4 grandes expéditions maritimes - Nota Bene #14", youtubeId: "0JAIom9NSoo", channel: "Nota Bene" },
+  ],
 };

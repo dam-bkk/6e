@@ -238,4 +238,7 @@ export const chapter: Chapter = {
       hint: "C'est aussi la ville où, selon la tradition, Clovis a été baptisé.",
     },
   ],
+  videos: [
+    { title: "L'affirmation de l'État monarchique en France - Histoire-Géographie - Cinquième - Les Bons Profs", youtubeId: "x25t5q6Tf_o", channel: "Les Bons Profs" },
+  ],
 };

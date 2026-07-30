@@ -246,4 +246,7 @@ export const chapter: Chapter = {
       hint: "Que se passe-t-il quand la natalité baisse partout dans le monde ?",
     },
   ],
+  videos: [
+    { title: "La croissance démographique et ses effets - Histoire-Géographie - Cinquième - Les Bons Profs", youtubeId: "9wIOuE-YXUM", channel: "Les Bons Profs" },
+  ],
 };

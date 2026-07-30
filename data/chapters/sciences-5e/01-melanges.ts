@@ -227,4 +227,7 @@ export const chapter: Chapter = {
       hint: "Lors de l'évaporation, seule l'eau part. Que devient le soluté ?",
     },
   ],
+  videos: [
+    { title: "Mélanges et séparation - Physique-Chimie - 6e - Les Bons Profs", youtubeId: "y-SMG2dLQ4k", channel: "Les Bons Profs" },
+  ],
 };

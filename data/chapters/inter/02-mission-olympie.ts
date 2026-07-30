@@ -216,4 +216,7 @@ export const chapter: Chapter = {
       hint: "Cherche le mot qui changerait si le sujet devenait « l'athlète ».",
     },
   ],
+  videos: [
+    { title: "L'histoire des jeux Olympiques | C'est toujours pas sorcier + | Lumni", youtubeId: "sp1YNLbSd3I", channel: "Lumni" },
+  ],
 };

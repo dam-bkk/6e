@@ -254,4 +254,7 @@ export const chapter: Chapter = {
       hint: "Distingue le principe écrit dans la loi et la réalité vécue.",
     },
   ],
+  videos: [
+    { title: "Agir pour l'égalité et refuser les discriminations - EMC - collège - Les Bons Profs", youtubeId: "HJfHK2F5KI0", channel: "Les Bons Profs" },
+  ],
 };

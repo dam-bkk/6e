@@ -211,4 +211,7 @@ export const chapter: Chapter = {
       hint: "Calcule 1522 − 1492.",
     },
   ],
+  videos: [
+    { title: "Les 4 grandes expéditions maritimes - Nota Bene #14", youtubeId: "0JAIom9NSoo", channel: "Nota Bene" },
+  ],
 };

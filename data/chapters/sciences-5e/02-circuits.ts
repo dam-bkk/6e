@@ -241,4 +241,7 @@ export const chapter: Chapter = {
       hint: "Ce circuit est-il en série ou en dérivation ?",
     },
   ],
+  videos: [
+    { title: "Intensité et lois - Physique-Chimie - Collège - Les Bons Profs", youtubeId: "wUYO82YekjA", channel: "Les Bons Profs" },
+  ],
 };

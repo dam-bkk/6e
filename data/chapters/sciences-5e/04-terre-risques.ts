@@ -236,4 +236,7 @@ export const chapter: Chapter = {
       hint: "Magma visqueux = gaz piégés. Que se passe-t-il quand la pression finit par gagner ?",
     },
   ],
+  videos: [
+    { title: "Sismicité et volcanisme : aléas, enjeux et risques - SVT - Collège - Les Bons Profs", youtubeId: "5azkfdKX4GU", channel: "Les Bons Profs" },
+  ],
 };

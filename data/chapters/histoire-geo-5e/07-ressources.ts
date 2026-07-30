@@ -243,4 +243,7 @@ export const chapter: Chapter = {
       hint: "Que rejettent nos voitures, nos usines et nos centrales à charbon ?",
     },
   ],
+  videos: [
+    { title: "L'eau, ressource essentielle - Histoire-Géographie - Seconde - Les Bons Profs", youtubeId: "uW6wJl7oAu4", channel: "Les Bons Profs" },
+  ],
 };

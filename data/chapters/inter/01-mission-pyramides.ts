@@ -207,4 +207,7 @@ export const chapter: Chapter = {
       hint: "C'est le dernier mot de la phrase du guide.",
     },
   ],
+  videos: [
+    { title: "Les pyramides n'ont pas été construites par les Egyptiens | Chasseurs de Fake | Lumni", youtubeId: "pGe3wLyLEL8", channel: "Lumni" },
+  ],
 };

@@ -228,4 +228,7 @@ export const chapter: Chapter = {
       hint: "L'expression latine signifie « les envoyés du maître ».",
     },
   ],
+  videos: [
+    { title: "Byzance et l'Europe Carolingienne - Histoire-Géographie - Cinquième - Les Bons Profs", youtubeId: "Mj6UzIAAZ-c", channel: "Les Bons Profs" },
+  ],
 };

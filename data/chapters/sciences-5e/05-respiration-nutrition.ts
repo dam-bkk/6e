@@ -238,4 +238,7 @@ export const chapter: Chapter = {
       hint: "Pense à ce que fait la pompe à bulles d'un aquarium.",
     },
   ],
+  videos: [
+    { title: "La respiration animale - SVT - Collège - Les Bons Profs", youtubeId: "u9pYjODI-A8", channel: "Les Bons Profs" },
+  ],
 };

@@ -208,4 +208,7 @@ export const chapter: Chapter = {
       hint: "C'est l'obstacle que le pont-levis permet de franchir.",
     },
   ],
+  videos: [
+    { title: "Pourquoi ont été construits les châteaux forts ? - C'est pas sorcier", youtubeId: "TzQJBuTXwUA", channel: "C'est pas sorcier" },
+  ],
 };

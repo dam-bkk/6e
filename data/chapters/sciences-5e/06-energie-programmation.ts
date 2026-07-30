@@ -232,4 +232,7 @@ export const chapter: Chapter = {
       hint: "Note la valeur de compteur après chaque tour : 0, 3, 6, …",
     },
   ],
+  videos: [
+    { title: "Utilisation et économie d'énergie - Physique-Chimie - 6e - Les Bons Profs", youtubeId: "TxA5HXY8ic4", channel: "Les Bons Profs" },
+  ],
 };

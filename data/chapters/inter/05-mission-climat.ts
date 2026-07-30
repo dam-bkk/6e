@@ -222,4 +222,7 @@ export const chapter: Chapter = {
       hint: "Calcule l'écart entre les deux moyennes, et souviens-toi : climat = temps long.",
     },
   ],
+  videos: [
+    { title: "Comment fonctionne le dérèglement climatique ? - C'est pas sorcier", youtubeId: "Ud24icmLbag", channel: "C'est pas sorcier" },
+  ],
 };

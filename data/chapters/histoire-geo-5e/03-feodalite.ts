@@ -227,4 +227,7 @@ export const chapter: Chapter = {
       hint: "Entre « tout interdire » et « ne rien faire », il existe une voie intermédiaire.",
     },
   ],
+  videos: [
+    { title: "La société féodale - Histoire-Géographie - Cinquième - Les Bons Profs", youtubeId: "mf6bsUU48s8", channel: "Les Bons Profs" },
+  ],
 };

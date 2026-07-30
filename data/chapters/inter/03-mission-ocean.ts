@@ -211,4 +211,7 @@ export const chapter: Chapter = {
       hint: "Rappelle-toi la boussole anglaise : north, south, east… et le dernier ?",
     },
   ],
+  videos: [
+    { title: "Les incroyables secrets des ports marchands ! - C'est pas sorcier", youtubeId: "7PARXFkCbts", channel: "C'est pas sorcier" },
+  ],
 };

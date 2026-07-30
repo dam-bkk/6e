@@ -230,4 +230,7 @@ export const chapter: Chapter = {
       hint: "Trace à la règle deux rayons : un depuis le haut de la flamme, un depuis le bas, tous deux passant par le trou.",
     },
   ],
+  videos: [
+    { title: "Qu'est-ce que la lumière ? - C'est Pas Sorcier", youtubeId: "kI1plg8lV3s", channel: "C'est pas sorcier" },
+  ],
 };
