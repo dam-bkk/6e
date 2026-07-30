@@ -26,7 +26,10 @@ function norm(s: string): string {
     .replaceAll(" ", "")
     .replaceAll("\u00a0", "")
     .replaceAll("\u2019", "'")
-    .replaceAll(".", ",");
+    // ponctuation finale ignor\u00e9e (r\u00e9ponses-phrases : \u00ab Laura chante. \u00bb)
+    .replace(/[.!?]+$/, "")
+    // point d\u00e9cimal \u2192 virgule fran\u00e7aise, uniquement entre deux chiffres
+    .replace(/(\d)\.(\d)/g, "$1,$2");
 }
 
 function checkInput(item: PlayerItem, raw: string): boolean {
