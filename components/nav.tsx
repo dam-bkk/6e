@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { Home, Swords, Trophy, Flame, Star } from "lucide-react";
 import { ZesteLogo } from "@/components/logo";
 import { useProgress } from "@/lib/progress";
@@ -15,6 +16,19 @@ const LINKS = [
 export function Nav() {
   const pathname = usePathname();
   const progress = useProgress();
+
+  // Pop du compteur XP à chaque gain
+  const [xpPop, setXpPop] = useState(false);
+  const prevXp = useRef(progress.xp);
+  useEffect(() => {
+    const increased = progress.xp > prevXp.current;
+    prevXp.current = progress.xp;
+    if (increased) {
+      setXpPop(true);
+      const t = setTimeout(() => setXpPop(false), 400);
+      return () => clearTimeout(t);
+    }
+  }, [progress.xp]);
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -39,11 +53,17 @@ export function Nav() {
               className="flex items-center gap-1.5 rounded-full bg-sun-tint px-3 py-1.5 text-sm font-extrabold text-sun-strong"
               title="Série de jours d'affilée"
             >
-              <Flame size={16} strokeWidth={2.5} />
+              <Flame
+                size={16}
+                strokeWidth={2.5}
+                className={progress.streak.current > 0 ? "flame-active" : undefined}
+              />
               {progress.streak.current}
             </span>
             <span
-              className="flex items-center gap-1.5 rounded-full bg-donnees-tint px-3 py-1.5 text-sm font-extrabold text-donnees-strong"
+              className={`flex items-center gap-1.5 rounded-full bg-donnees-tint px-3 py-1.5 text-sm font-extrabold text-donnees-strong ${
+                xpPop ? "pop-once" : ""
+              }`}
               title="Points d'expérience"
             >
               <Star size={16} strokeWidth={2.5} />

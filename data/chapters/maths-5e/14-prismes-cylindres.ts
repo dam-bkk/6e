@@ -54,6 +54,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Le volume : aire de la base × hauteur",
+      figure: "m5-prisme-cylindre",
       paragraphs: [
         "Le volume d'un prisme droit et celui d'un cylindre se calculent avec la même formule : volume = aire de la base × hauteur.",
         "Pour un cylindre de rayon r et de hauteur h : volume = π × r² × h, puisque l'aire du disque de base est π × r².",

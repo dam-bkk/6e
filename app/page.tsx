@@ -24,9 +24,9 @@ function WelcomeCard() {
   const askName = !name || editing;
 
   return (
-    <div className="card-pop flex flex-col gap-4 p-6 sm:flex-row sm:items-center md:p-8">
+    <div className="card-pop flex flex-col gap-4 p-5 sm:flex-row sm:items-center md:p-6">
       <div className="hidden sm:block">
-        <ZesteLogo size={84} />
+        <ZesteLogo size={64} />
       </div>
       <div className="flex-1">
         {askName ? (
@@ -60,7 +60,7 @@ function WelcomeCard() {
           </>
         ) : (
           <>
-            <h1 className="font-display text-3xl font-extrabold leading-tight md:text-4xl">
+            <h1 className="font-display text-2xl font-extrabold leading-tight md:text-3xl">
               Salut, {name} !
               <button
                 onClick={() => {
@@ -115,36 +115,39 @@ export default function Home() {
 
   return (
     <div className="rise space-y-4">
-      <WelcomeCard />
-
-      {/* Défi du jour */}
-      <Link
-        href="/defi"
-        className="hero-card group flex items-center justify-between gap-4 bg-gradient-to-br from-[#FFD166] to-[#F5B93E] p-5 md:p-6"
-      >
-        <div className="flex items-center gap-4">
-          <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sun-strong text-white">
-            <Swords size={26} strokeWidth={2.5} />
-          </span>
-          <div>
-            <p className="font-display text-xl font-extrabold text-sun-strong md:text-2xl">Défi du jour</p>
-            <p className="text-sm font-bold text-sun-strong">
-              {daily
-                ? `Fait ! ${daily.score}/${daily.total} — reviens demain.`
-                : `${DAILY_SIZE} questions rapides pour ta série !`}
-            </p>
+      {/* Rangée haute : bienvenue + défi du jour */}
+      <div className="grid gap-4 lg:grid-cols-[1.6fr_1fr]">
+        <WelcomeCard />
+        <Link
+          href="/defi"
+          className={`hero-card group flex items-center justify-between gap-3 bg-gradient-to-br from-[#FFD166] to-[#F5B93E] p-5 ${
+            daily ? "" : "daily-glow"
+          }`}
+        >
+          <div className="flex items-center gap-3">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-sun-strong text-white">
+              <Swords size={24} strokeWidth={2.5} />
+            </span>
+            <div>
+              <p className="font-display text-xl font-extrabold text-sun-strong">Défi du jour</p>
+              <p className="text-sm font-bold leading-tight text-sun-strong">
+                {daily
+                  ? `Fait ! ${daily.score}/${daily.total} — reviens demain.`
+                  : `${DAILY_SIZE} questions rapides pour ta série !`}
+              </p>
+            </div>
           </div>
-        </div>
-        {daily ? (
-          <CheckCircle2 size={34} className="shrink-0 text-sun-strong" />
-        ) : (
-          <ChevronRight size={30} className="shrink-0 text-sun-strong transition-transform group-hover:translate-x-1" />
-        )}
-      </Link>
+          {daily ? (
+            <CheckCircle2 size={30} className="shrink-0 text-sun-strong" />
+          ) : (
+            <ChevronRight size={28} className="shrink-0 text-sun-strong transition-transform group-hover:translate-x-1" />
+          )}
+        </Link>
+      </div>
 
       {/* Matières */}
-      <section className="grid gap-4 sm:grid-cols-2">
-        {SUBJECTS.map((s, i) => {
+      <section className="stagger grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {SUBJECTS.filter((s) => !s.grades || s.grades.includes(grade)).map((s, i) => {
           const chapters = chaptersFor(s.id, grade);
           const total = chapters.reduce((n, c) => n + c.exercises.length, 0);
           const done = chapters.reduce(
@@ -155,15 +158,22 @@ export default function Home() {
           const inner = (
             <>
               <div className="flex items-start justify-between">
-                <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/20 text-white">
-                  <ChapterIcon name={s.icon} size={30} strokeWidth={2.25} />
+                <span className="card-icon flex h-11 w-11 items-center justify-center rounded-xl bg-white/20 text-white">
+                  <ChapterIcon name={s.icon} size={24} strokeWidth={2.25} />
                 </span>
                 {available ? (
-                  <span
-                    className="rounded-full px-3 py-1.5 text-xs font-extrabold text-white"
-                    style={{ background: s.deep }}
-                  >
-                    {done}/{total} réussis
+                  <span className="flex items-center gap-1.5">
+                    {s.optional && (
+                      <span className="rounded-full bg-white/25 px-2.5 py-1.5 text-xs font-extrabold text-white">
+                        Option
+                      </span>
+                    )}
+                    <span
+                      className="rounded-full px-3 py-1.5 text-xs font-extrabold text-white"
+                      style={{ background: s.deep }}
+                    >
+                      {done}/{total} réussis
+                    </span>
                   </span>
                 ) : (
                   <span className="rounded-full bg-white/25 px-3 py-1.5 text-xs font-extrabold text-white">
@@ -171,15 +181,15 @@ export default function Home() {
                   </span>
                 )}
               </div>
-              <p className="mt-4 font-display text-2xl font-extrabold text-white md:text-3xl">{s.label}</p>
+              <p className="mt-2.5 font-display text-xl font-extrabold text-white md:text-2xl">{s.label}</p>
               <p
-                className="mt-1 w-fit rounded-lg px-2 py-0.5 text-sm font-bold text-white"
+                className="mt-1 w-fit rounded-lg px-2 py-0.5 text-xs font-bold text-white"
                 style={{ background: "rgba(0,0,0,0.22)" }}
               >
                 {s.tagline}
               </p>
               {available && (
-                <div className="mt-4 h-2.5 overflow-hidden rounded-full bg-black/25">
+                <div className="mt-3 h-2 overflow-hidden rounded-full bg-black/25">
                   <div
                     className="h-full rounded-full bg-white transition-all duration-500"
                     style={{ width: `${total ? Math.max(2, (done / total) * 100) : 0}%` }}
@@ -189,7 +199,8 @@ export default function Home() {
             </>
           );
           const style = { background: `linear-gradient(135deg, ${s.from} 0%, ${s.to} 100%)` };
-          const cls = `hero-card block p-6 ${i === 0 ? "sm:col-span-2" : ""}`;
+          void i;
+          const cls = "hero-card block p-5";
           return available ? (
             <Link key={s.id} href={`/matiere/${s.id}`} className={cls} style={style}>
               {inner}

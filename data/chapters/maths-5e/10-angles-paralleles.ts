@@ -43,6 +43,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Alternes-internes et correspondants",
+      figure: "m5-alternes-internes",
       paragraphs: [
         "Quand une droite (la sécante) coupe deux autres droites, elle forme huit angles. Certains couples portent des noms précis.",
         "Deux angles alternes-internes sont situés entre les deux droites (internes) et de part et d'autre de la sécante (alternés). Ils forment un « Z ».",

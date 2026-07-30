@@ -30,6 +30,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les emplois de l'imparfait",
+      figure: "fr-frise-temps",
       paragraphs: [
         "Dans un récit au passé, l'imparfait sert à décrire : le décor, les personnages, la météo, les sentiments. « La nuit tombait, le vent soufflait doucement. »",
         "Il exprime aussi les habitudes du passé : « Chaque été, nous allions chez ma grand-mère. » L'action n'a pas de limites précises : on ne sait ni quand elle commence, ni quand elle finit.",

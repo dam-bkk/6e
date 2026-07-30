@@ -18,6 +18,10 @@ export interface SubjectMeta {
   deep: string;
   /** Fond très clair (pages internes, anneaux) */
   tint: string;
+  /** Niveaux où la matière existe (absent = tous) */
+  grades?: Grade[];
+  /** Matière optionnelle (badge « Option ») */
+  optional?: boolean;
 }
 
 export const SUBJECTS: SubjectMeta[] = [
@@ -70,6 +74,30 @@ export const SUBJECTS: SubjectMeta[] = [
     to: "#1E8A49",
     deep: "#166B38",
     tint: "#E2F7EA",
+  },
+  {
+    id: "espagnol",
+    label: "Espagnol",
+    tagline: "¡Hola! LV2 dès la 5e",
+    icon: "Sun",
+    from: "#C13B7E",
+    to: "#A02A66",
+    deep: "#7E1F50",
+    tint: "#FBE7F1",
+    grades: ["5e"],
+    optional: true,
+  },
+  {
+    id: "latin",
+    label: "Latin",
+    tagline: "Culture antique et langue latine",
+    icon: "Columns3",
+    from: "#8A6A3B",
+    to: "#6F5430",
+    deep: "#54401F",
+    tint: "#F5EDDE",
+    grades: ["5e"],
+    optional: true,
   },
   {
     id: "inter",

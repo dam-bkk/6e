@@ -44,6 +44,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Comparer, ranger, opposés",
+      figure: "m5-droite-relatifs",
       paragraphs: [
         "Comparer deux relatifs, c'est dire lequel est le plus à droite sur la droite graduée. Tout nombre négatif est plus petit que tout nombre positif. Entre deux négatifs, le plus petit est celui qui a la plus grande distance à zéro : −9 < −2.",
         "Deux nombres sont opposés lorsqu'ils ont la même distance à zéro mais des signes contraires : 6 et −6 sont opposés. Sur la droite graduée, ils sont symétriques par rapport à l'origine. L'opposé de 0 est 0.",

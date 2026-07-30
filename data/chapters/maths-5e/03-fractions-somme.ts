@@ -18,6 +18,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Des fractions égales",
+      figure: "m5-fractions-egales",
       paragraphs: [
         "Une même part de gâteau peut s'écrire de plusieurs façons : la moitié, c'est 1/2, mais aussi 2/4 ou 5/10. Ces fractions sont égales : elles désignent la même quantité.",
         "Règle fondamentale : une fraction ne change pas de valeur quand on multiplie (ou divise) son numérateur ET son dénominateur par un même nombre non nul.",

@@ -4,6 +4,8 @@ export type Subject =
   | "histoire-geo"
   | "anglais"
   | "sciences"
+  | "espagnol"
+  | "latin"
   | "inter";
 
 /**
@@ -58,6 +60,15 @@ export interface Exercise {
 
 export type Grade = "6e" | "5e";
 
+/** Vidéo YouTube associée à un chapitre (id vérifié via oEmbed avant ajout) */
+export interface ChapterVideo {
+  title: string;
+  /** Identifiant YouTube (11 caractères), embarqué via youtube-nocookie.com */
+  youtubeId: string;
+  /** Chaîne d'origine (ex: "Lumni", "Yvan Monka") */
+  channel?: string;
+}
+
 export interface Chapter {
   slug: string;
   /** Matière — absent = "maths" (fichiers historiques) */
@@ -78,4 +89,6 @@ export interface Chapter {
   objectives: string[];
   lesson: LessonSection[];
   exercises: Exercise[];
+  /** Vidéos ludiques pour réviser (affichées dans l'onglet leçon) */
+  videos?: ChapterVideo[];
 }

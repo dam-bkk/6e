@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "L'inégalité triangulaire",
+      figure: "m5-inegalite-triangulaire",
       paragraphs: [
         "Dans un triangle, la longueur de chaque côté est toujours inférieure à la somme des longueurs des deux autres côtés. C'est l'inégalité triangulaire.",
         "Pour savoir si un triangle est constructible, il suffit de vérifier que le côté le PLUS LONG est inférieur à la somme des deux autres. Si l'égalité est atteinte, les trois points sont alignés : le triangle est « aplati ».",
@@ -60,6 +61,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Médiatrices et cercle circonscrit",
+      figure: "m5-cercle-circonscrit",
       paragraphs: [
         "La médiatrice d'un segment est la droite perpendiculaire à ce segment passant par son milieu. Chaque point de la médiatrice est à égale distance des deux extrémités du segment.",
         "Les trois médiatrices des côtés d'un triangle se coupent en un même point : le centre du cercle circonscrit, le cercle qui passe par les trois sommets du triangle.",

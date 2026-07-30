@@ -56,6 +56,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Classes variables, classes invariables",
+      figure: "fr-classes-mots",
       paragraphs: [
         "Les classes variables regroupent les mots qui changent de forme : le nom, le déterminant, l'adjectif, le pronom (ils varient en genre et en nombre) et le verbe (il se conjugue).",
         "Les classes invariables regroupent les mots qui s'écrivent toujours pareil : l'adverbe, la préposition, ainsi que la conjonction (mais, ou, et, donc, or, ni, car) que tu approfondiras plus tard.",

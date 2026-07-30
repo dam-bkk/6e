@@ -42,6 +42,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'aire du triangle",
+      figure: "m5-triangle-hauteur",
       paragraphs: [
         "Aire du triangle : base × hauteur ÷ 2. Un triangle est en effet la moitié d'un parallélogramme de mêmes base et hauteur.",
         "N'importe quel côté peut servir de base, mais il faut alors prendre la hauteur ASSOCIÉE : celle qui part du sommet opposé et arrive perpendiculairement sur cette base (ou son prolongement).",
@@ -54,6 +55,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'aire du disque",
+      figure: "m5-aire-disque",
       paragraphs: [
         "Aire du disque de rayon r : π × r × r, c'est-à-dire π × r². Le nombre π vaut environ 3,14.",
         "On peut donner un résultat exact en laissant π dans l'écriture (par exemple 25 × π cm²), ou une valeur approchée en remplaçant π par 3,14.",

@@ -30,6 +30,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les propriétés du parallélogramme",
+      figure: "m5-parallelogramme",
       paragraphs: [
         "Si ABCD est un parallélogramme, alors ses côtés opposés sont égaux deux à deux : AB = CD et AD = BC.",
         "Ses diagonales [AC] et [BD] se coupent en leur milieu. Ce point d'intersection O est aussi le centre de symétrie du parallélogramme : la figure se superpose à elle-même après un demi-tour autour de O.",

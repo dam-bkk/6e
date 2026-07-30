@@ -42,7 +42,7 @@ export const chapter: Chapter = {
       example: [
         "My sister is talkative and funny. → Ma soeur est bavarde et drôle.",
         "He's a bit lazy but very clever. → Il est un peu paresseux mais très intelligent.",
-        "Our teacher is strict but fair. → Notre professeur est stricte mais juste.",
+        "Our teacher is strict but fair. → Notre professeur est strict mais juste.",
       ],
       tip: "Deux faux amis à surveiller : funny = drôle (pas « bizarre »... enfin, pas toujours !) et sympathetic ne veut PAS dire sympa mais « compatissant ». Sympa = nice ou friendly.",
     },

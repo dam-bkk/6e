@@ -75,6 +75,7 @@ export const chapter: Chapter = {
     },
     {
       title: "There is / there are et les prépositions de lieu",
+      figure: "en-prepositions",
       paragraphs: [
         "Pour dire « il y a » : there is + singulier (There is a sofa), there are + pluriel (There are two chairs). Négation : there isn't / there aren't. Question : Is there…? / Are there…?",
         "Les prépositions de lieu servent à situer : in (dans), on (sur), under (sous), next to (à côté de), behind (derrière), in front of (devant), between (entre).",

@@ -18,6 +18,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Be au présent : les formes",
+      figure: "en-be-map",
       paragraphs: [
         "Be (être) est le verbe le plus utilisé de l'anglais. Au présent, il a trois formes : am (avec I), is (avec he, she, it) et are (avec you, we, they).",
         "À l'oral et dans les messages, on utilise presque toujours les formes contractées : I'm, you're, he's, she's, it's, we're, they're. L'apostrophe remplace la ou les lettres supprimées.",

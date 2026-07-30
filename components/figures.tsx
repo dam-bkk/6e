@@ -4,6 +4,18 @@
  * Référencées dans les données par LessonSection.figure (clé du Record FIGURES).
  */
 
+import { FIGURES_EXTRA as SCIENCES } from "@/components/figures-sciences";
+import { FIGURES_EXTRA as HISTOIRE_GEO } from "@/components/figures-histoire-geo";
+import { FIGURES_EXTRA as MATHS5E } from "@/components/figures-maths5e";
+import { FIGURES_EXTRA as LANGUES } from "@/components/figures-langues";
+
+const EXTRA_CATALOGS: Record<string, { title: string; svg: React.ReactNode }> = {
+  ...SCIENCES,
+  ...HISTOIRE_GEO,
+  ...MATHS5E,
+  ...LANGUES,
+};
+
 const INK = "#2a2440";
 const BLUE = "#1d5fa8";
 const BLUE_TINT = "#dcedff";
@@ -328,7 +340,7 @@ export const FIGURES: Record<string, { title: string; svg: React.ReactNode }> = 
 };
 
 export function Figure({ id }: { id: string }) {
-  const fig = FIGURES[id];
+  const fig = FIGURES[id] ?? EXTRA_CATALOGS[id];
   if (!fig) return null;
   return (
     <figure className="my-4 rounded-2xl border-2 border-line bg-card p-4">

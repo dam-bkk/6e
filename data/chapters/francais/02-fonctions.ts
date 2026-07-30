@@ -43,6 +43,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les compléments circonstanciels",
+      figure: "fr-phrase-fonctions",
       paragraphs: [
         "Les compléments circonstanciels (CC) précisent les circonstances de l'action : quand (CC de temps), où (CC de lieu), comment (CC de manière).",
         "À la différence du COD, un complément circonstanciel peut souvent être supprimé ou déplacé sans rendre la phrase incorrecte : « Demain, nous partirons » / « Nous partirons demain » / « Nous partirons ».",

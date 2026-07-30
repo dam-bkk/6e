@@ -169,20 +169,11 @@ export function ActivityCalendar({ progress }: { progress: Progress }) {
         )}
       </div>
 
-      {/* Bilan du mois */}
-      <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
-        {[
-          { v: monthTotal.activeDays, l: "jours actifs" },
-          { v: `${monthTotal.ok}/${monthTotal.ex}`, l: "exercices réussis" },
-          { v: monthTotal.dailies, l: "défis relevés" },
-          { v: `+${monthTotal.xp}`, l: "XP gagnée" },
-        ].map((s) => (
-          <div key={s.l} className="rounded-2xl bg-cream px-3 py-2 text-center">
-            <p className="font-display text-xl font-extrabold">{s.v}</p>
-            <p className="text-xs font-extrabold uppercase tracking-wide text-muted">{s.l}</p>
-          </div>
-        ))}
-      </div>
+      {/* Bilan du mois en une ligne */}
+      <p className="mt-3 text-center text-sm font-bold text-muted">
+        Ce mois-ci : {monthTotal.activeDays} jour{monthTotal.activeDays > 1 ? "s" : ""} actif{monthTotal.activeDays > 1 ? "s" : ""} ·{" "}
+        {monthTotal.ok}/{monthTotal.ex} exercices réussis · {monthTotal.dailies} défi{monthTotal.dailies > 1 ? "s" : ""} · +{monthTotal.xp} XP
+      </p>
     </div>
   );
 }

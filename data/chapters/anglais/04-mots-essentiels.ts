@@ -61,6 +61,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'heure : What time is it?",
+      figure: "en-clock",
       paragraphs: [
         "Pour l'heure pile : It's three o'clock (il est 3 heures). O'clock ne s'utilise QUE pour les heures piles.",
         "Pour la demie : half past → It's half past six (6 h 30, mot à mot « la moitié après six »). Pour le quart : quarter past (et quart) et quarter to (moins le quart) → It's quarter past nine (9 h 15), It's quarter to five (5 h moins le quart, donc 4 h 45).",

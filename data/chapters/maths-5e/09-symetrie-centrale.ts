@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Le symétrique d'un point",
+      figure: "m5-symetrie-centrale",
       paragraphs: [
         "Le symétrique d'un point M par rapport à un point O est le point M' tel que O soit le milieu du segment [MM'].",
         "Autrement dit : M' est de l'autre côté de O, sur la droite (MO), à la même distance de O que M. Le point O est appelé le centre de la symétrie.",

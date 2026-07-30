@@ -10,6 +10,8 @@ import {
   Target,
   Check,
   PartyPopper,
+  FileDown,
+  Clapperboard,
 } from "lucide-react";
 import type { Chapter, Domain, Exercise } from "@/lib/types";
 import { DOMAIN_LABELS } from "@/lib/types";
@@ -101,7 +103,7 @@ export function ChapterView({ chapter }: { chapter: Chapter }) {
       </div>
 
       {/* Onglets */}
-      <div className="mt-5 flex gap-2">
+      <div className="mt-5 flex flex-wrap gap-2">
         <button
           onClick={() => setTab("lecon")}
           className={`btn-pop flex items-center gap-2 px-5 py-2.5 font-extrabold ${
@@ -123,6 +125,13 @@ export function ChapterView({ chapter }: { chapter: Chapter }) {
           <Dumbbell size={18} />
           Les exercices
         </button>
+        <Link
+          href={`/fiche/${chapter.slug}`}
+          className="btn-pop ml-auto flex items-center gap-2 bg-sun-tint px-5 py-2.5 font-extrabold text-sun-strong"
+        >
+          <FileDown size={18} />
+          Fiche mémo
+        </Link>
       </div>
 
       {tab === "lecon" && (
@@ -173,6 +182,35 @@ export function ChapterView({ chapter }: { chapter: Chapter }) {
               )}
             </section>
           ))}
+
+          {chapter.videos && chapter.videos.length > 0 && (
+            <section className="card-pop p-5 md:p-7">
+              <h2 className="flex items-center gap-2 font-display text-2xl font-bold">
+                <Clapperboard size={24} className={style.strong} />
+                Vidéos pour réviser
+              </h2>
+              <div className={`mt-4 grid gap-4 ${chapter.videos.length > 1 ? "md:grid-cols-2" : ""}`}>
+                {chapter.videos.map((v) => (
+                  <figure key={v.youtubeId}>
+                    <div className="overflow-hidden rounded-2xl border-2 border-line">
+                      <iframe
+                        className="aspect-video w-full"
+                        src={`https://www.youtube-nocookie.com/embed/${v.youtubeId}`}
+                        title={v.title}
+                        allow="accelerometer; encrypted-media; picture-in-picture"
+                        allowFullScreen
+                        loading="lazy"
+                      />
+                    </div>
+                    <figcaption className="mt-1.5 text-sm font-bold text-muted">
+                      {v.title}
+                      {v.channel ? ` — ${v.channel}` : ""}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          )}
 
           <div className="flex justify-center pt-2">
             <button
