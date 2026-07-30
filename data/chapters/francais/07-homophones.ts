@@ -204,4 +204,8 @@ export const chapter: Chapter = {
       hint: "Remplace par « avait » : la phrase garde-t-elle un sens ?",
     },
   ],
+  videos: [
+    { title: "Homophones grammaticaux CM1 - CM2 - 6ème - Cycle 3 - Français - Grammaire", youtubeId: "iq_NpmADtr4", channel: "Maître Lucas" },
+    { title: "Homophones A, À et AS - Leçon et Exercices", youtubeId: "ViJnZmPPjCw", channel: "Ben Explique" },
+  ],
 };

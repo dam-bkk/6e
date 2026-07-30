@@ -209,4 +209,7 @@ export const chapter: Chapter = {
       hint: "D'habitude « bien » est un adverbe… mais regarde le mot placé juste devant.",
     },
   ],
+  videos: [
+    { title: "Les natures et les fonctions des mots CM1 - CM2 - 6ème - Cycle 3 - Français, Grammaire", youtubeId: "28GbAcHjrrw", channel: "Maître Lucas" },
+  ],
 };

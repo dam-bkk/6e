@@ -207,4 +207,8 @@ export const chapter: Chapter = {
       hint: "Pose la question « Qu'est-ce qui tombe ? »",
     },
   ],
+  videos: [
+    { title: "Le sujet - Français - Sixième - Les Bons Profs", youtubeId: "G7kL71fm29o", channel: "Les Bons Profs" },
+    { title: "Compléments d'objet - COD - COI CM1 - CM2 - 6ème - Cycle 3 - Français - Grammaire", youtubeId: "lJSkCPwHAFw", channel: "Maître Lucas" },
+  ],
 };

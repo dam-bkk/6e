@@ -206,4 +206,7 @@ export const chapter: Chapter = {
       hint: "Que signifie le préfixe « poly- », comme dans « polygone » ?",
     },
   ],
+  videos: [
+    { title: "La formation des mots - Français - Sixième - Les Bons Profs", youtubeId: "WRmBZ6zi6gE", channel: "Les Bons Profs" },
+  ],
 };

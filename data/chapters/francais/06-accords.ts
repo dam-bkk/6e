@@ -207,4 +207,7 @@ export const chapter: Chapter = {
       hint: "Remplace « toi et moi » par un pronom personnel.",
     },
   ],
+  videos: [
+    { title: "Les accords sujet / verbe - Français - Collège - Les Bons Profs", youtubeId: "rTXQA4PXMZs", channel: "Les Bons Profs" },
+  ],
 };

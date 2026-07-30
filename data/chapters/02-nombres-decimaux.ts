@@ -217,4 +217,8 @@ export const chapter: Chapter = {
       hint: "Garde la partie entière et le chiffre des dixièmes, et regarde entre quels dixièmes le nombre se trouve.",
     },
   ],
+  videos: [
+    { title: "Décomposer un nombre en fractions décimales - Sixième", youtubeId: "uqBEfHwZTX8", channel: "Yvan Monka" },
+    { title: "Comparer les nombres décimaux - Sixième", youtubeId: "fr5GemewG4Q", channel: "Yvan Monka" },
+  ],
 };

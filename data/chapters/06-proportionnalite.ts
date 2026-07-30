@@ -222,4 +222,8 @@ export const chapter: Chapter = {
       hint: "Commence par la distance parcourue en 1 heure.",
     },
   ],
+  videos: [
+    { title: "Reconnaitre la proportionnalité (1) - Sixième", youtubeId: "QgjbpX_kciA", channel: "Yvan Monka" },
+    { title: "Appliquer une situation de proportionnalité (2) - Sixième", youtubeId: "H2WLKZ3VNqc", channel: "Yvan Monka" },
+  ],
 };

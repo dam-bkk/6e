@@ -211,4 +211,8 @@ export const chapter: Chapter = {
       hint: "Ajoute d'abord l'heure entière, puis les minutes en passant par 22 h.",
     },
   ],
+  videos: [
+    { title: "Convertir les unités de longueurs - Sixième", youtubeId: "a6rFbX2eRx4", channel: "Yvan Monka" },
+    { title: "Unités de longueurs, de masses et de durées - Maths 6e - Les Bons Profs", youtubeId: "FNobiPsglls", channel: "Les Bons Profs" },
+  ],
 };

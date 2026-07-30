@@ -208,4 +208,8 @@ export const chapter: Chapter = {
       hint: "Le radical du futur de « voir » ne contient pas le mot « voir »…",
     },
   ],
+  videos: [
+    { title: "Le futur simple ( CE1 - CE2 - CM1 - CM2 )", youtubeId: "tckyVyMtBsM", channel: "Epopia" },
+    { title: "Les temps composés de l'indicatif - Français - Collège - Les Bons Profs", youtubeId: "XGfin5iJMzA", channel: "Les Bons Profs" },
+  ],
 };

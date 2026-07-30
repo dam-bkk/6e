@@ -228,4 +228,8 @@ export const chapter: Chapter = {
       hint: "Imagine deux barreaux d'une échelle, tous les deux perpendiculaires au montant.",
     },
   ],
+  videos: [
+    { title: "Utiliser les notations en géométrie - Sixième", youtubeId: "tNSF1F3AMHo", channel: "Yvan Monka" },
+    { title: "Connaître le vocabulaire du cercle - Sixième", youtubeId: "aWJmz1oM_O0", channel: "Yvan Monka" },
+  ],
 };

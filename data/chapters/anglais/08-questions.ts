@@ -224,4 +224,7 @@ export const chapter: Chapter = {
       hint: "Le verbe anglais ressemble beaucoup au mot français « répéter ».",
     },
   ],
+  videos: [
+    { title: "Les phrases interrogatives - Anglais - Sixième - Les Bons Profs", youtubeId: "UAwq6ibpVdM", channel: "Les Bons Profs" },
+  ],
 };

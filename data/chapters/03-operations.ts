@@ -205,4 +205,8 @@ export const chapter: Chapter = {
       hint: "Quel couple de facteurs donne exactement 10 ?",
     },
   ],
+  videos: [
+    { title: "Poser une addition - Sixième", youtubeId: "ytLe8aUq2ZM", channel: "Yvan Monka" },
+    { title: "Poser une multiplication - Sixième", youtubeId: "4YQi_icWTTI", channel: "Yvan Monka" },
+  ],
 };

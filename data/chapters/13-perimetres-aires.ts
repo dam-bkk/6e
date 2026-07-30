@@ -211,4 +211,8 @@ export const chapter: Chapter = {
       hint: "Compare un carré de côté 3 cm et un carré de côté 6 cm.",
     },
   ],
+  videos: [
+    { title: "Calculer le périmètre d'une figure - Sixième", youtubeId: "w7n638xdT6E", channel: "Yvan Monka" },
+    { title: "Calculer l'aire d'une figure - Sixième", youtubeId: "-HKxkx7x2gU", channel: "Yvan Monka" },
+  ],
 };

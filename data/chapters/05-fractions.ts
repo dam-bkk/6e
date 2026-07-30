@@ -216,4 +216,8 @@ export const chapter: Chapter = {
       hint: "Que vaut une seule graduation quand l'unité est coupée en 4 ?",
     },
   ],
+  videos: [
+    { title: "Représenter un partage à l'aide d'une fraction - Sixième", youtubeId: "_xZkeQM8tm4", channel: "Yvan Monka" },
+    { title: "Reconnaître une fraction - CM2 / Sixième", youtubeId: "bpMepmTl4Ww", channel: "Yvan Monka" },
+  ],
 };

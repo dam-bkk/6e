@@ -272,4 +272,8 @@ export const chapter: Chapter = {
       hint: "Combien reste-t-il pour les deux angles après l'angle droit ? Et ils sont égaux…",
     },
   ],
+  videos: [
+    { title: "Construire un triangle (1) - Sixième / Cinquième", youtubeId: "-7UGauYeTdk", channel: "Yvan Monka" },
+    { title: "Reconnaître un carré, un rectangle, un losange - Sixième - Cinquième", youtubeId: "UXtlMZUUa7c", channel: "Yvan Monka" },
+  ],
 };

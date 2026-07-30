@@ -208,4 +208,8 @@ export const chapter: Chapter = {
       hint: "9, c'est 3 × 3…",
     },
   ],
+  videos: [
+    { title: "Poser une division euclidienne (avec reste) - Sixième", youtubeId: "2Ocfhucc58g", channel: "Yvan Monka" },
+    { title: "Poser une division - CM2 / Sixième", youtubeId: "ZIwmQ3KSMH0", channel: "Yvan Monka" },
+  ],
 };

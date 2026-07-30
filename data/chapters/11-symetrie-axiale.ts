@@ -226,4 +226,8 @@ export const chapter: Chapter = {
       hint: "Quel est l'ensemble de TOUS les points à égale distance de A et de B ?",
     },
   ],
+  videos: [
+    { title: "Construire le symétrique d'un point (symétrie axiale)  - Sixième", youtubeId: "JauG01P544k", channel: "Yvan Monka" },
+    { title: "Construire le symétrique d'une figure (symétrie axiale) - Sixième", youtubeId: "sRcgsiPeIq4", channel: "Yvan Monka" },
+  ],
 };

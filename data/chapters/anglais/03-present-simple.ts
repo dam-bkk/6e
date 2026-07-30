@@ -227,4 +227,7 @@ export const chapter: Chapter = {
       hint: "never suit la même règle de place que always et often.",
     },
   ],
+  videos: [
+    { title: "Le présent simple - Anglais - Sixième - Les Bons Profs", youtubeId: "DAq1alCVN9U", channel: "Les Bons Profs" },
+  ],
 };

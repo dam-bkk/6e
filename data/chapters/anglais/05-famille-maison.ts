@@ -222,4 +222,7 @@ export const chapter: Chapter = {
       hint: "À qui est le chien ? À la sœur.",
     },
   ],
+  videos: [
+    { title: "La famille : Vocabulaire anglais en cm2, 6ème, Ulis et débutant", youtubeId: "kANZuq_WTWY", channel: "Yannick Sayer" },
+  ],
 };

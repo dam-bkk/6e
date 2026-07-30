@@ -219,4 +219,8 @@ export const chapter: Chapter = {
       hint: "Grandir de combien = taille finale moins taille de départ.",
     },
   ],
+  videos: [
+    { title: "Construire un diagramme en bâtons - Sixième", youtubeId: "cnOdkmNlps4", channel: "Yvan Monka" },
+    { title: "Lire et interpréter un graphique - Cinquième", youtubeId: "CR4lSAfho5A", channel: "Yvan Monka" },
+  ],
 };

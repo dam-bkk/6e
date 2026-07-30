@@ -213,4 +213,8 @@ export const chapter: Chapter = {
       hint: "Que signale le mot « soudain » : un décor ou un événement ?",
     },
   ],
+  videos: [
+    { title: "L'imparfait de l'indicatif - Français - Collège - Les Bons Profs", youtubeId: "-76mcUvhDkY", channel: "Les Bons Profs" },
+    { title: "Le passé simple de l'indicatif - Français - Collège - Les Bons Profs", youtubeId: "tYsSXSx-AOE", channel: "Les Bons Profs" },
+  ],
 };

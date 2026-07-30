@@ -219,4 +219,8 @@ export const chapter: Chapter = {
       hint: "Commence par le mot interrogatif, et garde from pour la fin.",
     },
   ],
+  videos: [
+    { title: "Cours d'anglais : se présenter, dire bonjour et au revoir en anglais", youtubeId: "aLyhG-VqIzE", channel: "AnglaisCours Club" },
+    { title: "Anglais Collège [6ème] - Se présenter en anglais : nom, âge", youtubeId: "qbiToq7ViPg", channel: "digiSchool Orientation" },
+  ],
 };

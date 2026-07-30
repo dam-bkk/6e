@@ -211,4 +211,8 @@ export const chapter: Chapter = {
       hint: "Commence par calculer l'angle entre deux heures voisines : 360° ÷ 12.",
     },
   ],
+  videos: [
+    { title: "Mesurer un angle (1) - Sixième", youtubeId: "rSeXbu7eEII", channel: "Yvan Monka" },
+    { title: "Construire un angle - Sixième", youtubeId: "BHm8ixTi5cc", channel: "Yvan Monka" },
+  ],
 };

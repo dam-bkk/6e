@@ -227,4 +227,8 @@ export const chapter: Chapter = {
       hint: "Balle → play, art martial → do, -ing → go.",
     },
   ],
+  videos: [
+    { title: "Apprendre le vocabulaire anglais - Les matières scolaires (School subjects)", youtubeId: "MGLbs3klq_4", channel: "easy-english24.com" },
+    { title: "Les modaux, be able to et can - Anglais - Collège", youtubeId: "koNWCp-pAmM", channel: "digiSchool Orientation" },
+  ],
 };

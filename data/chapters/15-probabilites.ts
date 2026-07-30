@@ -194,4 +194,8 @@ export const chapter: Chapter = {
       hint: "On divise toujours par le nombre TOTAL d'issues possibles.",
     },
   ],
+  videos: [
+    { title: "Expérience aléatoire : définition et exemples faciles à retenir !", youtubeId: "Zuw96cBgu3M", channel: "Jean-Yves Labouche" },
+    { title: "Dé, cartes : identifie les issues qui réalisent un événement", youtubeId: "HbovNvD52RU", channel: "Jean-Yves Labouche" },
+  ],
 };

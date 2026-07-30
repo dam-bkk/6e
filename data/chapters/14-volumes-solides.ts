@@ -214,4 +214,8 @@ export const chapter: Chapter = {
       hint: "Commence par 8 × 5, puis multiplie par 25.",
     },
   ],
+  videos: [
+    { title: "Calculer un volume - CM2 / Sixième", youtubeId: "Cf-0bYH7wj0", channel: "Yvan Monka" },
+    { title: "Calculer le volume d'un pavé droit - Cinquième", youtubeId: "JqS7YBLtksw", channel: "Yvan Monka" },
+  ],
 };

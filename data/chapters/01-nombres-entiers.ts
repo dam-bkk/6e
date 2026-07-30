@@ -202,4 +202,7 @@ export const chapter: Chapter = {
       hint: "Deux zéros se cachent dans ce nombre.",
     },
   ],
+  videos: [
+    { title: "Décomposer un nombre entier suivant ses rangs - Sixième", youtubeId: "14XxGsJKniI", channel: "Yvan Monka" },
+  ],
 };

@@ -224,4 +224,8 @@ export const chapter: Chapter = {
       hint: "Peur, faim, soif, chaud, froid : même famille de pièges.",
     },
   ],
+  videos: [
+    { title: "Grammaire : savoir conjuguer BE + HAVE / HAVE GOT au Présent Simple en anglais en moins de 5 minutes", youtubeId: "2GuG_GKkiTQ", channel: "My English Teacher - Les tutos de Mme AUDISIO" },
+    { title: "Have got : Anglais facile pour débutant cm2 6ème ULIS", youtubeId: "klZOkmGb8SY", channel: "Yannick Sayer" },
+  ],
 };

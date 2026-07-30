@@ -228,4 +228,8 @@ export const chapter: Chapter = {
       hint: "neck = le cou. Quel animal a un très long cou ?",
     },
   ],
+  videos: [
+    { title: "Do You Like Broccoli Ice Cream? | Food Song for Kids! | Super Simple Songs", youtubeId: "frN3nvhIHUk", channel: "Super Simple Songs - Kids Songs" },
+    { title: "Cours d'anglais 75 - LES ANIMAUX en anglais Vocabulaire Animals in English Vocabulary", youtubeId: "JlBHEfIqx6k", channel: "ABCanglais Blogspot" },
+  ],
 };

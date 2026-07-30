@@ -214,4 +214,7 @@ export const chapter: Chapter = {
       hint: "Écoute la fin du verbe : la terminaison s'entend-elle ?",
     },
   ],
+  videos: [
+    { title: "Le présent de l'indicatif - Français - Collège - Les Bons Profs", youtubeId: "1XG6A8G-Yac", channel: "Les Bons Profs" },
+  ],
 };

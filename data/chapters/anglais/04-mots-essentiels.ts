@@ -230,4 +230,8 @@ export const chapter: Chapter = {
       hint: "Vérifie la majuscule, les prépositions in/on et l'ordinal de five.",
     },
   ],
+  videos: [
+    { title: "Days of the Week Song | The Singing Walrus", youtubeId: "mXMofxtDPUQ", channel: "The Singing Walrus - English Songs For Kids" },
+    { title: "The Big Numbers Song", youtubeId: "e0dJWfQHF8Y", channel: "KidsTV123" },
+  ],
 };
