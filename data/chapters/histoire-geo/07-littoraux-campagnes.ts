@@ -32,6 +32,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Habiter un littoral industrialo-portuaire",
+      figure: "hg-schema-littoral",
       paragraphs: [
         "Certains littoraux sont dominés par un port géant et ses industries : on parle de littoral industrialo-portuaire. D'immenses navires y déchargent des conteneurs, ces grandes boîtes métalliques de taille standardisée qui peuvent passer sans effort du bateau au train ou au camion. C'est grâce au conteneur que le commerce mondial est devenu si rapide et si bon marché.",
         "Autour du port s'étendent des zones industrialo-portuaires (ZIP) : raffineries, aciéries, usines, entrepôts, souvent construites sur des terre-pleins gagnés sur la mer. Des dizaines de milliers de personnes y travaillent : dockers, grutiers, marins, ouvriers, logisticiens.",

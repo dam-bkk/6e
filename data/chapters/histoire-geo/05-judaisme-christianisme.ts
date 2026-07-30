@@ -58,6 +58,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La naissance du christianisme au Ier siècle",
+      figure: "hg-frise-antiquite",
       paragraphs: [
         "Au Ier siècle ap. J.-C., la Palestine est une province de l'Empire romain. Un Juif de Galilée nommé Jésus y prêche : il annonce l'amour de Dieu et du prochain, et ses disciples voient en lui le « messie » (christos en grec, d'où le mot « Christ »), l'envoyé de Dieu attendu par les Juifs. Vers 30 ap. J.-C., il est arrêté et crucifié à Jérusalem sur ordre du gouverneur romain Ponce Pilate.",
         "Ses disciples affirment qu'il est ressuscité. Ils se mettent à répandre son message : ce sont les premiers chrétiens. La vie et les paroles de Jésus sont racontées dans les Évangiles, quatre récits écrits entre 30 et 70 ans environ après sa mort, attribués à Matthieu, Marc, Luc et Jean. Ils forment le cœur du Nouveau Testament, la partie chrétienne de la Bible.",

@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "L'Afrique, berceau de l'humanité",
+      figure: "hg-frise-prehistoire",
       paragraphs: [
         "L'histoire des humains commence en Afrique, il y a plusieurs millions d'années. Les plus anciens de nos lointains cousins connus sont les australopithèques : ils marchent debout sur leurs deux jambes, mais leur cerveau reste petit et ils grimpent encore beaucoup aux arbres.",
         "Ensuite apparaissent les premiers représentants du genre humain, appelés « Homo » (« homme » en latin) : Homo habilis, « l'homme habile », fabrique les premiers outils en pierre taillée il y a environ 2,5 millions d'années. Puis Homo erectus, « l'homme dressé », plus grand et plus robuste, invente des outils plus perfectionnés comme le biface.",

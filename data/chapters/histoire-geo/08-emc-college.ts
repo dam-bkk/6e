@@ -45,6 +45,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les valeurs et les symboles de la République",
+      figure: "hg-valeurs-republique",
       paragraphs: [
         "La France est une République démocratique. Sa devise résume ses valeurs : « Liberté, Égalité, Fraternité ». Liberté de penser, de s'exprimer, de circuler ; égalité de tous devant la loi, quelles que soient l'origine, la religion ou la fortune ; fraternité, c'est-à-dire solidarité et entraide entre tous.",
         "La République a aussi des symboles, qu'on retrouve sur les mairies et les documents officiels : le drapeau tricolore bleu-blanc-rouge, l'hymne national La Marseillaise, Marianne (la figure féminine qui incarne la République, dont le buste orne les mairies), et la fête nationale du 14 juillet, en souvenir de la prise de la Bastille le 14 juillet 1789, au début de la Révolution française.",

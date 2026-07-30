@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Un monde de cités autour de la Méditerranée",
+      figure: "hg-monde-grec",
       paragraphs: [
         "La Grèce antique n'est pas un pays unifié : c'est une mosaïque de centaines de petites cités indépendantes. Une cité, c'est une ville et les campagnes qui l'entourent, avec ses propres lois, sa monnaie et son armée. Athènes, Sparte, Corinthe ou Thèbes sont souvent rivales, et parfois en guerre.",
         "À partir du VIIIe siècle av. J.-C., des Grecs quittent leur cité, souvent trop à l'étroit, pour fonder de nouvelles cités tout autour de la Méditerranée et de la mer Noire : c'est la colonisation grecque. On trouve des cités grecques en Sicile, en Italie du Sud, en Afrique du Nord, et jusqu'en Gaule.",
@@ -58,6 +59,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Athènes invente la démocratie",
+      figure: "hg-democratie-athenes",
       paragraphs: [
         "Au Ve siècle av. J.-C., Athènes est la cité la plus puissante et la plus rayonnante du monde grec. Elle invente un régime politique nouveau : la démocratie, c'est-à-dire « le pouvoir du peuple » (dêmos = peuple, kratos = pouvoir). Pour la première fois, ce ne sont ni un roi ni quelques nobles qui décident, mais l'ensemble des citoyens.",
         "Les citoyens se réunissent sur la colline de la Pnyx en assemblée, l'Ecclésia : ils y votent les lois, la guerre et la paix, à main levée. Chacun a le droit de prendre la parole. Les dix stratèges, qui dirigent la cité et l'armée, sont élus pour un an ; beaucoup d'autres magistrats sont tirés au sort.",

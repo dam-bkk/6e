@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La révolution néolithique",
+      figure: "hg-croissant-fertile",
       paragraphs: [
         "Vers 10 000 av. J.-C., au Proche-Orient, la vie des humains change en profondeur : au lieu de seulement chasser et cueillir, ils se mettent à cultiver des plantes (blé, orge, lentilles) et à élever des animaux (moutons, chèvres, bœufs, porcs). C'est la naissance de l'agriculture et de l'élevage.",
         "Ce changement est si important qu'on parle de « révolution néolithique ». Le mot Néolithique signifie « âge de la pierre nouvelle » : les humains polissent désormais la pierre au lieu de seulement la tailler, et inventent la poterie et le tissage.",

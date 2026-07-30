@@ -132,7 +132,8 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
         {/* Soleil */}
         <Rays cx={10} cy={105} r={26} n={10} len={7} />
         <circle cx={10} cy={105} r={26} fill={ORANGE_TINT} stroke={ORANGE} strokeWidth="2.5" />
-        <Tag x={4} y={174} fill={ORANGE}>Soleil (une étoile)</Tag>
+        <Tag x={2} y={174} fill={ORANGE}>Soleil</Tag>
+        <Tag x={180} y={20} anchor="middle">{"le Soleil est une étoile : les 8 planètes tournent autour de lui"}</Tag>
         {/* planètes */}
         {PLANETES.map((p, i) => (
           <g key={p.n}>
@@ -212,9 +213,9 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
         </g>
         {/* légendes */}
         <Tag x={4} y={166} fill={GREEN}>{"Juin : le nord est penché"}</Tag>
-        <Tag x={4} y={182} fill={GREEN}>{"vers le Soleil → été au nord"}</Tag>
+        <Tag x={4} y={182} fill={GREEN}>{"vers le Soleil, donc été au nord"}</Tag>
         <Tag x={356} y={166} anchor="end" fill={BLUE}>{"Décembre : le nord est penché"}</Tag>
-        <Tag x={356} y={182} anchor="end" fill={BLUE}>{"loin du Soleil → hiver au nord"}</Tag>
+        <Tag x={356} y={182} anchor="end" fill={BLUE}>{"loin du Soleil, donc hiver au nord"}</Tag>
       </svg>
     ),
   },
@@ -253,11 +254,12 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
           </g>
         ))}
         <Tag x={200} y={22} anchor="middle">Premier quartier</Tag>
-        <Tag x={110} y={168} anchor="middle">Nouvelle lune</Tag>
+        <Tag x={110} y={178} anchor="middle">Nouvelle lune</Tag>
         <Tag x={300} y={170} anchor="middle">Pleine lune</Tag>
         <Tag x={200} y={238} anchor="middle">Dernier quartier</Tag>
-        <Tag x={356} y={24} anchor="end" fill={VIOLET}>{"la Lune ne brille pas :"}</Tag>
-        <Tag x={356} y={40} anchor="end" fill={VIOLET}>{"elle renvoie la lumière"}</Tag>
+        <Tag x={6} y={206} fill={VIOLET}>{"la Lune ne brille pas :"}</Tag>
+        <Tag x={6} y={222} fill={VIOLET}>{"elle renvoie la lumière"}</Tag>
+        <Tag x={6} y={238} fill={VIOLET}>{"du Soleil"}</Tag>
       </svg>
     ),
   },
@@ -332,7 +334,7 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
         {/* Soleil */}
         <Rays cx={335} cy={26} r={16} n={9} len={6} />
         <circle cx="335" cy="26" r="16" fill={ORANGE_TINT} stroke={ORANGE} strokeWidth="2.4" />
-        <Tag x={312} y={20} anchor="end" fill={ORANGE}>Soleil</Tag>
+        <Tag x={335} y={68} anchor="middle" fill={ORANGE}>Soleil</Tag>
         {/* nuage */}
         <g>
           <circle cx="110" cy="46" r="18" fill="#ffffff" stroke={INK} strokeWidth="2.2" />
@@ -380,9 +382,9 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
       <svg viewBox="0 0 360 226" className="w-full">
         <rect x="8" y="8" width="344" height="212" rx="18" fill={VIOLET_TINT} stroke={INK} strokeWidth="2.4" />
         <Label x={22} y={32}>Animaux</Label>
-        <rect x="24" y="44" width="312" height="150" rx="14" fill={BLUE_TINT} stroke={INK} strokeWidth="2.2" />
+        <rect x="24" y="44" width="312" height="142" rx="14" fill={BLUE_TINT} stroke={INK} strokeWidth="2.2" />
         <Tag x={36} y={64}>{"Vertébrés — ont un squelette interne"}</Tag>
-        <rect x="42" y="80" width="278" height="76" rx="12" fill={GREEN_TINT} stroke={INK} strokeWidth="2.2" />
+        <rect x="42" y="78" width="278" height="70" rx="12" fill={GREEN_TINT} stroke={INK} strokeWidth="2.2" />
         <Tag x={54} y={99}>{"Mammifères — poils, allaitent leurs petits"}</Tag>
         {/* exemples de mammifères */}
         {[
@@ -391,8 +393,8 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
           { x: 226, w: 84, t: "être humain" },
         ].map((c) => (
           <g key={c.t}>
-            <rect x={c.x} y="114" width={c.w} height="28" rx="9" fill="#ffffff" stroke={INK} strokeWidth="1.8" />
-            <Tag x={c.x + c.w / 2} y={132} anchor="middle">{c.t}</Tag>
+            <rect x={c.x} y="112" width={c.w} height="28" rx="9" fill="#ffffff" stroke={INK} strokeWidth="1.8" />
+            <Tag x={c.x + c.w / 2} y={130} anchor="middle">{c.t}</Tag>
           </g>
         ))}
         {/* vertébrés non mammifères */}
@@ -401,8 +403,8 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
           { x: 182, w: 128, t: "truite (poisson)" },
         ].map((c) => (
           <g key={c.t}>
-            <rect x={c.x} y="162" width={c.w} height="26" rx="9" fill="#ffffff" stroke={INK} strokeWidth="1.8" />
-            <Tag x={c.x + c.w / 2} y={179} anchor="middle">{c.t}</Tag>
+            <rect x={c.x} y="158" width={c.w} height="24" rx="9" fill="#ffffff" stroke={INK} strokeWidth="1.8" />
+            <Tag x={c.x + c.w / 2} y={174} anchor="middle">{c.t}</Tag>
           </g>
         ))}
         {/* animaux non vertébrés */}
@@ -411,8 +413,8 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
           { x: 176, w: 160, t: "escargot (mollusque)" },
         ].map((c) => (
           <g key={c.t}>
-            <rect x={c.x} y="196" width={c.w} height="24" rx="9" fill="#ffffff" stroke={INK} strokeWidth="1.8" />
-            <Tag x={c.x + c.w / 2} y={212} anchor="middle">{c.t}</Tag>
+            <rect x={c.x} y="190" width={c.w} height="24" rx="9" fill="#ffffff" stroke={INK} strokeWidth="1.8" />
+            <Tag x={c.x + c.w / 2} y={206} anchor="middle">{c.t}</Tag>
           </g>
         ))}
       </svg>
@@ -527,11 +529,11 @@ export const FIGURES_EXTRA: Record<string, { title: string; svg: React.ReactNode
         <ellipse cx="120" cy="66" rx="7" ry="3.5" transform="rotate(-40 120 66)" fill={RED_TINT} stroke={INK} strokeWidth="1.4" />
         <Tag x={134} y={168} anchor="middle">2. fleur fécondée</Tag>
         {/* 3. le fruit (coupe) avec ses graines */}
-        <circle cx="226" cy="94" r="26" fill={RED_TINT} stroke={INK} strokeWidth="2.2" />
-        <line x1="226" y1="68" x2="226" y2="56" stroke={GREEN} strokeWidth="2.2" />
-        <ellipse cx="236" cy="52" rx="9" ry="4" transform="rotate(-20 236 52)" fill={GREEN_TINT} stroke={INK} strokeWidth="1.5" />
-        <ellipse cx="219" cy="96" rx="4" ry="6" transform="rotate(-14 219 96)" fill={ORANGE_TINT} stroke={INK} strokeWidth="1.5" />
-        <ellipse cx="233" cy="96" rx="4" ry="6" transform="rotate(14 233 96)" fill={ORANGE_TINT} stroke={INK} strokeWidth="1.5" />
+        <circle cx="226" cy="100" r="26" fill={RED_TINT} stroke={INK} strokeWidth="2.2" />
+        <line x1="226" y1="74" x2="226" y2="62" stroke={GREEN} strokeWidth="2.2" />
+        <ellipse cx="238" cy="60" rx="9" ry="4" transform="rotate(-20 238 60)" fill={GREEN_TINT} stroke={INK} strokeWidth="1.5" />
+        <ellipse cx="219" cy="102" rx="4" ry="6" transform="rotate(-14 219 102)" fill={ORANGE_TINT} stroke={INK} strokeWidth="1.5" />
+        <ellipse cx="233" cy="102" rx="4" ry="6" transform="rotate(14 233 102)" fill={ORANGE_TINT} stroke={INK} strokeWidth="1.5" />
         <line x1="226" y1="126" x2="226" y2="142" stroke={GREEN} strokeWidth="2.2" />
         <Tag x={226} y={168} anchor="middle">3. le fruit</Tag>
         {/* 4. la graine puis la germination */}

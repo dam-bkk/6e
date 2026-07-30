@@ -45,6 +45,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Centre et périphéries : la métropole au quotidien",
+      figure: "hg-schema-metropole",
       paragraphs: [
         "Une métropole s'organise en plusieurs espaces. Au centre se trouvent les quartiers d'affaires avec leurs tours de bureaux, les monuments, les commerces et les lieux culturels. C'est là que beaucoup de gens travaillent... mais le logement y est rare et très cher.",
         "Autour s'étendent les périphéries : les banlieues, faites de quartiers résidentiels, de grands ensembles ou de pavillons, puis les espaces périurbains, encore plus loin, où la ville se mélange à la campagne. Beaucoup d'habitants y vivent parce que les logements y sont plus grands et moins chers.",

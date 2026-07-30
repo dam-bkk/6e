@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={`${baloo.variable} ${nunito.variable} min-h-dvh`}>
         <Nav />
         {/* pb pour la tab-bar mobile */}
-        <main className="mx-auto w-full max-w-5xl px-4 pb-28 pt-6 md:px-8 md:pb-12">
+        <main className="mx-auto w-full max-w-[1250px] px-4 pb-28 pt-6 md:px-8 md:pb-12">
           {children}
         </main>
       </body>

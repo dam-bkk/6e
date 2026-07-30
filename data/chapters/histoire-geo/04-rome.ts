@@ -58,6 +58,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Auguste et l'Empire",
+      figure: "hg-empire-romain",
       paragraphs: [
         "Après la mort de César, les guerres civiles déchirent Rome. Le vainqueur final est Octave, fils adoptif de César. En 27 av. J.-C., le Sénat lui donne le titre d'Auguste : c'est le premier empereur. La République est terminée ; l'Empire commence.",
         "L'empereur concentre tous les pouvoirs : il commande les armées, fait les lois, contrôle les finances et il est même honoré comme un dieu dans certaines provinces. Le Sénat et les consuls existent toujours, mais ils n'ont presque plus de pouvoir réel.",
