@@ -3,6 +3,7 @@
 import { useMemo, useRef, useState } from "react";
 import { Check, X, Lightbulb, ArrowRight, RotateCcw } from "lucide-react";
 import { playSuccess, playError } from "@/lib/fx";
+import { checkAnswer } from "@/lib/answers";
 
 export interface PlayerItem {
   id: string;
@@ -19,23 +20,8 @@ export interface PlayerItem {
   tag?: string;
 }
 
-/** Normalisation tolérante : espaces, casse, point/virgule, apostrophe typographique */
-function norm(s: string): string {
-  return s
-    .trim()
-    .toLowerCase()
-    .replaceAll(" ", "")
-    .replaceAll("\u00a0", "")
-    .replaceAll("\u2019", "'")
-    // ponctuation finale ignor\u00e9e (r\u00e9ponses-phrases : \u00ab Laura chante. \u00bb)
-    .replace(/[.!?]+$/, "")
-    // point d\u00e9cimal \u2192 virgule fran\u00e7aise, uniquement entre deux chiffres
-    .replace(/(\d)\.(\d)/g, "$1,$2");
-}
-
 function checkInput(item: PlayerItem, raw: string): boolean {
-  const candidates = [String(item.answer), ...(item.accept ?? [])];
-  return candidates.some((c) => norm(c) === norm(raw));
+  return checkAnswer(item.answer, item.accept, raw);
 }
 
 const CONFETTI_COLORS = ["#e8492f", "#ffd166", "#0f6b52", "#1d5fa8", "#5a3ec8"];

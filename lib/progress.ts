@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { logActivity } from "@/lib/activity-log";
 
 export interface ExerciseRecord {
   correct: boolean;
@@ -183,6 +184,10 @@ export function recordExercise(exId: string, correct: boolean, xpGain: number): 
   p = bumpActivity(p, { ex: 1, ok: correct ? 1 : 0, xp: gained });
   p = touchStreak(p);
   save(p);
+  logActivity(
+    "exercice",
+    `Exercice ${exId} : ${correct ? "réussi" : "raté"}${gained ? ` (+${gained} XP)` : ""}`
+  );
   return p;
 }
 
@@ -200,6 +205,7 @@ export function recordDaily(score: number, total: number): Progress {
   p = bumpActivity(p, { daily: true, xp: firstTime ? score * 5 : 0 });
   p = touchStreak(p);
   save(p);
+  logActivity("defi", `Défi du jour terminé : ${score}/${total}`);
   return p;
 }
 

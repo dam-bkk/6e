@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { Home, Swords, Trophy, Flame, Star, Volume2, VolumeX } from "lucide-react";
+import { Home, Swords, Trophy, Flame, Star, Volume2, VolumeX, Settings } from "lucide-react";
 import { ZesteLogo, type Accessory } from "@/components/logo";
 import { useProgress } from "@/lib/progress";
 import { usePrefs } from "@/lib/prefs";
@@ -87,6 +87,14 @@ export function Nav() {
             >
               {sound ? <Volume2 size={18} strokeWidth={2.5} /> : <VolumeX size={18} strokeWidth={2.5} />}
             </button>
+            <Link
+              href="/reglages"
+              className="rounded-full p-2 text-muted hover:bg-zest-soft hover:text-ink"
+              aria-label="Réglages"
+              title="Réglages"
+            >
+              <Settings size={18} strokeWidth={2.5} />
+            </Link>
 
             {/* Liens desktop */}
             <nav className="ml-4 hidden items-center gap-1 md:flex">

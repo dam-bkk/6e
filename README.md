@@ -21,6 +21,16 @@ Puis ouvrir http://localhost:3000
 - Défi du jour : 6 questions de calcul mental, déterministe par date
 - XP, série de jours (streak), badges
 
+## Qualité et releases
+
+- `npm test` — tests unitaires (logique de correction, générateur du défi,
+  intégrité des 129+ chapitres : ids uniques, index QCM valides, figures
+  existantes, pas d'emoji). **`npm run build` échoue si un test échoue.**
+- Chaque push qui change l'app ajoute une entrée versionnée (semver) dans
+  `data/changelog.ts` — major = rupture, minor = fonctionnalité/contenu,
+  patch = correction. Visible dans l'app : Réglages → Versions.
+- Journal d'activité local (qui/quoi/quand/IP/catégorie) : Réglages → Journal.
+
 ## Structure
 
 - `data/chapters/*.ts` — le contenu pédagogique (type `Chapter` dans `lib/types.ts`)

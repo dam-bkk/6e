@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { Grade } from "@/lib/types";
+import { logActivity } from "@/lib/activity-log";
 
 const NAME_KEY = "zeste.name";
 const GRADE_KEY = "zeste.grade";
@@ -16,6 +17,7 @@ export function setStudentName(name: string) {
   try {
     window.localStorage.setItem(NAME_KEY, name.trim());
     emit();
+    logActivity("profil", `Prénom défini : ${name.trim()}`);
   } catch {
     // stockage indisponible
   }
@@ -25,6 +27,7 @@ export function setGrade(grade: Grade) {
   try {
     window.localStorage.setItem(GRADE_KEY, grade);
     emit();
+    logActivity("profil", `Classe changée : ${grade}`);
   } catch {
     // stockage indisponible
   }
@@ -44,6 +47,7 @@ export function setOptions(ids: string[]) {
   try {
     window.localStorage.setItem(OPTIONS_KEY, JSON.stringify(ids));
     emit();
+    logActivity("profil", `Options choisies : ${ids.length ? ids.join(", ") : "aucune"}`);
   } catch {
     // stockage indisponible
   }

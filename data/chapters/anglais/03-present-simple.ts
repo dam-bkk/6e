@@ -57,13 +57,13 @@ export const chapter: Chapter = {
         "Do you like chocolate? – Yes, I do. → Aimes-tu le chocolat ? – Oui.",
         "Does your dad work on Saturdays? – No, he doesn't. → Ton père travaille-t-il le samedi ? – Non.",
       ],
-      tip: "Le -s ne peut être qu'à UN seul endroit : sur does OU sur le verbe, jamais les deux. Does she play ✓ — Does she plays ✗.",
+      tip: "Le -s ne peut être qu'à UN seul endroit : sur does OU sur le verbe, jamais les deux. Does she play (correct) — Does she plays (faux).",
     },
     {
       title: "Négation avec don't et doesn't",
       paragraphs: [
         "Pour la négation, on place don't (= do not) ou doesn't (= does not) devant la base verbale : I don't like coffee. He doesn't play rugby.",
-        "Même règle que pour les questions : après doesn't, le verbe reste à la base verbale, sans -s. She doesn't likes ✗ → She doesn't like ✓.",
+        "Même règle que pour les questions : après doesn't, le verbe reste à la base verbale, sans -s. She doesn't likes (faux) → She doesn't like (correct).",
         "Ne confonds pas avec be : pour dire « je ne suis pas », c'est I'm not (pas « I don't be » !). Don't/doesn't ne s'utilisent qu'avec les autres verbes.",
       ],
       example: [
@@ -78,7 +78,7 @@ export const chapter: Chapter = {
       paragraphs: [
         "Pour dire à quelle fréquence on fait quelque chose : always (toujours), usually (d'habitude), often (souvent), sometimes (parfois), never (jamais).",
         "Leur place est stricte : AVANT le verbe ordinaire (I often play football), mais APRÈS le verbe be (She is always late).",
-        "Attention : never est déjà négatif, donc pas de don't avec lui ! I never eat fish ✓ — I don't never eat ✗. Pour demander la fréquence : How often do you…? (« Tous les combien… ? »).",
+        "Attention : never est déjà négatif, donc pas de don't avec lui ! I never eat fish (correct) — I don't never eat (faux). Pour demander la fréquence : How often do you…? (« Tous les combien… ? »).",
       ],
       example: [
         "I always get up at 7 o'clock. → Je me lève toujours à 7 heures.",
