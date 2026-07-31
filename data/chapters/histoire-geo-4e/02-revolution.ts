@@ -182,7 +182,7 @@ export const chapter: Chapter = {
       answer: 1,
       explanation:
         "En tentant de fuir à l'étranger avec sa famille, Louis XVI montre qu'il rejette la Révolution. Reconnu et arrêté à Varennes, il perd la confiance d'une grande partie des Français, qui le voient désormais comme un traître. La monarchie constitutionnelle est fragilisée, plus d'un an avant sa chute du 10 août 1792. Repère à retenir : Varennes, juin 1791 = la rupture entre le roi et la nation.",
-      hint: "Que pense le peuple d'un roi qui essaie de quitter secrètement son pays en guerre de tensions ?",
+      hint: "Que pense le peuple d'un roi qui essaie de quitter secrètement son pays en pleine crise ?",
     },
     {
       id: "h4rev-9",

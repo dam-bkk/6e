@@ -51,7 +51,7 @@ export function Nav() {
           <Link href="/" className="flex items-center gap-2.5">
             <ZesteLogo size={36} accessory={avatar as Accessory} />
             <span className="font-display text-2xl font-bold tracking-tight">
-              Zeste
+              Astucio
             </span>
             <span className="mt-1 rounded-full bg-donnees-tint px-2 py-0.5 text-xs font-bold text-donnees-strong">
               {grade}

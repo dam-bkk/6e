@@ -197,7 +197,7 @@ export const chapter: Chapter = {
       type: "input",
       question: "Transpose au passif en complétant : « La tempête a détruit les cabanes. » → « Les cabanes ... par la tempête. »",
       answer: "ont été détruites",
-      accept: ["ont ete detruites", "ont été détruite"],
+      accept: ["ont ete detruites"],
       explanation:
         "Le verbe actif « a détruit » est au passé composé : être passe au passé composé → « ont été », puis le participe « détruites » s'accorde avec le sujet « les cabanes » (féminin pluriel). Le piège : il faut à la fois le bon temps (ont été) et le bon accord (-es).",
       hint: "Passé composé d'être avec « les cabanes » : elles ont été… + participe accordé.",

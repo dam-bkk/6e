@@ -122,7 +122,7 @@ export const chapter: Chapter = {
       accept: ["laicite", "la laïcité", "la laicite", "laicité"],
       explanation:
         "C'est la laïcité. Fondée sur la loi du 9 décembre 1905 de séparation des Églises et de l'État, elle garantit la liberté de croire ou de ne pas croire, la neutralité de l'État et l'égalité de tous les citoyens quelles que soient leurs convictions. Repère à retenir : laïcité = liberté, neutralité, égalité (loi de 1905).",
-      hint: "C'est le deuxième mot de la devise « République indivisible, laïque, démocratique et sociale ».",
+      hint: "C'est le deuxième adjectif de l'article 1er de la Constitution : « République indivisible, laïque, démocratique et sociale ».",
     },
     {
       id: "h4emc-5",
@@ -227,7 +227,7 @@ export const chapter: Chapter = {
       accept: ["15 ans", "quinze", "quinze ans"],
       explanation:
         "La majorité numérique est fixée à 15 ans en France : avant cet âge, un mineur doit en principe avoir l'accord de ses parents pour s'inscrire seul sur un réseau social et consentir à l'utilisation de ses données personnelles. C'est aussi l'âge en dessous duquel les peines pour cyberharcèlement contre la victime sont aggravées. Repère à retenir : majorité numérique = 15 ans.",
-      hint: "C'est entre l'entrée au collège et la majorité civile de 18 ans, en plein âge du lycée qui commence.",
+      hint: "C'est entre l'entrée au collège et la majorité civile de 18 ans : l'âge où l'on entre au lycée.",
     },
   ],
 };

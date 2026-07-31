@@ -40,7 +40,7 @@ function ProfileSetup({ onDone }: { onDone: () => void }) {
       {step === 0 && (
         <>
           <h1 className="font-display text-2xl font-extrabold md:text-3xl">
-            Bienvenue sur Zeste !
+            Bienvenue sur Astucio !
           </h1>
           <p className="mt-1 font-semibold text-muted">Comment tu t&apos;appelles ?</p>
           <form

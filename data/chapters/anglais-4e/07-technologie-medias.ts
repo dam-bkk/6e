@@ -47,7 +47,7 @@ export const chapter: Chapter = {
         "She checks her phone every morning. → Elle consulte son téléphone tous les matins.",
         "How often do you play video games? — Twice a week. → À quelle fréquence joues-tu aux jeux vidéo ? — Deux fois par semaine.",
       ],
-      tip: "« Les réseaux sociaux » se dit social media, pas « social networks » dans l'anglais courant d'aujourd'hui. Et media est déjà pluriel : social media ARE everywhere.",
+      tip: "« Les réseaux sociaux » se dit social media, pas « social networks » dans l'anglais courant d'aujourd'hui. Et social media s'emploie le plus souvent au singulier : social media IS everywhere.",
     },
     {
       title: "Spend time + V-ing",

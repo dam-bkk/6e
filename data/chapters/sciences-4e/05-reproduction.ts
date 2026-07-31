@@ -245,7 +245,7 @@ export const chapter: Chapter = {
       level: 3,
       type: "qcm",
       question:
-        "Une personne se sait porteuse d'aucun symptôme et n'a jamais été malade. Que peut-on en conclure sur les IST ?",
+        "Une personne ne présente aucun symptôme et ne s'est jamais sentie malade. Que peut-on en conclure sur les IST ?",
       choices: [
         "Elle ne peut pas être porteuse d'une IST",
         "Elle peut être porteuse et contagieuse sans le savoir : seul un dépistage permet de le dire",

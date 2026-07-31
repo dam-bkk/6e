@@ -1,4 +1,4 @@
-# Zeste — Ma 6e
+# Astucio — Ma 6e
 
 Webapp d'accompagnement scolaire pour la 6e (maths d'abord) : leçons, exercices
 corrigés, défi du jour et suivi de progression. 100 % locale, aucune donnée ne

@@ -86,7 +86,7 @@ export default async function FichePage({
           )}
 
           <p className="text-center text-xs font-bold text-muted print:mt-4">
-            Zeste · 6e.damien.asia · Relis cette fiche la veille d&apos;un contrôle !
+            Astucio · astucio.damien.asia · Relis cette fiche la veille d&apos;un contrôle !
           </p>
         </div>
       </div>

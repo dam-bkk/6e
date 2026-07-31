@@ -127,7 +127,7 @@ export const chapter: Chapter = {
       id: "e4if-4",
       level: 1,
       type: "input",
-      question: "Complète avec la forme contractée : « Don't worry, I ___ help you. » (un mot, promesse affirmative)",
+      question: "Complète : « Don't worry, I ___ help you. » (un mot, promesse affirmative)",
       answer: "will",
       accept: ["'ll"],
       explanation:

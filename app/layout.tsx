@@ -16,8 +16,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Zeste — Ma 6e",
-  description: "Leçons, exercices et défis de maths pour la 6e",
+  title: "Astucio — Réussir au collège",
+  description: "Leçons, exercices, vidéos et défis : tout le collège, de la 6e à la 3e",
 };
 
 export const viewport: Viewport = {
