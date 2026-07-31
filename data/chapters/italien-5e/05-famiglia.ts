@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La famiglia : le vocabulaire",
+      figure: "it-famiglia",
       paragraphs: [
         "Les parents : la madre (la mère), il padre (le père) — ensemble, i genitori (les parents ; attention, « i parenti » veut dire « les membres de la famille » en général, pas papa et maman !).",
         "Frères et soeurs : il fratello (le frère), la sorella (la soeur). « I fratelli » peut vouloir dire « les frères » ou « les frères et soeurs ».",
@@ -209,6 +210,13 @@ export const chapter: Chapter = {
       explanation:
         "Vrai ! « I miei cugini sono sportivi » = mes cousins sont sportifs. Article pluriel i + possessif pluriel miei + nom pluriel cugini, verbe sono (ils sont) et adjectif accordé au masculin pluriel : sportivi. Toute la chaîne est au masculin pluriel.",
       hint: "Vérifie chaque maillon : article, possessif, nom, verbe, adjectif.",
+    },
+  ],
+  videos: [
+    {
+      title: "LA FAMILLE EN ITALIEN avec texte et traduction en français",
+      youtubeId: "hd2klFOSrCw",
+      channel: "ABC Languages",
     },
   ],
 };

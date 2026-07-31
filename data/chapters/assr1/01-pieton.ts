@@ -31,6 +31,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Traverser : le bon endroit",
+      figure: "assr-traversee",
       paragraphs: [
         "La règle est simple : s'il existe un passage piéton à moins de 50 mètres, tu as l'obligation de l'utiliser. 50 mètres, c'est court : à peine une demi-minute de marche.",
         "Sur le passage piéton, les conducteurs doivent te céder le passage, mais cette priorité ne te protège que si le conducteur t'a vue. Avant de t'engager, regarde à gauche, à droite, puis encore à gauche, et cherche le regard du conducteur qui approche.",
@@ -262,6 +263,13 @@ export const chapter: Chapter = {
       explanation:
         "Faux. La loi oblige bien les conducteurs à céder le passage au piéton engagé ou qui manifeste l'intention de traverser. Mais une règle n'arrête pas une voiture : si le conducteur ne t'a pas vue, la priorité ne te protège pas. On regarde, on cherche le regard du conducteur, puis on s'engage.",
       hint: "Une règle protège-t-elle si l'autre ne l'applique pas ?",
+    },
+  ],
+  videos: [
+    {
+      title: "Le code de la route des piétons CP CE1 CE2 CM1 CM2 cycle 2 cycle 3 enseignement moral et civique emc",
+      youtubeId: "k9yJktHEUzM",
+      channel: "Maître Lucas",
     },
   ],
 };

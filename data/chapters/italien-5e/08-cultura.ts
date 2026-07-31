@@ -37,6 +37,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La botte italienne : villes et géographie",
+      figure: "it-italia",
       paragraphs: [
         "Regarde une carte : l'Italie a la forme d'une botte ! Le « stivale » (la botte) a même un talon (les Pouilles) et une pointe (la Calabre) qui semble shooter dans un ballon : la Sicile. L'autre grande île est la Sardaigne.",
         "Les villes à connaître : Roma (Rome), la capitale, avec le Colisée ; Venezia (Venise) et ses canaux sans voitures ; Firenze (Florence), la ville des artistes ; Milano (Milan), capitale de la mode ; Napoli (Naples), patrie de la pizza, au pied du Vésuve.",
@@ -224,6 +225,13 @@ export const chapter: Chapter = {
       explanation:
         "Vrai ! Sono le tre = il est trois heures, e mezza = et demie. On ajoute les minutes avec « e » : sono le tre e dieci (3 h 10), sono le tre e un quarto (3 h et quart), sono le tre e mezza (3 h 30).",
       hint: "« Mezza » est de la famille de mezzogiorno (midi) : la moitié.",
+    },
+  ],
+  videos: [
+    {
+      title: "Che ore sono? L'expression de l'heure en italien",
+      youtubeId: "Wi5gp1mh5mo",
+      channel: "L'italien avec Silvia",
     },
   ],
 };

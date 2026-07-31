@@ -14,6 +14,7 @@ import { FIGURES_EXTRA as ESPAGNOL_LATIN } from "@/components/figures-espagnol-l
 import { FIGURES_EXTRA as HG5E } from "@/components/figures-hg5e";
 import { FIGURES_EXTRA as SCIENCES_EXTRA } from "@/components/figures-sciences-extra";
 import { FIGURES_EXTRA as INTER } from "@/components/figures-inter";
+import { FIGURES_EXTRA as DE_IT_ASSR } from "@/components/figures-de-it-assr";
 
 const EXTRA_CATALOGS: Record<string, { title: string; svg: React.ReactNode }> = {
   ...SCIENCES,
@@ -26,6 +27,7 @@ const EXTRA_CATALOGS: Record<string, { title: string; svg: React.ReactNode }> = 
   ...HG5E,
   ...SCIENCES_EXTRA,
   ...INTER,
+  ...DE_IT_ASSR,
 };
 
 const INK = "#2a2440";

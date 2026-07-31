@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Sein (être) au présent",
+      figure: "de-sein-haben",
       paragraphs: [
         "« Sein » veut dire « être ». C'est le verbe le plus utilisé de l'allemand, et il est complètement irrégulier — comme « être » en français d'ailleurs.",
         "Sa conjugaison : ich bin (je suis), du bist (tu es), er/sie/es ist (il/elle est), wir sind (nous sommes), ihr seid (vous êtes), sie sind (ils/elles sont).",
@@ -180,7 +181,7 @@ export const chapter: Chapter = {
       id: "de2-9",
       level: 3,
       type: "input",
-      question: "Traduis en allemand : « j'ai faim » (2 mots — attention, la correction ignore la majuscule).",
+      question: "Traduis en allemand : « j'ai faim » (3 mots — attention, la correction ignore la majuscule).",
       answer: "ich habe hunger",
       accept: ["habe hunger"],
       explanation:
@@ -216,6 +217,13 @@ export const chapter: Chapter = {
       answer: false,
       explanation:
         "Faux ! C'est LE calque à éviter : l'allemand dit « Ich bin zwölf Jahre alt » avec le verbe sein (être), comme l'anglais « I am twelve ». « Ich habe zwölf Jahre » est une erreur typique de francophone.",
+    },
+  ],
+  videos: [
+    {
+      title: "🇩🇪  sein et haben | #apprendreallemand",
+      youtubeId: "SvdnKTRA_dk",
+      channel: "AllemandCompris",
     },
   ],
 };

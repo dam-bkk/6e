@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Les trois repas de la journée",
+      figure: "de-essen",
       paragraphs: [
         "Das Frühstück (le petit-déjeuner), das Mittagessen (le déjeuner, littéralement « le repas de midi ») et das Abendessen (le dîner, « le repas du soir »). Encore des mots composés : Mittag + Essen, Abend + Essen.",
         "Au petit-déjeuner allemand, on trouve souvent : das Brot (le pain), das Brötchen (le petit pain), die Butter, die Marmelade (la confiture), das Müsli, die Milch (le lait).",
@@ -216,6 +217,13 @@ export const chapter: Chapter = {
       explanation:
         "99 = neunundneunzig : neun (9) + und + neunzig (90), collés en un seul mot. La recette marche de 21 à 99 : unité + und + dizaine.",
       hint: "Neuf-et-quatre-vingt-dix, à l'allemande : unité + und + dizaine.",
+    },
+  ],
+  videos: [
+    {
+      title: "Allemand pour débutants (A1/A2) | Deutschtrainer: Ce que je mange",
+      youtubeId: "rH8t_qldjPE",
+      channel: "Deutsch lernen mit der DW",
     },
   ],
 };

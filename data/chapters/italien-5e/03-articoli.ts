@@ -35,6 +35,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les articles définis au singulier : il, la, lo, l'",
+      figure: "it-articoli",
       paragraphs: [
         "Au masculin, l'article normal est « il » : il libro, il gatto, il quaderno.",
         "Mais devant un mot qui commence par s + consonne (st, sp, sc…) ou par z, le masculin prend « lo » : lo studente (l'étudiant), lo zaino (le sac à dos), lo sport, lo specchio (le miroir). C'est le fameux « lo » !",
@@ -229,6 +230,13 @@ export const chapter: Chapter = {
       explanation:
         "Faux ! L'italien ne forme jamais le pluriel avec un s : il gatto → i gatti. La phrase correcte est « Ho due gatti ». Le s final du pluriel n'existe qu'en français, en anglais ou en espagnol — pas en italien.",
       hint: "Comment l'italien marque-t-il le pluriel : avec un s ou en changeant la voyelle ?",
+    },
+  ],
+  videos: [
+    {
+      title: "🇮🇹Les articles définis, indéfinis / Le masculin, le féminin et pluriel: Cours italien débutants 5/14",
+      youtubeId: "0ycD2wan19c",
+      channel: "L'italien avec Silvia",
     },
   ],
 };

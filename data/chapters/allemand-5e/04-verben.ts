@@ -48,6 +48,7 @@ export const chapter: Chapter = {
     },
     {
       title: "La règle en or : le verbe en 2e position",
+      figure: "de-verb-2",
       paragraphs: [
         "Dans une phrase déclarative allemande, le verbe conjugué occupe TOUJOURS la 2e position. C'est la règle de construction la plus importante de l'allemand.",
         "« 2e position » ne veut pas dire « 2e mot », mais 2e bloc d'idée. Si la phrase commence par un complément, le sujet passe APRÈS le verbe : « Heute spiele ich Fußball » (aujourd'hui je joue au foot) — et pas « Heute ich spiele ».",
@@ -209,6 +210,13 @@ export const chapter: Chapter = {
       answer: false,
       explanation:
         "Faux ! Le changement de voyelle ne concerne jamais ich : on dit « Ich spreche Französisch », avec le e de l'infinitif. Le i n'apparaît qu'avec du (sprichst) et er/sie/es (spricht).",
+    },
+  ],
+  videos: [
+    {
+      title: "Le présent de l’indicatif - Allemand - Collège - Les Bons Profs",
+      youtubeId: "jbUYj145R5s",
+      channel: "Les Bons Profs",
     },
   ],
 };

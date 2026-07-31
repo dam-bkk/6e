@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La famille proche",
+      figure: "de-familie",
       paragraphs: [
         "Les parents : die Mutter (la mère), der Vater (le père). Ensemble : die Eltern (les parents). En version affectueuse : Mama et Papa.",
         "Les frères et sœurs : der Bruder (le frère), die Schwester (la sœur). Le mot qui regroupe les deux : die Geschwister (les frères et sœurs, toujours au pluriel). « Hast du Geschwister? » = as-tu des frères et sœurs ?",
@@ -218,6 +219,13 @@ export const chapter: Chapter = {
       answer: true,
       explanation:
         "Vrai ! Au pluriel, mein/dein prennent toujours -e : meine Eltern (mes parents), deine Geschwister (tes frères et sœurs). La règle complète : masculin et neutre → mein/dein, féminin ET pluriel → meine/deine.",
+    },
+  ],
+  videos: [
+    {
+      title: "LA FAMILLE EN ALLEMAND / DÉBUTANT",
+      youtubeId: "99-JRzH61K0",
+      channel: "Il était une fois l'Allemand",
     },
   ],
 };

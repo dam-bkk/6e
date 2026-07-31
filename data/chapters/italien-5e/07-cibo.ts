@@ -35,6 +35,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les repas de la journée",
+      figure: "it-cibo",
       paragraphs: [
         "La colazione (le petit-déjeuner) : en Italie, il est sucré et léger — biscuits, brioche, lait ou cappuccino. Fare colazione = prendre le petit-déjeuner.",
         "Il pranzo (le déjeuner), vers 13 h, et la cena (le dîner), vers 20 h. Le goûter des enfants s'appelle la merenda.",
@@ -223,6 +224,13 @@ export const chapter: Chapter = {
       explanation:
         "Faux ! « I peperoni » sont des POIVRONS, pas du saucisson : la phrase veut dire « au dîner, je mange des pâtes aux poivrons ». Le « pepperoni » piquant des pizzas américaines n'existe pas sous ce nom en Italie (on dirait « salame piccante »).",
       hint: "Encore un faux ami gourmand : c'est un légume.",
+    },
+  ],
+  videos: [
+    {
+      title: "Apprendre l'italien leçon 6 débutant : au restaurant🍝",
+      youtubeId: "U1GivnUzPLk",
+      channel: "Plaisir d'apprendre l'italien - Sandrine",
     },
   ],
 };

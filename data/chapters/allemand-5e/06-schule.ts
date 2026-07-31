@@ -62,6 +62,7 @@ export const chapter: Chapter = {
     },
     {
       title: "L'emploi du temps",
+      figure: "de-stundenplan",
       paragraphs: [
         "Der Stundenplan = l'emploi du temps (littéralement : le plan des heures). Die Stunde = l'heure de cours, die Pause = la récréation.",
         "Pour décrire ta journée : « Am Dienstag habe ich Deutsch, Mathe und Musik » (le mardi, j'ai allemand, maths et musique).",
@@ -223,6 +224,13 @@ export const chapter: Chapter = {
       answer: false,
       explanation:
         "Faux ! Le verbe doit rester en 2e position : « Am Montag habe ich Englisch ». Quand la phrase commence par un complément comme « Am Montag », le sujet passe après le verbe. « Am Montag ich habe » est le calque du français — erreur classique !",
+    },
+  ],
+  videos: [
+    {
+      title: "L'ÉCOLE- les matières scolaires/ DÉBUTANT",
+      youtubeId: "UsK3w0jJF7M",
+      channel: "Il était une fois l'Allemand",
     },
   ],
 };

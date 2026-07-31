@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Saluer : ciao, buongiorno…",
+      figure: "it-saluti",
       paragraphs: [
         "Le mot le plus célèbre d'Italie : « ciao ». Il est magique, car il veut dire à la fois salut ET au revoir ! On l'utilise avec les copains et la famille.",
         "Avec un adulte qu'on ne connaît pas bien, on est plus poli : « buongiorno » (bonjour, la journée) et « buonasera » (bonsoir, à partir de la fin d'après-midi). « Buonanotte » se dit seulement pour aller se coucher.",
@@ -217,6 +218,13 @@ export const chapter: Chapter = {
       explanation:
         "« Sono di Roma » : essere (sono) + di + ville. C'est la formule pour dire son origine, en réponse à « Di dove sei? ». Remarque qu'on ne dit pas le pronom « io » : le verbe suffit, car sa terminaison indique déjà la personne.",
       hint: "Verbe essere à la 1re personne + « di » + le nom italien de la ville.",
+    },
+  ],
+  videos: [
+    {
+      title: "Leçon pour débutant : Se présenter en italien et parler de soi (discours informel)",
+      youtubeId: "6_cJNUIvVJM",
+      channel: "Plaisir d'apprendre l'italien - Sandrine",
     },
   ],
 };

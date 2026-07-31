@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Un vélo équipé, c'est obligatoire",
+      figure: "assr-velo",
       paragraphs: [
         "Le code de la route impose des équipements sur tout vélo qui circule. Deux freins, un à l'avant et un à l'arrière, en bon état. Une sonnette dont le son porte à au moins 50 mètres, pour prévenir de ton arrivée.",
         "Pour être vue : un feu avant blanc ou jaune et un feu arrière rouge, obligatoires la nuit et quand la visibilité est mauvaise (pluie, brouillard). S'y ajoutent les catadioptres, ces petits réflecteurs qui renvoient la lumière des phares : blanc à l'avant, rouge à l'arrière, orange sur les pédales et sur les côtés (souvent dans les rayons).",
@@ -255,6 +256,13 @@ export const chapter: Chapter = {
       explanation:
         "Faux. Le port d'écouteurs, d'oreillettes ou d'un casque audio est interdit à vélo, quelle que soit ta prudence, tout comme téléphoner en roulant. À vélo, l'ouïe complète la vue : elle te signale la voiture qui te dépasse ou le klaxon d'alerte avant même que tu les voies.",
       hint: "La règle est la même que pour les conducteurs de voiture, en plus strict.",
+    },
+  ],
+  videos: [
+    {
+      title: "Vélo. Quels sont les équipements obligatoires ?",
+      youtubeId: "8mhWY7v8zSc",
+      channel: "Ouest-France",
     },
   ],
 };

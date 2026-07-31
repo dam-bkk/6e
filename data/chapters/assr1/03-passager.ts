@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "La ceinture, à chaque trajet",
+      figure: "assr-passager",
       paragraphs: [
         "La ceinture de sécurité est obligatoire pour tous les occupants d'une voiture, à l'avant comme à l'arrière, même pour un trajet de deux minutes. La règle : une place, une ceinture, une personne.",
         "Lors d'un choc à 50 km/h, un passager non attaché est projeté avec une force équivalente à une chute du troisième étage. À l'arrière, sans ceinture, tu deviens un projectile qui peut écraser les passagers avant.",
@@ -262,6 +263,13 @@ export const chapter: Chapter = {
       explanation:
         "Vrai. La loi rend le conducteur responsable de l'attache des passagers mineurs : c'est lui qui est sanctionné si un enfant n'est pas attaché ou mal installé. Mais dans la vraie vie, la sécurité ne se délègue pas : c'est ton réflexe de boucler ta ceinture sans qu'on ait à te le demander.",
       hint: "Pour les mineurs, la loi désigne un responsable dans la voiture.",
+    },
+  ],
+  videos: [
+    {
+      title: "Le meilleur du Monde de Jamy - Crash test : attachez vos ceintures !",
+      youtubeId: "CkYdfu-Z4NE",
+      channel: "Le Monde De Jamy - France Télévisions",
     },
   ],
 };

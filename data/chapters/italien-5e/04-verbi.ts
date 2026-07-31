@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Les trois groupes : -are, -ere, -ire",
+      figure: "it-verbi",
       paragraphs: [
         "Tous les verbes italiens réguliers se rangent en trois groupes, selon la fin de leur infinitif : -are (parlare, parler), -ere (prendere, prendre), -ire (dormire, dormir).",
         "Pour conjuguer, on enlève la terminaison de l'infinitif et on garde le radical : parl-, prend-, dorm-. Puis on ajoute les terminaisons du présent.",
@@ -217,6 +218,13 @@ export const chapter: Chapter = {
       explanation:
         "Vrai ! « Perché mangi? » = pourquoi manges-tu ? et « Perché ho fame » = parce que j'ai faim. Un seul mot italien pour les deux sens français. N'oublie pas son accent aigu sur le é final : perché.",
       hint: "Perché studi l'italiano? Perché mi piace!",
+    },
+  ],
+  videos: [
+    {
+      title: "🇮🇹 La conjugaison des verbes réguliers au présent de l’indicatif : Cours italien pour débutants 3/14",
+      youtubeId: "cd9tVgCe8mk",
+      channel: "L'italien avec Silvia",
     },
   ],
 };

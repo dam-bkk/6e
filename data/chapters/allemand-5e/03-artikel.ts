@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Trois genres : der, die, das",
+      figure: "de-artikel",
       paragraphs: [
         "En français, il y a deux genres : le et la. En allemand, il y en a TROIS : der (masculin), die (féminin) et das (neutre).",
         "Le genre allemand ne correspond pas toujours au genre français : on dit die Sonne (le soleil… féminin !) et der Mond (la lune… masculin !). Il faut donc apprendre chaque nom AVEC son article, comme un tout.",
@@ -219,6 +220,13 @@ export const chapter: Chapter = {
       answer: true,
       explanation:
         "Vrai ! Ein/eine n'a pas de pluriel : « j'ai des livres » se dit « Ich habe Bücher », sans article. C'est différent du français, qui utilise « des ». Remarque aussi l'Umlaut du pluriel : das Buch → die Bücher.",
+    },
+  ],
+  videos: [
+    {
+      title: "DER, DIE, DAS (1) : mais qu'est ce que c'est ?? - vidéo pour DEBUTANTS en allemand",
+      youtubeId: "P3YhH7gyU1Q",
+      channel: "Apprendre natur'allemand",
     },
   ],
 };

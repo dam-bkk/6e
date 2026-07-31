@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Essere (être) au présent",
+      figure: "it-essere-avere",
       paragraphs: [
         "Le verbe essere (être) est irrégulier, comme en français. Au présent : (io) sono, (tu) sei, (lui / lei) è, (noi) siamo, (voi) siete, (loro) sono.",
         "Remarque une curiosité : « sono » sert à la fois pour « je suis » et « ils / elles sont ». C'est le contexte (ou le sujet) qui fait la différence.",
@@ -219,6 +220,13 @@ export const chapter: Chapter = {
       explanation:
         "Faux ! « È » avec accent = « elle est » (verbe essere) ; « e » sans accent = « et ». La phrase signifie « Lucia est grande et blonde ». L'accent grave change complètement le mot : c'est pour cela qu'il est obligatoire.",
       hint: "Compare bien : l'un porte un accent, l'autre non.",
+    },
+  ],
+  videos: [
+    {
+      title: "🇮🇹 Verbes être et avoir au présent de l’indicatif en italien - verbo essere e avere (lezione 6)",
+      youtubeId: "7MZQJo6domM",
+      channel: "L'italien avec Silvia",
     },
   ],
 };

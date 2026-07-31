@@ -65,6 +65,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Mi piace / mi piacciono : dire ce qu'on aime",
+      figure: "it-piace",
       paragraphs: [
         "Pour dire « j'aime », l'italien dit littéralement « ça me plaît » : mi piace. Mi piace la musica = j'aime la musique (la musique me plaît).",
         "LE point important : le verbe s'accorde avec la chose aimée, pas avec toi ! Une seule chose → mi piace ; plusieurs choses → mi piacciono. Mi piace la pizza, MAIS mi piacciono le scienze.",
@@ -230,6 +231,13 @@ export const chapter: Chapter = {
       explanation:
         "Faux ! Devant e ou i, « sc » se prononce « ch » : scienze = « chièntsé ». Le son « sk » n'existe que devant a, o, u ou h : scuola = « skouola », schermo = « skermo ». Même règle que pour c et g : doux devant e / i, dur ailleurs.",
       hint: "Rappelle-toi finisce, capisci… quel son fait « sc » devant i ?",
+    },
+  ],
+  videos: [
+    {
+      title: "🇮🇹 J'aime / je n'aime pas en italien - Mi piace/ Non mi piace (LEZIONE 22)",
+      youtubeId: "3EtygUJ6q24",
+      channel: "L'italien avec Silvia",
     },
   ],
 };

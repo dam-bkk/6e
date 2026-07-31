@@ -49,6 +49,7 @@ export const chapter: Chapter = {
     },
     {
       title: "Les pays germanophones : D-A-CH",
+      figure: "de-dach",
       paragraphs: [
         "L'allemand est langue officielle dans plusieurs pays. Les trois principaux : Deutschland (l'Allemagne, capitale Berlin), Österreich (l'Autriche, capitale Wien — Vienne) et die Schweiz (la Suisse, capitale Bern).",
         "On surnomme cet ensemble les pays D-A-CH : D pour Deutschland, A pour Austria (Österreich) et CH pour la Suisse (Confoederatio Helvetica). Environ 100 millions de personnes parlent allemand en Europe !",
@@ -221,6 +222,13 @@ export const chapter: Chapter = {
       answer: false,
       explanation:
         "Faux ! Zürich est la plus grande ville de Suisse, mais la capitale est Bern. Même type de piège qu'ailleurs : la plus grande ville n'est pas toujours la capitale. Rappel : on dit DIE Schweiz, avec l'article.",
+    },
+  ],
+  videos: [
+    {
+      title: "APPRENDRE L'HEURE EN ALLEMAND",
+      youtubeId: "uFdDowe8M78",
+      channel: "Il était une fois l'Allemand",
     },
   ],
 };

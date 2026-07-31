@@ -19,6 +19,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Quatre familles de panneaux",
+      figure: "assr-panneaux",
       paragraphs: [
         "Pas besoin de connaître chaque panneau par cœur : leur forme et leur couleur annoncent déjà leur message. Triangle à bord rouge : danger (virage, passage d'animaux, chaussée glissante). Rond à bord rouge : interdiction (sens interdit, vitesse limitée, accès interdit aux piétons).",
         "Rond à fond bleu : obligation (piste cyclable obligatoire, direction obligatoire). Carré ou rectangle à fond bleu : indication, une information utile sans contrainte (passage piéton, parking, impasse).",
@@ -250,6 +251,13 @@ export const chapter: Chapter = {
       explanation:
         "À 50 km/h sur sol sec, il faut déjà environ 28 mètres pour s'arrêter (14 m de réaction + 14 m de freinage). Sous la pluie, le freinage double : la distance d'arrêt dépasse 40 mètres. À 20 mètres, l'arrêt est physiquement impossible, quelle que soit la priorité du piéton. La règle de survie : on ne s'engage que si le véhicule a la place de s'arrêter, avec de la marge.",
       hint: "Compare les 20 mètres disponibles à la distance d'arrêt sous la pluie.",
+    },
+  ],
+  videos: [
+    {
+      title: "Les règles de priorité au Code de la route",
+      youtubeId: "KBTd5Vh-smw",
+      channel: "Code en poche - Code de la route",
     },
   ],
 };

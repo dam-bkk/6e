@@ -20,6 +20,7 @@ export const chapter: Chapter = {
   lesson: [
     {
       title: "Saluer : Hallo, Guten Tag…",
+      figure: "de-gruesse",
       paragraphs: [
         "Pour dire bonjour, le mot passe-partout est « Hallo ». Il marche à toute heure, entre amis comme en classe.",
         "Selon le moment de la journée, on précise : « Guten Morgen » (le matin), « Guten Tag » (dans la journée) et « Guten Abend » (le soir).",
@@ -218,6 +219,13 @@ export const chapter: Chapter = {
       answer: true,
       explanation:
         "Vrai ! « Guten Abend » = bonsoir, c'est la salutation du soir. « Herr » = monsieur (et « Frau » = madame). Remarque encore les majuscules à Abend et Herr : ce sont des noms.",
+    },
+  ],
+  videos: [
+    {
+      title: "8 questions/réponses pour SE PRESENTER en allemand - niveau DEBUTANT",
+      youtubeId: "20YJ242TCxI",
+      channel: "Apprendre natur'allemand",
     },
   ],
 };
