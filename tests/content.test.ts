@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { CHAPTERS } from "@/lib/chapters";
 import { getAllFigures } from "@/components/figures";
-import { SUBJECTS } from "@/lib/subjects";
+import { SUBJECTS, GRADES_READY } from "@/lib/subjects";
 
 const FIGURES = getAllFigures();
 
@@ -59,8 +59,10 @@ describe("intégrité du contenu", () => {
     }
   });
 
-  it("chaque chapitre a au moins une illustration", () => {
-    for (const ch of CHAPTERS) {
+  it("chaque chapitre d'un niveau ACTIVÉ a au moins une illustration", () => {
+    // Les niveaux en préparation (hors GRADES_READY) peuvent ne pas être illustrés,
+    // mais un niveau ne peut pas être activé sans illustrations complètes.
+    for (const ch of CHAPTERS.filter((c) => GRADES_READY.includes(c.grade ?? "6e"))) {
       expect(
         ch.lesson.some((s) => s.figure),
         `aucune figure dans ${ch.slug}`
