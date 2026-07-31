@@ -222,6 +222,20 @@ export default function Home() {
             <p className="mt-1 font-semibold text-muted">
               Prête pour ta dose de {GRADE_LABELS[grade]} du jour ? Choisis ta matière !
             </p>
+            <div className="mt-2.5 flex items-center gap-1.5">
+              <span className="text-[11px] font-extrabold uppercase tracking-wide text-muted">Classe :</span>
+              {GRADES_READY.map((g) => (
+                <button
+                  key={g}
+                  onClick={() => setGrade(g)}
+                  className={`btn-pop px-3.5 py-1 text-sm font-extrabold ${
+                    grade === g ? "bg-ink text-white" : "bg-card text-muted"
+                  }`}
+                >
+                  {GRADE_LABELS[g]}
+                </button>
+              ))}
+            </div>
           </div>
           <div className="hidden shrink-0 items-center gap-2 rounded-2xl bg-sun-tint px-4 py-3 md:flex">
             <Flame size={22} strokeWidth={2.5} className="text-sun-strong" />

@@ -82,24 +82,25 @@ export function ChapterView({ chapter }: { chapter: Chapter }) {
         {meta.label} — tous les chapitres
       </Link>
 
-      <div className="card-pop flex flex-col gap-4 p-6 sm:flex-row sm:items-center md:p-7">
-        <span className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl ${style.tint} ${style.strong}`}>
-          <ChapterIcon name={chapter.icon} size={34} strokeWidth={2.25} />
+      <div className="card-pop flex items-center gap-3 p-4">
+        <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl ${style.tint} ${style.strong}`}>
+          <ChapterIcon name={chapter.icon} size={24} strokeWidth={2.25} />
         </span>
-        <div className="flex-1">
-          <p className={`text-xs font-extrabold uppercase tracking-wide ${style.strong}`}>
-            {meta.label} {chapter.grade ?? "6e"} · Chapitre {chapter.num} ·{" "}
+        <div className="min-w-0 flex-1">
+          <p className={`text-[11px] font-extrabold uppercase tracking-wide ${style.strong}`}>
+            {meta.label} {chapter.grade ?? "6e"} · Chap. {chapter.num} ·{" "}
             {chapter.domainLabel ?? DOMAIN_LABELS[chapter.domain]}
           </p>
-          <h1 className="font-display text-3xl font-extrabold leading-tight">{chapter.title}</h1>
-          <p className="mt-1 font-semibold text-muted">{chapter.teaser}</p>
+          <h1 className="truncate font-display text-xl font-extrabold leading-tight md:text-2xl">
+            {chapter.title}
+          </h1>
         </div>
-        <div className="shrink-0 rounded-2xl bg-cream px-4 py-3 text-center">
-          <p className="font-display text-2xl font-extrabold">
+        <div className="shrink-0 rounded-xl bg-cream px-3 py-1.5 text-center">
+          <p className="font-display text-lg font-extrabold leading-none">
             {doneCount}
-            <span className="text-base text-muted">/{chapter.exercises.length}</span>
+            <span className="text-sm text-muted">/{chapter.exercises.length}</span>
           </p>
-          <p className="text-xs font-extrabold uppercase tracking-wide text-muted">exercices réussis</p>
+          <p className="text-[10px] font-extrabold uppercase tracking-wide text-muted">réussis</p>
         </div>
       </div>
 

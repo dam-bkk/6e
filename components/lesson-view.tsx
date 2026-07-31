@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import type { Chapter, Domain } from "@/lib/types";
 import { Figure } from "@/components/figures";
+import { ChapterIcon } from "@/components/chapter-icon";
 
 const DOMAIN_STYLE: Record<Domain, { tint: string; strong: string; hex: string }> = {
   nombres: { tint: "bg-nombres-tint", strong: "text-nombres-strong", hex: "#b32b44" },
@@ -65,8 +66,17 @@ export function LessonView({
   const isVideos = hasVideos && step === totalSteps - 1;
   const section = !isObjectives && !isVideos ? chapter.lesson[sectionIdx] : null;
 
+  // Visuel du panneau de droite : la figure de l'étape, sinon la figure du
+  // chapitre la plus proche (déjà vue de préférence), sinon panneau décoratif.
+  const sideFigure =
+    section?.figure ??
+    (section
+      ? [...chapter.lesson.slice(0, sectionIdx + 1)].reverse().find((s) => s.figure)?.figure ??
+        chapter.lesson.find((s) => s.figure)?.figure
+      : chapter.lesson.find((s) => s.figure)?.figure);
+
   return (
-    <div className="mx-auto mt-5 max-w-2xl">
+    <div className="mx-auto mt-5 max-w-5xl">
       {/* Fil d'avancement : un point par étape */}
       <div className="mb-4 flex items-center justify-center gap-2">
         {Array.from({ length: totalSteps }).map((_, i) => (
@@ -84,6 +94,7 @@ export function LessonView({
         ))}
       </div>
 
+      <div className={isVideos ? "" : "lg:grid lg:grid-cols-[1fr_360px] lg:items-start lg:gap-4"}>
       <div key={step} className="card-pop rise overflow-hidden">
         {isObjectives && (
           <div className="p-6 md:p-8">
@@ -102,7 +113,7 @@ export function LessonView({
               ))}
             </ul>
             <p className="mt-5 text-sm font-bold text-muted">
-              {chapter.lesson.length} étapes courtes, puis les exercices. C&apos;est parti !
+              {chapter.lesson.length}&nbsp;étapes courtes, puis les exercices. C&apos;est parti !
             </p>
           </div>
         )}
@@ -129,7 +140,7 @@ export function LessonView({
               ))}
             </div>
 
-            {section.figure && <Figure id={section.figure} />}
+            {section.figure && <span className="lg:hidden"><Figure id={section.figure} /></span>}
 
             {section.example && (
               <div className={`mt-5 rounded-2xl ${style.tint} px-5 py-4`}>
@@ -181,6 +192,24 @@ export function LessonView({
             </div>
           </div>
         )}
+      </div>
+
+      {/* Panneau visuel (desktop) : figure de l'étape ou décor de la matière */}
+      {!isVideos && (
+        <aside className="rise sticky top-20 hidden lg:block">
+          {sideFigure ? (
+            <Figure id={sideFigure} />
+          ) : (
+            <div className={`card-pop flex flex-col items-center gap-3 p-8 text-center ${style.tint}`}>
+              <span className={`flex h-24 w-24 items-center justify-center rounded-3xl bg-white/60 ${style.strong}`}>
+                <ChapterIcon name={chapter.icon} size={52} strokeWidth={2} />
+              </span>
+              <p className={`font-display text-lg font-bold ${style.strong}`}>{chapter.title}</p>
+              <p className="text-sm font-bold text-muted">{chapter.teaser}</p>
+            </div>
+          )}
+        </aside>
+      )}
       </div>
 
       {/* Navigation */}
